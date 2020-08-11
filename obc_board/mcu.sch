@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -40,12 +40,10 @@ Wire Wire Line
 Connection ~ 3100 5850
 Text HLabel 5100 5250 0    50   Input ~ 0
 GND
-Text HLabel 5100 4800 0    50   Input ~ 0
+Text HLabel 5350 4800 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	5100 5250 5450 5250
-Wire Wire Line
-	5100 4800 5450 4800
 $Comp
 L Device:C C?
 U 1 1 5E7F4400
@@ -59,7 +57,6 @@ F 3 "~" H 5450 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 4850 5450 4800
-Connection ~ 5450 4800
 Wire Wire Line
 	5450 4800 5700 4800
 Wire Wire Line
@@ -128,31 +125,31 @@ Wire Wire Line
 Connection ~ 10300 3300
 Text HLabel 10300 3650 3    50   Input ~ 0
 GND
-Text HLabel 7250 5350 0    50   Input ~ 0
+Text HLabel 7250 5300 0    50   Input ~ 0
 GND
-Text HLabel 7250 4900 0    50   Input ~ 0
+Text HLabel 7500 4850 0    50   Input ~ 0
 3V3
 $Comp
 L Device:C C?
 U 1 1 5E80C695
-P 8050 5100
-F 0 "C?" H 8165 5146 50  0000 L CNN
-F 1 "100n" H 8165 5055 50  0000 L CNN
-F 2 "" H 8088 4950 50  0001 C CNN
-F 3 "~" H 8050 5100 50  0001 C CNN
-	1    8050 5100
+P 8050 5050
+F 0 "C?" H 8165 5096 50  0000 L CNN
+F 1 "100n" H 8165 5005 50  0000 L CNN
+F 2 "" H 8088 4900 50  0001 C CNN
+F 3 "~" H 8050 5050 50  0001 C CNN
+	1    8050 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 4950 8050 4900
-Connection ~ 8050 4900
+	8050 4900 8050 4850
+Connection ~ 8050 4850
 Wire Wire Line
-	8050 4900 8300 4900
+	8050 4850 8300 4850
 Wire Wire Line
-	8050 5250 8050 5350
-Connection ~ 8050 5350
+	8050 5200 8050 5300
+Connection ~ 8050 5300
 Wire Wire Line
-	8050 5350 8400 5350
+	8050 5300 8400 5300
 Text HLabel 7600 4300 3    50   Input ~ 0
 GND
 Text HLabel 2100 3400 0    50   Input ~ 0
@@ -357,32 +354,26 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5E86831C
-P 7650 5100
-F 0 "C?" H 7765 5146 50  0000 L CNN
-F 1 "100n" H 7765 5055 50  0000 L CNN
-F 2 "" H 7688 4950 50  0001 C CNN
-F 3 "~" H 7650 5100 50  0001 C CNN
-	1    7650 5100
+P 7650 5050
+F 0 "C?" H 7765 5096 50  0000 L CNN
+F 1 "100n" H 7765 5005 50  0000 L CNN
+F 2 "" H 7688 4900 50  0001 C CNN
+F 3 "~" H 7650 5050 50  0001 C CNN
+	1    7650 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5350 7650 5350
+	7250 5300 7650 5300
 Wire Wire Line
-	7650 5250 7650 5350
-Connection ~ 7650 5350
+	7650 5200 7650 5300
+Connection ~ 7650 5300
 Wire Wire Line
-	7650 5350 8050 5350
+	7650 5300 8050 5300
 Wire Wire Line
-	7250 4900 7650 4900
+	7650 4900 7650 4850
+Connection ~ 7650 4850
 Wire Wire Line
-	7650 4950 7650 4900
-Connection ~ 7650 4900
-Wire Wire Line
-	7650 4900 8050 4900
-Wire Wire Line
-	7650 4600 7700 4600
-Wire Wire Line
-	7700 4600 7700 4300
+	7650 4850 8050 4850
 $Comp
 L Device:Crystal Y?
 U 1 1 5E87D1D8
@@ -635,11 +626,7 @@ SPI1_SCK
 Text HLabel 9200 3000 2    50   Input ~ 0
 SPI1_MISO
 Wire Wire Line
-	8300 4300 8300 4900
-Wire Wire Line
-	8400 4300 8400 5350
-Wire Wire Line
-	7650 4600 7650 4900
+	7650 4550 7650 4850
 Wire Wire Line
 	5700 4300 5700 4800
 Wire Wire Line
@@ -741,62 +728,57 @@ F 3 "~" H 6550 900 50  0001 C CNN
 $EndComp
 Text HLabel 5600 650  0    50   Input ~ 0
 3V3
-Text HLabel 10600 5450 2    50   Input ~ 0
+Text HLabel 10700 5450 2    50   Input ~ 0
 I2C3_SCL
-Text HLabel 10600 5550 2    50   Input ~ 0
+Text HLabel 10700 5550 2    50   Input ~ 0
 I2C3_SDA
-Text HLabel 10600 5800 2    50   Input ~ 0
+Text HLabel 10700 5800 2    50   Input ~ 0
 I2C1_SDA
-Text HLabel 10600 5700 2    50   Input ~ 0
+Text HLabel 10700 5700 2    50   Input ~ 0
 I2C1_SCL
 $Comp
 L Device:R R?
 U 1 1 5F6F5F72
-P 9350 6000
-F 0 "R?" H 9420 6046 50  0000 L CNN
-F 1 "10k" H 9420 5955 50  0000 L CNN
-F 2 "" V 9280 6000 50  0001 C CNN
-F 3 "~" H 9350 6000 50  0001 C CNN
-	1    9350 6000
+P 9450 6000
+F 0 "R?" H 9520 6046 50  0000 L CNN
+F 1 "10k" H 9520 5955 50  0000 L CNN
+F 2 "" V 9380 6000 50  0001 C CNN
+F 3 "~" H 9450 6000 50  0001 C CNN
+	1    9450 6000
 	1    0    0    -1  
 $EndComp
-Text HLabel 9150 6250 0    50   Input ~ 0
-3V3
 Wire Wire Line
-	9150 6250 9350 6250
+	10500 6250 10500 6150
 Wire Wire Line
-	10400 6250 10400 6150
+	10150 6250 10150 6150
+Connection ~ 10150 6250
 Wire Wire Line
-	10050 6250 10050 6150
-Connection ~ 10050 6250
+	10150 6250 10500 6250
 Wire Wire Line
-	10050 6250 10400 6250
+	9800 6250 9800 6150
+Connection ~ 9800 6250
 Wire Wire Line
-	9700 6250 9700 6150
-Connection ~ 9700 6250
+	9800 6250 10150 6250
 Wire Wire Line
-	9700 6250 10050 6250
+	9450 6250 9450 6150
 Wire Wire Line
-	9350 6250 9350 6150
-Connection ~ 9350 6250
+	9450 6250 9800 6250
 Wire Wire Line
-	9350 6250 9700 6250
+	10700 5800 9450 5800
 Wire Wire Line
-	10600 5800 9350 5800
+	9450 5800 9450 5850
 Wire Wire Line
-	9350 5800 9350 5850
+	10700 5700 9800 5700
 Wire Wire Line
-	10600 5700 9700 5700
+	9800 5700 9800 5850
 Wire Wire Line
-	9700 5700 9700 5850
+	10700 5550 10150 5550
 Wire Wire Line
-	10600 5550 10050 5550
+	10150 5550 10150 5850
 Wire Wire Line
-	10050 5550 10050 5850
+	10700 5450 10500 5450
 Wire Wire Line
-	10600 5450 10400 5450
-Wire Wire Line
-	10400 5450 10400 5850
+	10500 5450 10500 5850
 Wire Wire Line
 	3400 4300 3400 5400
 Wire Wire Line
@@ -844,34 +826,34 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5F9FC147
-P 9700 6000
-F 0 "R?" H 9770 6046 50  0000 L CNN
-F 1 "10k" H 9770 5955 50  0000 L CNN
-F 2 "" V 9630 6000 50  0001 C CNN
-F 3 "~" H 9700 6000 50  0001 C CNN
-	1    9700 6000
+P 9800 6000
+F 0 "R?" H 9870 6046 50  0000 L CNN
+F 1 "10k" H 9870 5955 50  0000 L CNN
+F 2 "" V 9730 6000 50  0001 C CNN
+F 3 "~" H 9800 6000 50  0001 C CNN
+	1    9800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5FA039E4
-P 10050 6000
-F 0 "R?" H 10120 6046 50  0000 L CNN
-F 1 "10k" H 10120 5955 50  0000 L CNN
-F 2 "" V 9980 6000 50  0001 C CNN
-F 3 "~" H 10050 6000 50  0001 C CNN
-	1    10050 6000
+P 10150 6000
+F 0 "R?" H 10220 6046 50  0000 L CNN
+F 1 "10k" H 10220 5955 50  0000 L CNN
+F 2 "" V 10080 6000 50  0001 C CNN
+F 3 "~" H 10150 6000 50  0001 C CNN
+	1    10150 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5FA0B331
-P 10400 6000
-F 0 "R?" H 10470 6046 50  0000 L CNN
-F 1 "10k" H 10470 5955 50  0000 L CNN
-F 2 "" V 10330 6000 50  0001 C CNN
-F 3 "~" H 10400 6000 50  0001 C CNN
-	1    10400 6000
+P 10500 6000
+F 0 "R?" H 10570 6046 50  0000 L CNN
+F 1 "10k" H 10570 5955 50  0000 L CNN
+F 2 "" V 10430 6000 50  0001 C CNN
+F 3 "~" H 10500 6000 50  0001 C CNN
+	1    10500 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -927,4 +909,300 @@ Wire Wire Line
 	6000 650  6150 650 
 Wire Wire Line
 	6900 1500 6900 650 
+Text HLabel 3800 4300 3    50   Input ~ 0
+SPI2_MISO
+Text HLabel 3700 4300 3    50   Input ~ 0
+SPI2_MOSI
+Text HLabel 4700 4300 3    50   Input ~ 0
+SPI2_SCK
+Text HLabel 5400 1500 1    50   Input ~ 0
+I2C2_SDA
+Text HLabel 5300 1500 1    50   Input ~ 0
+I2C2_SCL
+Text HLabel 3200 4300 3    50   Input ~ 0
+SPI3_MISO
+Text HLabel 3300 4300 3    50   Input ~ 0
+SPI3_SCK
+Text HLabel 2100 3200 0    50   Input ~ 0
+SPI3_MOSI
+Text HLabel 1100 2550 0    50   Input ~ 0
+SPI1_MISO
+Text HLabel 1100 3300 0    50   Input ~ 0
+SPI2_MISO
+Text HLabel 1100 4050 0    50   Input ~ 0
+SPI3_MISO
+$Comp
+L Device:R R?
+U 1 1 5F3D4284
+P 1150 2300
+F 0 "R?" H 1220 2346 50  0000 L CNN
+F 1 "100k" H 1220 2255 50  0000 L CNN
+F 2 "" V 1080 2300 50  0001 C CNN
+F 3 "~" H 1150 2300 50  0001 C CNN
+	1    1150 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 2050 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1050 2050 1150 2050
+Wire Wire Line
+	1150 2050 1150 2150
+Wire Wire Line
+	1150 2450 1150 2550
+Wire Wire Line
+	1150 2550 1100 2550
+$Comp
+L Device:R R?
+U 1 1 5F3F7087
+P 1150 3050
+F 0 "R?" H 1220 3096 50  0000 L CNN
+F 1 "100k" H 1220 3005 50  0000 L CNN
+F 2 "" V 1080 3050 50  0001 C CNN
+F 3 "~" H 1150 3050 50  0001 C CNN
+	1    1150 3050
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 2800 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1050 2800 1150 2800
+Wire Wire Line
+	1150 2800 1150 2900
+Wire Wire Line
+	1150 3200 1150 3300
+Wire Wire Line
+	1100 3300 1150 3300
+$Comp
+L Device:R R?
+U 1 1 5F411ED1
+P 1150 3800
+F 0 "R?" H 1220 3846 50  0000 L CNN
+F 1 "100k" H 1220 3755 50  0000 L CNN
+F 2 "" V 1080 3800 50  0001 C CNN
+F 3 "~" H 1150 3800 50  0001 C CNN
+	1    1150 3800
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 3550 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1050 3550 1150 3550
+Wire Wire Line
+	1150 3550 1150 3650
+Wire Wire Line
+	1150 3950 1150 4050
+Wire Wire Line
+	1100 4050 1150 4050
+Text HLabel 8600 4300 3    50   Input ~ 0
+UART4_TX
+Text HLabel 2100 2600 0    50   Input ~ 0
+UART4_RX
+Text HLabel 6600 4300 3    50   Input ~ 0
+USART1_TX
+Text HLabel 6500 4300 3    50   Input ~ 0
+USART1_RX
+Text HLabel 9200 2600 2    50   Input ~ 0
+USART2_TX
+Text HLabel 8500 4300 3    50   Input ~ 0
+USART2_RX
+Text HLabel 7000 6050 0    50   Input ~ 0
+USART1_TX
+Text HLabel 7000 5950 0    50   Input ~ 0
+USART1_RX
+Text HLabel 7000 6150 0    50   Input ~ 0
+USART2_RX
+Text HLabel 7000 6250 0    50   Input ~ 0
+USART2_TX
+Text HLabel 7000 5400 0    50   Input ~ 0
+3V3
+$Comp
+L Device:R R?
+U 1 1 5F47EB27
+P 7250 5650
+F 0 "R?" H 7320 5696 50  0000 L CNN
+F 1 "100k" H 7320 5605 50  0000 L CNN
+F 2 "" V 7180 5650 50  0001 C CNN
+F 3 "~" H 7250 5650 50  0001 C CNN
+	1    7250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5400 7250 5400
+Wire Wire Line
+	7250 5400 7250 5500
+$Comp
+L Device:R R?
+U 1 1 5F49BE24
+P 7600 5650
+F 0 "R?" H 7670 5696 50  0000 L CNN
+F 1 "100k" H 7670 5605 50  0000 L CNN
+F 2 "" V 7530 5650 50  0001 C CNN
+F 3 "~" H 7600 5650 50  0001 C CNN
+	1    7600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5400 7600 5400
+Wire Wire Line
+	7600 5400 7600 5500
+Connection ~ 7250 5400
+$Comp
+L Device:R R?
+U 1 1 5F4B9F38
+P 7950 5650
+F 0 "R?" H 8020 5696 50  0000 L CNN
+F 1 "100k" H 8020 5605 50  0000 L CNN
+F 2 "" V 7880 5650 50  0001 C CNN
+F 3 "~" H 7950 5650 50  0001 C CNN
+	1    7950 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5400 7950 5400
+Wire Wire Line
+	7950 5400 7950 5500
+Connection ~ 7600 5400
+$Comp
+L Device:R R?
+U 1 1 5F4D928A
+P 8300 5650
+F 0 "R?" H 8370 5696 50  0000 L CNN
+F 1 "100k" H 8370 5605 50  0000 L CNN
+F 2 "" V 8230 5650 50  0001 C CNN
+F 3 "~" H 8300 5650 50  0001 C CNN
+	1    8300 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5400 8300 5400
+Wire Wire Line
+	8300 5400 8300 5500
+Connection ~ 7950 5400
+Text HLabel 3900 1500 1    50   Input ~ 0
+PE0
+Text HLabel 3800 1500 1    50   Input ~ 0
+PE1
+Text HLabel 3700 1500 1    50   Input ~ 0
+PE2
+Text HLabel 3600 1500 1    50   Input ~ 0
+PE3
+Text HLabel 3500 1500 1    50   Input ~ 0
+PE4
+Text HLabel 3400 1500 1    50   Input ~ 0
+PE5
+Text HLabel 3300 1500 1    50   Input ~ 0
+PE6
+Text HLabel 5200 1500 1    50   Input ~ 0
+PF2
+Text HLabel 5100 1500 1    50   Input ~ 0
+PF3
+Text HLabel 5000 1500 1    50   Input ~ 0
+PF4
+Text HLabel 4900 1500 1    50   Input ~ 0
+PF5
+Text HLabel 4800 1500 1    50   Input ~ 0
+PF6
+Text HLabel 4700 1500 1    50   Input ~ 0
+PF7
+Text HLabel 4600 1500 1    50   Input ~ 0
+PF8
+Text HLabel 7000 4300 3    50   Input ~ 0
+USART3_TX
+Text HLabel 4500 1500 1    50   Input ~ 0
+USART3_RX
+Text HLabel 7000 6350 0    50   Input ~ 0
+USART3_RX
+Text HLabel 7000 6450 0    50   Input ~ 0
+USART3_TX
+Wire Wire Line
+	7700 4300 7700 4550
+Wire Wire Line
+	7700 4550 7650 4550
+Wire Wire Line
+	8300 4300 8300 4850
+Wire Wire Line
+	8400 4300 8400 5300
+$Comp
+L Device:R R?
+U 1 1 5F5A60A0
+P 8650 5650
+F 0 "R?" H 8720 5696 50  0000 L CNN
+F 1 "100k" H 8720 5605 50  0000 L CNN
+F 2 "" V 8580 5650 50  0001 C CNN
+F 3 "~" H 8650 5650 50  0001 C CNN
+	1    8650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5A60A6
+P 9000 5650
+F 0 "R?" H 9070 5696 50  0000 L CNN
+F 1 "100k" H 9070 5605 50  0000 L CNN
+F 2 "" V 8930 5650 50  0001 C CNN
+F 3 "~" H 9000 5650 50  0001 C CNN
+	1    9000 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 10700 6250 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	10500 6250 10700 6250
+Connection ~ 10500 6250
+Wire Wire Line
+	8300 5400 8650 5400
+Wire Wire Line
+	8650 5400 8650 5500
+Connection ~ 8300 5400
+Wire Wire Line
+	8650 5400 9000 5400
+Wire Wire Line
+	9000 5400 9000 5500
+Connection ~ 8650 5400
+Wire Wire Line
+	9000 5800 9000 5950
+Wire Wire Line
+	9000 5950 7000 5950
+Wire Wire Line
+	8650 5800 8650 6050
+Wire Wire Line
+	8650 6050 7000 6050
+Wire Wire Line
+	8300 5800 8300 6150
+Wire Wire Line
+	8300 6150 7000 6150
+Wire Wire Line
+	7950 6250 7000 6250
+Wire Wire Line
+	7600 5800 7600 6350
+Wire Wire Line
+	7600 6350 7000 6350
+Wire Wire Line
+	7250 5800 7250 6450
+Wire Wire Line
+	7250 6450 7000 6450
+Wire Wire Line
+	7950 5800 7950 6250
+Text HLabel 7200 4300 3    50   Input ~ 0
+ADC12_IN11
+Text HLabel 7100 4300 3    50   Input ~ 0
+ADC12_IN12
+Wire Wire Line
+	7500 4850 7650 4850
+Text HLabel 2100 2700 0    50   Input ~ 0
+ADC12_IN16
+Text HLabel 4400 1500 1    50   Input ~ 0
+ADC12_IN15
+Text HLabel 2100 3500 0    50   Input ~ 0
+ADC12_IN3
+Text HLabel 8600 1500 1    50   Input ~ 0
+ADC12_IN4
+Text HLabel 8200 4300 3    50   Input ~ 0
+ADC12_IN9
+Text HLabel 5100 4300 3    50   Input ~ 0
+ADC12_IN10
+Wire Wire Line
+	5350 4800 5450 4800
+Connection ~ 5450 4800
 $EndSCHEMATC
