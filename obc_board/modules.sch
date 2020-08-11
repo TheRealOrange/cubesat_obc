@@ -1,0 +1,731 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J?
+U 1 1 5FA42BE1
+P 4550 3000
+F 0 "J?" H 4550 3767 50  0000 C CNN
+F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 4550 3676 50  0000 C CNN
+F 2 "SAMTEC_FSI-110-03-X-D-AD-SD-K-TR" H 4550 3000 50  0001 L BNN
+F 3 "4.4mm" H 4550 3000 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 4550 3000 50  0001 L BNN "Field4"
+F 5 "Samtec" H 4550 3000 50  0001 L BNN "Field5"
+F 6 "P" H 4550 3000 50  0001 L BNN "Field6"
+	1    4550 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 2300 0    50   Input ~ 0
+GND
+Text HLabel 2150 2700 0    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	2150 2700 2250 2700
+$Comp
+L Device:C C?
+U 1 1 5FA44CB1
+P 2250 2950
+F 0 "C?" H 2365 2996 50  0000 L CNN
+F 1 "10u" H 2365 2905 50  0000 L CNN
+F 2 "" H 2288 2800 50  0001 C CNN
+F 3 "~" H 2250 2950 50  0001 C CNN
+	1    2250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2700 2250 2800
+$Comp
+L cubesat_obc_lib:PLT5BPH1015R6SNL FL?
+U 1 1 5FA4787C
+P 2700 2500
+F 0 "FL?" H 2700 2917 50  0000 C CNN
+F 1 "PLT5BPH1015R6SNL" H 2700 2826 50  0000 C CNN
+F 2 "FIL_PLT5BPH1015R6SNL" H 2700 2500 50  0001 L BNN
+F 3 "None" H 2700 2500 50  0001 L BNN
+F 4 "PLT5BPH3013R7SNL" H 2700 2500 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 2700 2500 50  0001 L BNN "Field5"
+F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 2700 2500 50  0001 L BNN "Field6"
+F 7 "Vertical-4 Murata" H 2700 2500 50  0001 L BNN "Field7"
+F 8 "Murata" H 2700 2500 50  0001 L BNN "Field8"
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2300 2300 2300
+Wire Wire Line
+	2250 2700 2300 2700
+Connection ~ 2250 2700
+Wire Wire Line
+	3100 2300 3200 2300
+Wire Wire Line
+	3200 2300 3200 2500
+$Comp
+L cubesat_obc_lib:LTC4304CMSTRPBF U?
+U 1 1 5FA51727
+P 2150 4200
+AR Path="/5F315FB6/5FA51727" Ref="U?"  Part="1" 
+AR Path="/5FA4220C/5FA51727" Ref="U?"  Part="1" 
+F 0 "U?" H 3700 4517 50  0000 C CNN
+F 1 "LTC4304CMSTRPBF" H 3700 4426 50  0000 C CNN
+F 2 "MSOP-10_MS" H 3100 4250 50  0001 L BNN
+F 3 "ltc4304cms#trpbf" H 3100 4250 50  0001 L BNN
+F 4 "Linear Technology" H 3100 4250 50  0001 L BNN "Field4"
+	1    2150 4200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 4350 0    50   Input ~ 0
+SCL
+Text HLabel 4300 4350 2    50   Input ~ 0
+SDA
+$Comp
+L Device:R R?
+U 1 1 5FA51731
+P 3000 3950
+AR Path="/5F315FB6/5FA51731" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA51731" Ref="R?"  Part="1" 
+F 0 "R?" H 3070 3996 50  0000 L CNN
+F 1 "10k" H 3070 3905 50  0000 L CNN
+F 2 "" V 2930 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 3750 1    50   Input ~ 0
+3V3_0
+Text HLabel 4300 4150 2    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	3000 3750 3000 3800
+Wire Wire Line
+	3000 4100 3000 4150
+Wire Wire Line
+	3000 4150 3100 4150
+Text HLabel 3100 4550 0    50   Input ~ 0
+GND
+Text HLabel 2050 4450 0    50   Input ~ 0
+ACC1
+Wire Wire Line
+	2050 4450 2250 4450
+$Comp
+L Device:R R?
+U 1 1 5FA5173F
+P 2250 4100
+AR Path="/5F315FB6/5FA5173F" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA5173F" Ref="R?"  Part="1" 
+F 0 "R?" H 2320 4146 50  0000 L CNN
+F 1 "10k" H 2320 4055 50  0000 L CNN
+F 2 "" V 2180 4100 50  0001 C CNN
+F 3 "~" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 3900 1    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	2250 3900 2250 3950
+Wire Wire Line
+	2250 4250 2250 4450
+Connection ~ 2250 4450
+$Comp
+L Device:R R?
+U 1 1 5FA5174A
+P 4750 4100
+AR Path="/5F315FB6/5FA5174A" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA5174A" Ref="R?"  Part="1" 
+F 0 "R?" H 4820 4146 50  0000 L CNN
+F 1 "10k" H 4820 4055 50  0000 L CNN
+F 2 "" V 4680 4100 50  0001 C CNN
+F 3 "~" H 4750 4100 50  0001 C CNN
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4750 3900 1    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	4750 3900 4750 3950
+Wire Wire Line
+	4750 4250 4750 4450
+Text HLabel 4900 4450 2    50   Input ~ 0
+FAULT1
+Wire Wire Line
+	4900 4450 4750 4450
+Connection ~ 4750 4450
+Wire Wire Line
+	2250 4450 3100 4450
+Wire Wire Line
+	4300 4450 4750 4450
+Wire Wire Line
+	4600 3800 4600 4250
+Wire Wire Line
+	4600 4250 4300 4250
+$Comp
+L Device:R R?
+U 1 1 5FA5ADB3
+P 3450 3650
+AR Path="/5F315FB6/5FA5ADB3" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA5ADB3" Ref="R?"  Part="1" 
+F 0 "R?" H 3520 3696 50  0000 L CNN
+F 1 "10k" H 3520 3605 50  0000 L CNN
+F 2 "" V 3380 3650 50  0001 C CNN
+F 3 "~" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 3450 3450 1    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	3450 3450 3450 3500
+$Comp
+L Device:R R?
+U 1 1 5FA5BDA5
+P 2700 3950
+AR Path="/5F315FB6/5FA5BDA5" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA5BDA5" Ref="R?"  Part="1" 
+F 0 "R?" H 2770 3996 50  0000 L CNN
+F 1 "10k" H 2770 3905 50  0000 L CNN
+F 2 "" V 2630 3950 50  0001 C CNN
+F 3 "~" H 2700 3950 50  0001 C CNN
+	1    2700 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 2700 3750 1    50   Input ~ 0
+3V3_0
+Wire Wire Line
+	2700 3750 2700 3800
+Wire Wire Line
+	2550 4250 2700 4250
+Wire Wire Line
+	2700 4100 2700 4250
+Connection ~ 2700 4250
+Wire Wire Line
+	2700 4250 3100 4250
+Connection ~ 3450 3800
+Wire Wire Line
+	3450 3800 4600 3800
+$Comp
+L Device:R R?
+U 1 1 5FA7F305
+P 2550 3300
+AR Path="/5F315FB6/5FA7F305" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA7F305" Ref="R?"  Part="1" 
+F 0 "R?" H 2620 3346 50  0000 L CNN
+F 1 "1k" H 2620 3255 50  0000 L CNN
+F 2 "" V 2480 3300 50  0001 C CNN
+F 3 "~" H 2550 3300 50  0001 C CNN
+	1    2550 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 3100 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2550 2900 2550 3150
+Wire Wire Line
+	2550 3450 2550 4250
+$Comp
+L Device:R R?
+U 1 1 5FA89462
+P 3150 3300
+AR Path="/5F315FB6/5FA89462" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FA89462" Ref="R?"  Part="1" 
+F 0 "R?" H 3220 3346 50  0000 L CNN
+F 1 "1k" H 3220 3255 50  0000 L CNN
+F 2 "" V 3080 3300 50  0001 C CNN
+F 3 "~" H 3150 3300 50  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3000 3150 3150
+Wire Wire Line
+	3150 3450 3150 3800
+Wire Wire Line
+	3150 3800 3450 3800
+Wire Wire Line
+	3100 2700 3300 2700
+Wire Wire Line
+	3950 2500 3950 2600
+Wire Wire Line
+	3950 2600 4050 2600
+Connection ~ 3950 2500
+Wire Wire Line
+	3950 2500 4050 2500
+Wire Wire Line
+	3950 2700 3950 2800
+Wire Wire Line
+	3950 2800 4050 2800
+Connection ~ 3950 2700
+Wire Wire Line
+	3950 2700 4050 2700
+Wire Wire Line
+	3200 2300 3200 2000
+Wire Wire Line
+	5350 2000 5350 2500
+Wire Wire Line
+	5350 2500 5150 2500
+Connection ~ 3200 2300
+Wire Wire Line
+	3300 2700 3300 1900
+Wire Wire Line
+	5450 1900 5450 2700
+Wire Wire Line
+	5450 2700 5150 2700
+Wire Wire Line
+	5150 2500 5150 2600
+Wire Wire Line
+	5150 2600 5050 2600
+Connection ~ 5150 2500
+Wire Wire Line
+	5150 2500 5050 2500
+Wire Wire Line
+	5150 2800 5050 2800
+Wire Wire Line
+	5150 2700 5150 2800
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5050 2700
+Text HLabel 4050 3300 0    50   Input ~ 0
+UART0_RX
+Wire Wire Line
+	2550 2900 4050 2900
+Wire Wire Line
+	3150 3000 4050 3000
+Wire Wire Line
+	3300 2700 3950 2700
+Connection ~ 3300 2700
+Wire Wire Line
+	3200 2500 3950 2500
+Wire Wire Line
+	3200 2000 5350 2000
+Wire Wire Line
+	3300 1900 5450 1900
+Text HLabel 4050 3400 0    50   Input ~ 0
+UART0_TX
+Text HLabel 5050 3300 2    50   Input ~ 0
+UART1_RX
+Text HLabel 5050 3400 2    50   Input ~ 0
+UART1_TX
+$Comp
+L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J?
+U 1 1 5FAAED71
+P 8850 3000
+F 0 "J?" H 8850 3767 50  0000 C CNN
+F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 8850 3676 50  0000 C CNN
+F 2 "SAMTEC_FSI-110-03-X-D-AD-SD-K-TR" H 8850 3000 50  0001 L BNN
+F 3 "4.4mm" H 8850 3000 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 8850 3000 50  0001 L BNN "Field4"
+F 5 "Samtec" H 8850 3000 50  0001 L BNN "Field5"
+F 6 "P" H 8850 3000 50  0001 L BNN "Field6"
+	1    8850 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6450 2300 0    50   Input ~ 0
+GND
+Text HLabel 6450 2700 0    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	6450 2700 6550 2700
+$Comp
+L Device:C C?
+U 1 1 5FAAED7A
+P 6550 2950
+F 0 "C?" H 6665 2996 50  0000 L CNN
+F 1 "10u" H 6665 2905 50  0000 L CNN
+F 2 "" H 6588 2800 50  0001 C CNN
+F 3 "~" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2700 6550 2800
+$Comp
+L cubesat_obc_lib:PLT5BPH1015R6SNL FL?
+U 1 1 5FAAED86
+P 7000 2500
+F 0 "FL?" H 7000 2917 50  0000 C CNN
+F 1 "PLT5BPH1015R6SNL" H 7000 2826 50  0000 C CNN
+F 2 "FIL_PLT5BPH1015R6SNL" H 7000 2500 50  0001 L BNN
+F 3 "None" H 7000 2500 50  0001 L BNN
+F 4 "PLT5BPH3013R7SNL" H 7000 2500 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 7000 2500 50  0001 L BNN "Field5"
+F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 7000 2500 50  0001 L BNN "Field6"
+F 7 "Vertical-4 Murata" H 7000 2500 50  0001 L BNN "Field7"
+F 8 "Murata" H 7000 2500 50  0001 L BNN "Field8"
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2300 6600 2300
+Wire Wire Line
+	6550 2700 6600 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	7400 2300 7500 2300
+Wire Wire Line
+	7500 2300 7500 2500
+$Comp
+L cubesat_obc_lib:LTC4304CMSTRPBF U?
+U 1 1 5FAAED92
+P 6450 4200
+AR Path="/5F315FB6/5FAAED92" Ref="U?"  Part="1" 
+AR Path="/5FA4220C/5FAAED92" Ref="U?"  Part="1" 
+F 0 "U?" H 8000 4517 50  0000 C CNN
+F 1 "LTC4304CMSTRPBF" H 8000 4426 50  0000 C CNN
+F 2 "MSOP-10_MS" H 7400 4250 50  0001 L BNN
+F 3 "ltc4304cms#trpbf" H 7400 4250 50  0001 L BNN
+F 4 "Linear Technology" H 7400 4250 50  0001 L BNN "Field4"
+	1    6450 4200
+	1    0    0    -1  
+$EndComp
+Text HLabel 7400 4350 0    50   Input ~ 0
+SCL
+Text HLabel 8600 4350 2    50   Input ~ 0
+SDA
+$Comp
+L Device:R R?
+U 1 1 5FAAED9A
+P 7300 3950
+AR Path="/5F315FB6/5FAAED9A" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAED9A" Ref="R?"  Part="1" 
+F 0 "R?" H 7370 3996 50  0000 L CNN
+F 1 "10k" H 7370 3905 50  0000 L CNN
+F 2 "" V 7230 3950 50  0001 C CNN
+F 3 "~" H 7300 3950 50  0001 C CNN
+	1    7300 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 3750 1    50   Input ~ 0
+3V3_1
+Text HLabel 8600 4150 2    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	7300 3750 7300 3800
+Wire Wire Line
+	7300 4100 7300 4150
+Wire Wire Line
+	7300 4150 7400 4150
+Text HLabel 7400 4550 0    50   Input ~ 0
+GND
+Text HLabel 6350 4450 0    50   Input ~ 0
+ACC2
+Wire Wire Line
+	6350 4450 6550 4450
+$Comp
+L Device:R R?
+U 1 1 5FAAEDA8
+P 6550 4100
+AR Path="/5F315FB6/5FAAEDA8" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDA8" Ref="R?"  Part="1" 
+F 0 "R?" H 6620 4146 50  0000 L CNN
+F 1 "10k" H 6620 4055 50  0000 L CNN
+F 2 "" V 6480 4100 50  0001 C CNN
+F 3 "~" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 3900 1    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	6550 3900 6550 3950
+Wire Wire Line
+	6550 4250 6550 4450
+Connection ~ 6550 4450
+$Comp
+L Device:R R?
+U 1 1 5FAAEDB2
+P 9050 4100
+AR Path="/5F315FB6/5FAAEDB2" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDB2" Ref="R?"  Part="1" 
+F 0 "R?" H 9120 4146 50  0000 L CNN
+F 1 "10k" H 9120 4055 50  0000 L CNN
+F 2 "" V 8980 4100 50  0001 C CNN
+F 3 "~" H 9050 4100 50  0001 C CNN
+	1    9050 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 9050 3900 1    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	9050 3900 9050 3950
+Wire Wire Line
+	9050 4250 9050 4450
+Text HLabel 9200 4450 2    50   Input ~ 0
+FAULT2
+Wire Wire Line
+	9200 4450 9050 4450
+Connection ~ 9050 4450
+Wire Wire Line
+	6550 4450 7400 4450
+Wire Wire Line
+	8600 4450 9050 4450
+Wire Wire Line
+	8900 3800 8900 4250
+Wire Wire Line
+	8900 4250 8600 4250
+$Comp
+L Device:R R?
+U 1 1 5FAAEDC2
+P 7750 3650
+AR Path="/5F315FB6/5FAAEDC2" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDC2" Ref="R?"  Part="1" 
+F 0 "R?" H 7820 3696 50  0000 L CNN
+F 1 "10k" H 7820 3605 50  0000 L CNN
+F 2 "" V 7680 3650 50  0001 C CNN
+F 3 "~" H 7750 3650 50  0001 C CNN
+	1    7750 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 7750 3450 1    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	7750 3450 7750 3500
+$Comp
+L Device:R R?
+U 1 1 5FAAEDCA
+P 7000 3950
+AR Path="/5F315FB6/5FAAEDCA" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDCA" Ref="R?"  Part="1" 
+F 0 "R?" H 7070 3996 50  0000 L CNN
+F 1 "10k" H 7070 3905 50  0000 L CNN
+F 2 "" V 6930 3950 50  0001 C CNN
+F 3 "~" H 7000 3950 50  0001 C CNN
+	1    7000 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7000 3750 1    50   Input ~ 0
+3V3_1
+Wire Wire Line
+	7000 3750 7000 3800
+Wire Wire Line
+	6850 4250 7000 4250
+Wire Wire Line
+	7000 4100 7000 4250
+Connection ~ 7000 4250
+Wire Wire Line
+	7000 4250 7400 4250
+Connection ~ 7750 3800
+Wire Wire Line
+	7750 3800 8900 3800
+$Comp
+L Device:R R?
+U 1 1 5FAAEDD8
+P 6850 3300
+AR Path="/5F315FB6/5FAAEDD8" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDD8" Ref="R?"  Part="1" 
+F 0 "R?" H 6920 3346 50  0000 L CNN
+F 1 "1k" H 6920 3255 50  0000 L CNN
+F 2 "" V 6780 3300 50  0001 C CNN
+F 3 "~" H 6850 3300 50  0001 C CNN
+	1    6850 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 3100 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6850 2900 6850 3150
+Wire Wire Line
+	6850 3450 6850 4250
+$Comp
+L Device:R R?
+U 1 1 5FAAEDE1
+P 7450 3300
+AR Path="/5F315FB6/5FAAEDE1" Ref="R?"  Part="1" 
+AR Path="/5FA4220C/5FAAEDE1" Ref="R?"  Part="1" 
+F 0 "R?" H 7520 3346 50  0000 L CNN
+F 1 "1k" H 7520 3255 50  0000 L CNN
+F 2 "" V 7380 3300 50  0001 C CNN
+F 3 "~" H 7450 3300 50  0001 C CNN
+	1    7450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3000 7450 3150
+Wire Wire Line
+	7450 3450 7450 3800
+Wire Wire Line
+	7450 3800 7750 3800
+Wire Wire Line
+	7400 2700 7600 2700
+Wire Wire Line
+	8250 2500 8250 2600
+Wire Wire Line
+	8250 2600 8350 2600
+Connection ~ 8250 2500
+Wire Wire Line
+	8250 2500 8350 2500
+Wire Wire Line
+	8250 2700 8250 2800
+Wire Wire Line
+	8250 2800 8350 2800
+Connection ~ 8250 2700
+Wire Wire Line
+	8250 2700 8350 2700
+Wire Wire Line
+	7500 2300 7500 2000
+Wire Wire Line
+	9650 2000 9650 2500
+Wire Wire Line
+	9650 2500 9450 2500
+Connection ~ 7500 2300
+Wire Wire Line
+	7600 2700 7600 1900
+Wire Wire Line
+	9750 1900 9750 2700
+Wire Wire Line
+	9750 2700 9450 2700
+Wire Wire Line
+	9450 2500 9450 2600
+Wire Wire Line
+	9450 2600 9350 2600
+Connection ~ 9450 2500
+Wire Wire Line
+	9450 2500 9350 2500
+Wire Wire Line
+	9450 2800 9350 2800
+Wire Wire Line
+	9450 2700 9450 2800
+Connection ~ 9450 2700
+Wire Wire Line
+	9450 2700 9350 2700
+Text HLabel 8350 3300 0    50   Input ~ 0
+UART0_RX
+Wire Wire Line
+	6850 2900 8350 2900
+Wire Wire Line
+	7450 3000 8350 3000
+Wire Wire Line
+	7600 2700 8250 2700
+Connection ~ 7600 2700
+Wire Wire Line
+	7500 2500 8250 2500
+Wire Wire Line
+	7500 2000 9650 2000
+Wire Wire Line
+	7600 1900 9750 1900
+Text HLabel 8350 3400 0    50   Input ~ 0
+UART0_TX
+Text HLabel 9350 3300 2    50   Input ~ 0
+UART1_RX
+Text HLabel 9350 3400 2    50   Input ~ 0
+UART1_TX
+$Comp
+L cubesat_obc_lib:SAMTEC-MMS-110-01-X-DV J?
+U 1 1 5FAC7ADC
+P 4050 5850
+F 0 "J?" H 4450 6117 50  0000 C CNN
+F 1 "SAMTEC-MMS-110-01-X-DV" H 4450 6026 50  0000 C CNN
+F 2 "SAMTEC-MMS-110-01-X-DV" H 4050 5850 50  0001 L BNN
+F 3 "" H 4050 5850 50  0001 C CNN
+	1    4050 5850
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 5850 0    50   Input ~ 0
+GND
+Text HLabel 1800 6250 0    50   Input ~ 0
+3V3_GPS
+Wire Wire Line
+	1800 6250 1900 6250
+$Comp
+L Device:C C?
+U 1 1 5FACB71A
+P 1900 6500
+F 0 "C?" H 2015 6546 50  0000 L CNN
+F 1 "10u" H 2015 6455 50  0000 L CNN
+F 2 "" H 1938 6350 50  0001 C CNN
+F 3 "~" H 1900 6500 50  0001 C CNN
+	1    1900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6250 1900 6350
+$Comp
+L cubesat_obc_lib:PLT5BPH1015R6SNL FL?
+U 1 1 5FACB726
+P 2350 6050
+F 0 "FL?" H 2350 6467 50  0000 C CNN
+F 1 "PLT5BPH1015R6SNL" H 2350 6376 50  0000 C CNN
+F 2 "FIL_PLT5BPH1015R6SNL" H 2350 6050 50  0001 L BNN
+F 3 "None" H 2350 6050 50  0001 L BNN
+F 4 "PLT5BPH3013R7SNL" H 2350 6050 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 2350 6050 50  0001 L BNN "Field5"
+F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 2350 6050 50  0001 L BNN "Field6"
+F 7 "Vertical-4 Murata" H 2350 6050 50  0001 L BNN "Field7"
+F 8 "Murata" H 2350 6050 50  0001 L BNN "Field8"
+	1    2350 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5850 1950 5850
+Wire Wire Line
+	1900 6250 1950 6250
+Connection ~ 1900 6250
+Text HLabel 1900 6650 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2750 5850 3000 5850
+Wire Wire Line
+	3000 5850 3000 6450
+Wire Wire Line
+	3000 6450 3850 6450
+Wire Wire Line
+	5050 6250 5700 6250
+Wire Wire Line
+	5700 6250 5700 6550
+Wire Wire Line
+	5700 7150 3000 7150
+Wire Wire Line
+	3000 7150 3000 6450
+Connection ~ 3000 6450
+Wire Wire Line
+	5050 6650 5700 6650
+Connection ~ 5700 6650
+Wire Wire Line
+	5700 6650 5700 7150
+Wire Wire Line
+	5100 6550 5700 6550
+Connection ~ 5700 6550
+Wire Wire Line
+	5700 6550 5700 6650
+Wire Wire Line
+	2750 6250 3100 6250
+Wire Wire Line
+	3100 6250 3100 5850
+Wire Wire Line
+	3100 5850 3850 5850
+Wire Wire Line
+	3100 6250 3100 7050
+Wire Wire Line
+	3100 7050 5600 7050
+Wire Wire Line
+	5600 7050 5600 5850
+Wire Wire Line
+	5600 5850 5050 5850
+Connection ~ 3100 6250
+Text HLabel 3850 6350 0    50   Input ~ 0
+GPS_TX
+Text HLabel 3850 6250 0    50   Input ~ 0
+GPS_TX3
+Text HLabel 3850 6550 0    50   Input ~ 0
+GPS_RX2
+Text HLabel 5050 6450 2    50   Input ~ 0
+GPS_TX2
+Text HLabel 5050 6350 2    50   Input ~ 0
+GPS_RX
+Text HLabel 5050 5950 2    50   Input ~ 0
+GPS_RX3
+Text HLabel 3850 6750 0    50   Input ~ 0
+PPS
+Text HLabel 5050 6050 2    50   Input ~ 0
+VARF
+$EndSCHEMATC
