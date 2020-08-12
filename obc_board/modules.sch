@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -642,115 +642,107 @@ UART1_RX
 Text HLabel 9350 3400 2    50   Input ~ 0
 UART1_TX
 $Comp
-L cubesat_obc_lib:SAMTEC-MMS-110-01-X-DV J9
-U 1 1 5FAC7ADC
-P 4050 5850
-F 0 "J9" H 4450 6117 50  0000 C CNN
-F 1 "SAMTEC-MMS-110-01-X-DV" H 4450 6026 50  0000 C CNN
-F 2 "cubesat_obc:SAMTEC-MMS-110-01-X-DV" H 4050 5850 50  0001 L BNN
-F 3 "https://www.digikey.sg/product-detail/en/samtec-inc/MMS-110-01-F-DV/MMS-110-01-F-DV-ND/7937063" H 4050 5850 50  0001 C CNN
-F 4 "MMS-110-01-F-DV-ND" H 4050 5850 50  0001 C CNN "Digikey Part Number"
-	1    4050 5850
+L Mechanical:MountingHole H?
+U 1 1 5F3B0DB2
+P 6800 5800
+AR Path="/5F3B0DB2" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B0DB2" Ref="H?"  Part="1" 
+F 0 "H?" H 6900 5846 50  0000 L CNN
+F 1 "MountingHole" H 6900 5755 50  0000 L CNN
+F 2 "" H 6800 5800 50  0001 C CNN
+F 3 "~" H 6800 5800 50  0001 C CNN
+	1    6800 5800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 5850 0    50   Input ~ 0
-GND
-Text HLabel 1800 6250 0    50   Input ~ 0
-3V3_GPS
-Wire Wire Line
-	1800 6250 1900 6250
 $Comp
-L Device:C C34
-U 1 1 5FACB71A
-P 1900 6500
-F 0 "C34" H 2015 6546 50  0000 L CNN
-F 1 "10u" H 2015 6455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1938 6350 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 1900 6500 50  0001 C CNN
-F 4 "493-13398-ND" H 1900 6500 50  0001 C CNN "Digikey Part Number"
-	1    1900 6500
+L Mechanical:MountingHole H?
+U 1 1 5F3B0DB8
+P 6800 6000
+AR Path="/5F3B0DB8" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B0DB8" Ref="H?"  Part="1" 
+F 0 "H?" H 6900 6046 50  0000 L CNN
+F 1 "MountingHole" H 6900 5955 50  0000 L CNN
+F 2 "" H 6800 6000 50  0001 C CNN
+F 3 "~" H 6800 6000 50  0001 C CNN
+	1    6800 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 6250 1900 6350
 $Comp
-L cubesat_obc_lib:PLT5BPH1015R6SNL FL1
-U 1 1 5FACB726
-P 2350 6050
-F 0 "FL1" H 2350 6467 50  0000 C CNN
-F 1 "PLT5BPH1015R6SNL" H 2350 6376 50  0000 C CNN
-F 2 "cubesat_obc:FIL_PLT5BPH1015R6SNL" H 2350 6050 50  0001 L BNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796762341406/QFLB9102.pdf" H 2350 6050 50  0001 L BNN
-F 4 "" H 2350 6050 50  0001 L BNN "Field4"
-F 5 "" H 2350 6050 50  0001 L BNN "Field5"
-F 6 "" H 2350 6050 50  0001 L BNN "Field6"
-F 7 "" H 2350 6050 50  0001 L BNN "Field7"
-F 8 "" H 2350 6050 50  0001 L BNN "Field8"
-F 9 "490-10976-1-ND" H 2350 6050 50  0001 C CNN "Digikey Part Number"
-	1    2350 6050
+L Mechanical:MountingHole H?
+U 1 1 5F3B0DBE
+P 6800 5600
+AR Path="/5F3B0DBE" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B0DBE" Ref="H?"  Part="1" 
+F 0 "H?" H 6900 5646 50  0000 L CNN
+F 1 "MountingHole" H 6900 5555 50  0000 L CNN
+F 2 "" H 6800 5600 50  0001 C CNN
+F 3 "~" H 6800 5600 50  0001 C CNN
+	1    6800 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 5850 1950 5850
-Wire Wire Line
-	1900 6250 1950 6250
-Connection ~ 1900 6250
-Text HLabel 1900 6650 3    50   Input ~ 0
-GND
-Wire Wire Line
-	2750 5850 3000 5850
-Wire Wire Line
-	3000 5850 3000 6450
-Wire Wire Line
-	3000 6450 3850 6450
-Wire Wire Line
-	5050 6250 5700 6250
-Wire Wire Line
-	5700 6250 5700 6550
-Wire Wire Line
-	5700 7150 3000 7150
-Wire Wire Line
-	3000 7150 3000 6450
-Connection ~ 3000 6450
-Wire Wire Line
-	5050 6650 5700 6650
-Connection ~ 5700 6650
-Wire Wire Line
-	5700 6650 5700 7150
-Wire Wire Line
-	5100 6550 5700 6550
-Connection ~ 5700 6550
-Wire Wire Line
-	5700 6550 5700 6650
-Wire Wire Line
-	2750 6250 3100 6250
-Wire Wire Line
-	3100 6250 3100 5850
-Wire Wire Line
-	3100 5850 3850 5850
-Wire Wire Line
-	3100 6250 3100 7050
-Wire Wire Line
-	3100 7050 5600 7050
-Wire Wire Line
-	5600 7050 5600 5850
-Wire Wire Line
-	5600 5850 5050 5850
-Connection ~ 3100 6250
-Text HLabel 3850 6350 0    50   Input ~ 0
-GPS_TX
-Text HLabel 3850 6250 0    50   Input ~ 0
-GPS_TX3
-Text HLabel 3850 6550 0    50   Input ~ 0
-GPS_RX2
-Text HLabel 5050 6450 2    50   Input ~ 0
-GPS_TX2
-Text HLabel 5050 6350 2    50   Input ~ 0
-GPS_RX
-Text HLabel 5050 5950 2    50   Input ~ 0
-GPS_RX3
-Text HLabel 3850 6750 0    50   Input ~ 0
-PPS
-Text HLabel 5050 6050 2    50   Input ~ 0
-VARF
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F3B0DC4
+P 6800 5400
+AR Path="/5F3B0DC4" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B0DC4" Ref="H?"  Part="1" 
+F 0 "H?" H 6900 5446 50  0000 L CNN
+F 1 "MountingHole" H 6900 5355 50  0000 L CNN
+F 2 "" H 6800 5400 50  0001 C CNN
+F 3 "~" H 6800 5400 50  0001 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F3B5CFB
+P 7600 5800
+AR Path="/5F3B5CFB" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B5CFB" Ref="H?"  Part="1" 
+F 0 "H?" H 7700 5846 50  0000 L CNN
+F 1 "MountingHole" H 7700 5755 50  0000 L CNN
+F 2 "" H 7600 5800 50  0001 C CNN
+F 3 "~" H 7600 5800 50  0001 C CNN
+	1    7600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F3B5D01
+P 7600 6000
+AR Path="/5F3B5D01" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B5D01" Ref="H?"  Part="1" 
+F 0 "H?" H 7700 6046 50  0000 L CNN
+F 1 "MountingHole" H 7700 5955 50  0000 L CNN
+F 2 "" H 7600 6000 50  0001 C CNN
+F 3 "~" H 7600 6000 50  0001 C CNN
+	1    7600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F3B5D07
+P 7600 5600
+AR Path="/5F3B5D07" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B5D07" Ref="H?"  Part="1" 
+F 0 "H?" H 7700 5646 50  0000 L CNN
+F 1 "MountingHole" H 7700 5555 50  0000 L CNN
+F 2 "" H 7600 5600 50  0001 C CNN
+F 3 "~" H 7600 5600 50  0001 C CNN
+	1    7600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F3B5D0D
+P 7600 5400
+AR Path="/5F3B5D0D" Ref="H?"  Part="1" 
+AR Path="/5FA4220C/5F3B5D0D" Ref="H?"  Part="1" 
+F 0 "H?" H 7700 5446 50  0000 L CNN
+F 1 "MountingHole" H 7700 5355 50  0000 L CNN
+F 2 "" H 7600 5400 50  0001 C CNN
+F 3 "~" H 7600 5400 50  0001 C CNN
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

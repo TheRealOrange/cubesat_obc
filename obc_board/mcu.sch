@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -517,86 +517,8 @@ Wire Wire Line
 	5250 5600 5550 5600
 Wire Wire Line
 	5250 6100 5550 6100
-$Comp
-L Connector:Conn_ARM_JTAG_SWD_20 J3
-U 1 1 5E8B9B17
-P 2000 6700
-F 0 "J3" H 1471 6746 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_20" H 1471 6655 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2450 5650 50  0001 L TNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 1650 5450 50  0001 C CNN
-	1    2000 6700
-	1    0    0    -1  
-$EndComp
-Text HLabel 1900 5900 1    50   Input ~ 0
+Text HLabel 1800 6500 2    50   Input ~ 0
 3V3
-Text HLabel 2000 5900 1    50   Input ~ 0
-3V3
-Text HLabel 3500 7550 2    50   Input ~ 0
-GND
-Wire Wire Line
-	1900 7550 1900 7500
-Wire Wire Line
-	1900 7550 2850 7550
-$Comp
-L Device:R R12
-U 1 1 5E922293
-P 2850 7400
-F 0 "R12" H 2920 7446 50  0000 L CNN
-F 1 "10k" H 2920 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2780 7400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2850 7400 50  0001 C CNN
-F 4 "311-10.0KLRCT-ND" H 2850 7400 50  0001 C CNN "Digikey Part Number"
-	1    2850 7400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 7550
-Wire Wire Line
-	2850 7550 3200 7550
-$Comp
-L Device:R R13
-U 1 1 5E922EFC
-P 3200 7400
-F 0 "R13" H 3270 7446 50  0000 L CNN
-F 1 "10k" H 3270 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 7400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3200 7400 50  0001 C CNN
-F 4 "311-10.0KLRCT-ND" H 3200 7400 50  0001 C CNN "Digikey Part Number"
-	1    3200 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 7200 2850 7200
-Wire Wire Line
-	2850 7200 2850 7250
-$Comp
-L Device:R R14
-U 1 1 5E92F679
-P 3450 6750
-F 0 "R14" H 3520 6796 50  0000 L CNN
-F 1 "10k" H 3520 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 6750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3450 6750 50  0001 C CNN
-F 4 "311-10.0KLRCT-ND" H 3450 6750 50  0001 C CNN "Digikey Part Number"
-	1    3450 6750
-	1    0    0    -1  
-$EndComp
-Connection ~ 3200 7550
-Wire Wire Line
-	3200 7550 3450 7550
-Wire Wire Line
-	3200 7250 3200 7100
-Wire Wire Line
-	3200 7100 2600 7100
-Wire Wire Line
-	3450 6900 3450 7550
-Connection ~ 3450 7550
-Wire Wire Line
-	3450 7550 3500 7550
-Wire Wire Line
-	3450 6600 3450 6500
-Wire Wire Line
-	3450 6500 2600 6500
 Text HLabel 8700 5150 3    50   Input ~ 0
 GND
 Wire Wire Line
@@ -621,17 +543,17 @@ Text Label 4900 5600 2    50   ~ 0
 OSC_IN
 Text Label 4900 6100 2    50   ~ 0
 OSC_OUT
-Text Label 2600 6900 0    50   ~ 0
+Text Label 1800 7200 0    50   ~ 0
 JTDI
-Text Label 2600 6800 0    50   ~ 0
+Text Label 1800 7100 0    50   ~ 0
 JTDO
-Text Label 2600 6700 0    50   ~ 0
+Text Label 1800 7000 0    50   ~ 0
 JTMS
-Text Label 2600 6600 0    50   ~ 0
+Text Label 1800 6900 0    50   ~ 0
 JTCK
-Text Label 2600 6200 0    50   ~ 0
+Text Label 1800 6700 0    50   ~ 0
 NJRST
-Text Label 2600 6300 0    50   ~ 0
+Text Label 1800 6800 0    50   ~ 0
 NRST
 Wire Wire Line
 	9200 3800 10050 3800
@@ -663,18 +585,6 @@ Text HLabel 5300 4300 3    50   Input ~ 0
 I2C3_SCL
 Text HLabel 5200 4300 3    50   Input ~ 0
 I2C3_SDA
-$Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J4
-U 1 1 5F6001BE
-P 5000 7050
-F 0 "J4" H 4950 6233 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 4950 6324 50  0000 C CNN
-F 2 "cubesat_obc:HRS_DM3AT-SF-PEJM5" H 7050 7750 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en" H 5000 7150 50  0001 C CNN
-F 4 "HR1964CT-ND" H 5000 7050 50  0001 C CNN "Digikey Part Number"
-	1    5000 7050
-	-1   0    0    1   
-$EndComp
 Connection ~ 2250 600 
 Wire Wire Line
 	2700 600  2250 600 
@@ -835,22 +745,22 @@ Text Label 3900 4300 3    50   ~ 0
 SDMMC_CMD
 Text Label 4600 4300 3    50   ~ 0
 SDMMC_CLK
-Text Label 5900 6850 0    50   ~ 0
+Text Label 4550 6700 0    50   ~ 0
 SDMMC_D0
-Text Label 5900 6750 0    50   ~ 0
+Text Label 4550 6600 0    50   ~ 0
 SDMMC_D1
-Text Label 5900 7450 0    50   ~ 0
+Text Label 4550 7300 0    50   ~ 0
 SDMMC_D2
-Text Label 5900 7350 0    50   ~ 0
+Text Label 4550 7200 0    50   ~ 0
 SDMMC_D3
-Text Label 5900 7250 0    50   ~ 0
+Text Label 4550 7100 0    50   ~ 0
 SDMMC_CMD
-Text Label 5900 7050 0    50   ~ 0
+Text Label 4550 6900 0    50   ~ 0
 SDMMC_CLK
 Text HLabel 6650 7150 2    50   Input ~ 0
 3V3
 Wire Wire Line
-	5900 7150 6550 7150
+	4550 7000 5200 7000
 $Comp
 L Device:R R22
 U 1 1 5F9FC147
@@ -905,10 +815,9 @@ Wire Wire Line
 	6550 7500 6550 7550
 Wire Wire Line
 	6550 7150 6550 7200
-Connection ~ 6550 7150
 Wire Wire Line
 	6550 7150 6650 7150
-Text HLabel 5900 6950 2    50   Input ~ 0
+Text HLabel 4550 6800 2    50   Input ~ 0
 GND
 Wire Wire Line
 	2600 1050 2600 1500
@@ -1246,4 +1155,33 @@ ADC12_IN10
 Wire Wire Line
 	5350 4800 5450 4800
 Connection ~ 5450 4800
+$Comp
+L Connector:Micro_SD_Card J4
+U 1 1 5F37C195
+P 3650 7000
+F 0 "J4" H 3600 6183 50  0000 C CNN
+F 1 "Micro_SD_Card" H 3600 6274 50  0000 C CNN
+F 2 "cubesat_obc:microSD_HC_Wuerth_693072010801" H 4800 7300 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 3650 7000 50  0001 C CNN
+F 4 "732-3820-6-ND" H 3650 7000 50  0001 C CNN "Digikey Part Number"
+	1    3650 7000
+	-1   0    0    1   
+$EndComp
+Text HLabel 2850 6400 0    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5F3C5B25
+P 1600 6900
+F 0 "J?" H 1492 6275 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 1492 6366 50  0000 C CNN
+F 2 "" H 1600 6900 50  0001 C CNN
+F 3 "~" H 1600 6900 50  0001 C CNN
+	1    1600 6900
+	-1   0    0    1   
+$EndComp
+Text HLabel 1800 6600 2    50   Input ~ 0
+GND
+Text HLabel 9200 2400 2    50   Input ~ 0
+3V3_P
 $EndSCHEMATC

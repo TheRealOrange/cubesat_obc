@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/5E7EC636/5F3B7CBB" Ref="U?"  Part="1"
 AR Path="/5F3B62A5/5F3B7CBB" Ref="U2"  Part="1" 
 F 0 "U2" H 5200 3765 50  0000 C CNN
 F 1 "AT45DB041E-SSHN-B" H 5200 3674 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 5200 2950 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 2950 50  0001 L BNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT45DB041E-HTADD.pdf" H 5200 2950 50  0001 L BNN
 F 4 "1265-1067-5-ND" H 5200 2950 50  0001 C CNN "Digikey Part Number"
 	1    5200 2950
@@ -138,7 +138,7 @@ AR Path="/5E7EC636/5F434A8C" Ref="U?"  Part="1"
 AR Path="/5F3B62A5/5F434A8C" Ref="U3"  Part="1" 
 F 0 "U3" H 5200 5815 50  0000 C CNN
 F 1 "AT45DB041E-SSHN-B" H 5200 5724 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 5200 5000 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 5000 50  0001 L BNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT45DB041E-HTADD.pdf" H 5200 5000 50  0001 L BNN
 F 4 "1265-1067-5-ND" H 5200 5000 50  0001 C CNN "Digikey Part Number"
 	1    5200 5000
