@@ -21,9 +21,9 @@ F 0 "J10" H 4550 3767 50  0000 C CNN
 F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 4550 3676 50  0000 C CNN
 F 2 "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR" H 4550 3000 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf" H 4550 3000 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 4550 3000 50  0001 L BNN "Field4"
-F 5 "Samtec" H 4550 3000 50  0001 L BNN "Field5"
-F 6 "P" H 4550 3000 50  0001 L BNN "Field6"
+F 4 "" H 4550 3000 50  0001 L BNN "Field4"
+F 5 "" H 4550 3000 50  0001 L BNN "Field5"
+F 6 "" H 4550 3000 50  0001 L BNN "Field6"
 F 7 "SAM9412-ND" H 4550 3000 50  0001 C CNN "Digikey Part Number"
 	1    4550 3000
 	1    0    0    -1  
@@ -40,8 +40,9 @@ U 1 1 5FA44CB1
 P 2250 2950
 F 0 "C35" H 2365 2996 50  0000 L CNN
 F 1 "10u" H 2365 2905 50  0000 L CNN
-F 2 "" H 2288 2800 50  0001 C CNN
-F 3 "~" H 2250 2950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2288 2800 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 2250 2950 50  0001 C CNN
+F 4 "493-13398-ND" H 2250 2950 50  0001 C CNN "Digikey Part Number"
 	1    2250 2950
 	1    0    0    -1  
 $EndComp
@@ -53,13 +54,14 @@ U 1 1 5FA4787C
 P 2700 2500
 F 0 "FL2" H 2700 2917 50  0000 C CNN
 F 1 "PLT5BPH1015R6SNL" H 2700 2826 50  0000 C CNN
-F 2 "FIL_PLT5BPH1015R6SNL" H 2700 2500 50  0001 L BNN
-F 3 "None" H 2700 2500 50  0001 L BNN
-F 4 "PLT5BPH3013R7SNL" H 2700 2500 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 2700 2500 50  0001 L BNN "Field5"
-F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 2700 2500 50  0001 L BNN "Field6"
-F 7 "Vertical-4 Murata" H 2700 2500 50  0001 L BNN "Field7"
-F 8 "Murata" H 2700 2500 50  0001 L BNN "Field8"
+F 2 "cubesat_obc:FIL_PLT5BPH1015R6SNL" H 2700 2500 50  0001 L BNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796762341406/QFLB9102.pdf" H 2700 2500 50  0001 L BNN
+F 4 "" H 2700 2500 50  0001 L BNN "Field4"
+F 5 "" H 2700 2500 50  0001 L BNN "Field5"
+F 6 "" H 2700 2500 50  0001 L BNN "Field6"
+F 7 "" H 2700 2500 50  0001 L BNN "Field7"
+F 8 "" H 2700 2500 50  0001 L BNN "Field8"
+F 9 "490-10976-1-ND" H 2700 2500 50  0001 C CNN "Digikey Part Number"
 	1    2700 2500
 	1    0    0    -1  
 $EndComp
@@ -82,7 +84,7 @@ F 0 "U12" H 3700 4517 50  0000 C CNN
 F 1 "LTC4304CMSTRPBF" H 3700 4426 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3100 4250 50  0001 L BNN
 F 3 "http://www.linear.com/docs/16798" H 3100 4250 50  0001 L BNN
-F 4 "Linear Technology" H 3100 4250 50  0001 L BNN "Field4"
+F 4 "" H 3100 4250 50  0001 L BNN "Field4"
 F 5 "LTC4304CMS#PBF-ND" H 2150 4200 50  0001 C CNN "Digikey Part Number"
 	1    2150 4200
 	1    0    0    -1  
@@ -99,8 +101,9 @@ AR Path="/5F315FB6/5FA51731" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA51731" Ref="R59"  Part="1" 
 F 0 "R59" H 3070 3996 50  0000 L CNN
 F 1 "10k" H 3070 3905 50  0000 L CNN
-F 2 "" V 2930 3950 50  0001 C CNN
-F 3 "~" H 3000 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3000 3950 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3000 3950 50  0001 C CNN "Digikey Part Number"
 	1    3000 3950
 	1    0    0    -1  
 $EndComp
@@ -128,8 +131,9 @@ AR Path="/5F315FB6/5FA5173F" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA5173F" Ref="R56"  Part="1" 
 F 0 "R56" H 2320 4146 50  0000 L CNN
 F 1 "10k" H 2320 4055 50  0000 L CNN
-F 2 "" V 2180 4100 50  0001 C CNN
-F 3 "~" H 2250 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2250 4100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 2250 4100 50  0001 C CNN "Digikey Part Number"
 	1    2250 4100
 	1    0    0    -1  
 $EndComp
@@ -148,8 +152,9 @@ AR Path="/5F315FB6/5FA5174A" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA5174A" Ref="R62"  Part="1" 
 F 0 "R62" H 4820 4146 50  0000 L CNN
 F 1 "10k" H 4820 4055 50  0000 L CNN
-F 2 "" V 4680 4100 50  0001 C CNN
-F 3 "~" H 4750 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4750 4100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 4750 4100 50  0001 C CNN "Digikey Part Number"
 	1    4750 4100
 	1    0    0    -1  
 $EndComp
@@ -180,8 +185,9 @@ AR Path="/5F315FB6/5FA5ADB3" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA5ADB3" Ref="R61"  Part="1" 
 F 0 "R61" H 3520 3696 50  0000 L CNN
 F 1 "10k" H 3520 3605 50  0000 L CNN
-F 2 "" V 3380 3650 50  0001 C CNN
-F 3 "~" H 3450 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 3650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3450 3650 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3450 3650 50  0001 C CNN "Digikey Part Number"
 	1    3450 3650
 	1    0    0    -1  
 $EndComp
@@ -197,8 +203,9 @@ AR Path="/5F315FB6/5FA5BDA5" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA5BDA5" Ref="R58"  Part="1" 
 F 0 "R58" H 2770 3996 50  0000 L CNN
 F 1 "10k" H 2770 3905 50  0000 L CNN
-F 2 "" V 2630 3950 50  0001 C CNN
-F 3 "~" H 2700 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2700 3950 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 2700 3950 50  0001 C CNN "Digikey Part Number"
 	1    2700 3950
 	1    0    0    -1  
 $EndComp
@@ -224,8 +231,9 @@ AR Path="/5F315FB6/5FA7F305" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA7F305" Ref="R57"  Part="1" 
 F 0 "R57" H 2620 3346 50  0000 L CNN
 F 1 "1k" H 2620 3255 50  0000 L CNN
-F 2 "" V 2480 3300 50  0001 C CNN
-F 3 "~" H 2550 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 3300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2550 3300 50  0001 C CNN
+F 4 "311-1.00KLRCT-ND" H 2550 3300 50  0001 C CNN "Digikey Part Number"
 	1    2550 3300
 	1    0    0    -1  
 $EndComp
@@ -243,8 +251,9 @@ AR Path="/5F315FB6/5FA89462" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FA89462" Ref="R60"  Part="1" 
 F 0 "R60" H 3220 3346 50  0000 L CNN
 F 1 "1k" H 3220 3255 50  0000 L CNN
-F 2 "" V 3080 3300 50  0001 C CNN
-F 3 "~" H 3150 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 3300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3150 3300 50  0001 C CNN
+F 4 "311-1.00KLRCT-ND" H 3150 3300 50  0001 C CNN "Digikey Part Number"
 	1    3150 3300
 	1    0    0    -1  
 $EndComp
@@ -326,9 +335,9 @@ F 0 "J11" H 8850 3767 50  0000 C CNN
 F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 8850 3676 50  0000 C CNN
 F 2 "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR" H 8850 3000 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf" H 8850 3000 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 8850 3000 50  0001 L BNN "Field4"
-F 5 "Samtec" H 8850 3000 50  0001 L BNN "Field5"
-F 6 "P" H 8850 3000 50  0001 L BNN "Field6"
+F 4 "" H 8850 3000 50  0001 L BNN "Field4"
+F 5 "" H 8850 3000 50  0001 L BNN "Field5"
+F 6 "" H 8850 3000 50  0001 L BNN "Field6"
 F 7 "SAM9412-ND" H 8850 3000 50  0001 C CNN "Digikey Part Number"
 	1    8850 3000
 	1    0    0    -1  
@@ -345,8 +354,9 @@ U 1 1 5FAAED7A
 P 6550 2950
 F 0 "C36" H 6665 2996 50  0000 L CNN
 F 1 "10u" H 6665 2905 50  0000 L CNN
-F 2 "" H 6588 2800 50  0001 C CNN
-F 3 "~" H 6550 2950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6588 2800 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 6550 2950 50  0001 C CNN
+F 4 "493-13398-ND" H 6550 2950 50  0001 C CNN "Digikey Part Number"
 	1    6550 2950
 	1    0    0    -1  
 $EndComp
@@ -358,13 +368,14 @@ U 1 1 5FAAED86
 P 7000 2500
 F 0 "FL3" H 7000 2917 50  0000 C CNN
 F 1 "PLT5BPH1015R6SNL" H 7000 2826 50  0000 C CNN
-F 2 "FIL_PLT5BPH1015R6SNL" H 7000 2500 50  0001 L BNN
-F 3 "None" H 7000 2500 50  0001 L BNN
-F 4 "PLT5BPH3013R7SNL" H 7000 2500 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 7000 2500 50  0001 L BNN "Field5"
-F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 7000 2500 50  0001 L BNN "Field6"
-F 7 "Vertical-4 Murata" H 7000 2500 50  0001 L BNN "Field7"
-F 8 "Murata" H 7000 2500 50  0001 L BNN "Field8"
+F 2 "cubesat_obc:FIL_PLT5BPH1015R6SNL" H 7000 2500 50  0001 L BNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796762341406/QFLB9102.pdf" H 7000 2500 50  0001 L BNN
+F 4 "" H 7000 2500 50  0001 L BNN "Field4"
+F 5 "" H 7000 2500 50  0001 L BNN "Field5"
+F 6 "" H 7000 2500 50  0001 L BNN "Field6"
+F 7 "" H 7000 2500 50  0001 L BNN "Field7"
+F 8 "" H 7000 2500 50  0001 L BNN "Field8"
+F 9 "490-10976-1-ND" H 7000 2500 50  0001 C CNN "Digikey Part Number"
 	1    7000 2500
 	1    0    0    -1  
 $EndComp
@@ -387,7 +398,7 @@ F 0 "U13" H 8000 4517 50  0000 C CNN
 F 1 "LTC4304CMSTRPBF" H 8000 4426 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 7400 4250 50  0001 L BNN
 F 3 "http://www.linear.com/docs/16798" H 7400 4250 50  0001 L BNN
-F 4 "Linear Technology" H 7400 4250 50  0001 L BNN "Field4"
+F 4 "" H 7400 4250 50  0001 L BNN "Field4"
 F 5 "LTC4304CMS#PBF-ND" H 6450 4200 50  0001 C CNN "Digikey Part Number"
 	1    6450 4200
 	1    0    0    -1  
@@ -404,8 +415,9 @@ AR Path="/5F315FB6/5FAAED9A" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAED9A" Ref="R66"  Part="1" 
 F 0 "R66" H 7370 3996 50  0000 L CNN
 F 1 "10k" H 7370 3905 50  0000 L CNN
-F 2 "" V 7230 3950 50  0001 C CNN
-F 3 "~" H 7300 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7300 3950 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 7300 3950 50  0001 C CNN "Digikey Part Number"
 	1    7300 3950
 	1    0    0    -1  
 $EndComp
@@ -433,8 +445,9 @@ AR Path="/5F315FB6/5FAAEDA8" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDA8" Ref="R63"  Part="1" 
 F 0 "R63" H 6620 4146 50  0000 L CNN
 F 1 "10k" H 6620 4055 50  0000 L CNN
-F 2 "" V 6480 4100 50  0001 C CNN
-F 3 "~" H 6550 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6550 4100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 6550 4100 50  0001 C CNN "Digikey Part Number"
 	1    6550 4100
 	1    0    0    -1  
 $EndComp
@@ -453,8 +466,9 @@ AR Path="/5F315FB6/5FAAEDB2" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDB2" Ref="R69"  Part="1" 
 F 0 "R69" H 9120 4146 50  0000 L CNN
 F 1 "10k" H 9120 4055 50  0000 L CNN
-F 2 "" V 8980 4100 50  0001 C CNN
-F 3 "~" H 9050 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8980 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 9050 4100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 9050 4100 50  0001 C CNN "Digikey Part Number"
 	1    9050 4100
 	1    0    0    -1  
 $EndComp
@@ -485,8 +499,9 @@ AR Path="/5F315FB6/5FAAEDC2" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDC2" Ref="R68"  Part="1" 
 F 0 "R68" H 7820 3696 50  0000 L CNN
 F 1 "10k" H 7820 3605 50  0000 L CNN
-F 2 "" V 7680 3650 50  0001 C CNN
-F 3 "~" H 7750 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 3650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7750 3650 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 7750 3650 50  0001 C CNN "Digikey Part Number"
 	1    7750 3650
 	1    0    0    -1  
 $EndComp
@@ -502,8 +517,9 @@ AR Path="/5F315FB6/5FAAEDCA" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDCA" Ref="R65"  Part="1" 
 F 0 "R65" H 7070 3996 50  0000 L CNN
 F 1 "10k" H 7070 3905 50  0000 L CNN
-F 2 "" V 6930 3950 50  0001 C CNN
-F 3 "~" H 7000 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7000 3950 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 7000 3950 50  0001 C CNN "Digikey Part Number"
 	1    7000 3950
 	1    0    0    -1  
 $EndComp
@@ -529,8 +545,9 @@ AR Path="/5F315FB6/5FAAEDD8" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDD8" Ref="R64"  Part="1" 
 F 0 "R64" H 6920 3346 50  0000 L CNN
 F 1 "1k" H 6920 3255 50  0000 L CNN
-F 2 "" V 6780 3300 50  0001 C CNN
-F 3 "~" H 6850 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 3300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6850 3300 50  0001 C CNN
+F 4 "311-1.00KLRCT-ND" H 6850 3300 50  0001 C CNN "Digikey Part Number"
 	1    6850 3300
 	1    0    0    -1  
 $EndComp
@@ -548,8 +565,9 @@ AR Path="/5F315FB6/5FAAEDE1" Ref="R?"  Part="1"
 AR Path="/5FA4220C/5FAAEDE1" Ref="R67"  Part="1" 
 F 0 "R67" H 7520 3346 50  0000 L CNN
 F 1 "1k" H 7520 3255 50  0000 L CNN
-F 2 "" V 7380 3300 50  0001 C CNN
-F 3 "~" H 7450 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7380 3300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7450 3300 50  0001 C CNN
+F 4 "311-1.00KLRCT-ND" H 7450 3300 50  0001 C CNN "Digikey Part Number"
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
@@ -647,8 +665,9 @@ U 1 1 5FACB71A
 P 1900 6500
 F 0 "C34" H 2015 6546 50  0000 L CNN
 F 1 "10u" H 2015 6455 50  0000 L CNN
-F 2 "" H 1938 6350 50  0001 C CNN
-F 3 "~" H 1900 6500 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1938 6350 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 1900 6500 50  0001 C CNN
+F 4 "493-13398-ND" H 1900 6500 50  0001 C CNN "Digikey Part Number"
 	1    1900 6500
 	1    0    0    -1  
 $EndComp
@@ -660,13 +679,14 @@ U 1 1 5FACB726
 P 2350 6050
 F 0 "FL1" H 2350 6467 50  0000 C CNN
 F 1 "PLT5BPH1015R6SNL" H 2350 6376 50  0000 C CNN
-F 2 "FIL_PLT5BPH1015R6SNL" H 2350 6050 50  0001 L BNN
-F 3 "None" H 2350 6050 50  0001 L BNN
-F 4 "PLT5BPH3013R7SNL" H 2350 6050 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 2350 6050 50  0001 L BNN "Field5"
-F 6 "Common Mode Chokes Dual 300Ohm 10MHz 3.7A 11mOhm DCR SMD Automotive T/R" H 2350 6050 50  0001 L BNN "Field6"
-F 7 "Vertical-4 Murata" H 2350 6050 50  0001 L BNN "Field7"
-F 8 "Murata" H 2350 6050 50  0001 L BNN "Field8"
+F 2 "cubesat_obc:FIL_PLT5BPH1015R6SNL" H 2350 6050 50  0001 L BNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796762341406/QFLB9102.pdf" H 2350 6050 50  0001 L BNN
+F 4 "" H 2350 6050 50  0001 L BNN "Field4"
+F 5 "" H 2350 6050 50  0001 L BNN "Field5"
+F 6 "" H 2350 6050 50  0001 L BNN "Field6"
+F 7 "" H 2350 6050 50  0001 L BNN "Field7"
+F 8 "" H 2350 6050 50  0001 L BNN "Field8"
+F 9 "490-10976-1-ND" H 2350 6050 50  0001 C CNN "Digikey Part Number"
 	1    2350 6050
 	1    0    0    -1  
 $EndComp

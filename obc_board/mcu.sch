@@ -27,9 +27,9 @@ U 1 1 5E7F3B6C
 P 3100 5600
 F 0 "C5" H 3215 5646 50  0000 L CNN
 F 1 "100n" H 3215 5555 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 3138 5450 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 3100 5600 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 3100 5600 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 5450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3100 5600 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3100 5600 50  0001 C CNN "Digikey Part Number"
 	1    3100 5600
 	1    0    0    -1  
 $EndComp
@@ -51,9 +51,9 @@ U 1 1 5E7F4400
 P 5450 5000
 F 0 "C8" H 5565 5046 50  0000 L CNN
 F 1 "100n" H 5565 4955 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 5488 4850 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 5450 5000 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 5450 5000 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4850 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 5450 5000 50  0001 C CNN
+F 4 "490-16433-1-ND" H 5450 5000 50  0001 C CNN "Digikey Part Number"
 	1    5450 5000
 	1    0    0    -1  
 $EndComp
@@ -74,9 +74,9 @@ U 1 1 5E80584C
 P 10300 2700
 F 0 "C23" H 10185 2654 50  0000 R CNN
 F 1 "100n" H 10185 2745 50  0000 R CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 10338 2550 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 10300 2700 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 10300 2700 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10338 2550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 10300 2700 50  0001 C CNN
+F 4 "490-16433-1-ND" H 10300 2700 50  0001 C CNN "Digikey Part Number"
 	1    10300 2700
 	-1   0    0    1   
 $EndComp
@@ -95,9 +95,9 @@ U 1 1 5E807347
 P 10250 4850
 F 0 "C22" H 10135 4804 50  0000 R CNN
 F 1 "100n" H 10135 4895 50  0000 R CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 10288 4700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 10250 4850 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 10250 4850 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10288 4700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 10250 4850 50  0001 C CNN
+F 4 "490-16433-1-ND" H 10250 4850 50  0001 C CNN "Digikey Part Number"
 	1    10250 4850
 	-1   0    0    1   
 $EndComp
@@ -115,9 +115,9 @@ U 1 1 5E8085C3
 P 10300 3500
 F 0 "C24" H 10185 3454 50  0000 R CNN
 F 1 "100n" H 10185 3545 50  0000 R CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 10338 3350 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 10300 3500 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 10300 3500 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10338 3350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 10300 3500 50  0001 C CNN
+F 4 "490-16433-1-ND" H 10300 3500 50  0001 C CNN "Digikey Part Number"
 	1    10300 3500
 	-1   0    0    1   
 $EndComp
@@ -140,9 +140,9 @@ U 1 1 5E80C695
 P 8050 5050
 F 0 "C15" H 8165 5096 50  0000 L CNN
 F 1 "100n" H 8165 5005 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 8088 4900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 8050 5050 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 8050 5050 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8088 4900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 8050 5050 50  0001 C CNN
+F 4 "490-16433-1-ND" H 8050 5050 50  0001 C CNN "Digikey Part Number"
 	1    8050 5050
 	1    0    0    -1  
 $EndComp
@@ -176,9 +176,9 @@ U 1 1 5E811597
 P 2550 5000
 F 0 "C4" H 2665 5046 50  0000 L CNN
 F 1 "100n" H 2665 4955 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 2588 4850 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 2550 5000 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 2550 5000 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2588 4850 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 2550 5000 50  0001 C CNN
+F 4 "490-16433-1-ND" H 2550 5000 50  0001 C CNN "Digikey Part Number"
 	1    2550 5000
 	1    0    0    -1  
 $EndComp
@@ -198,9 +198,9 @@ U 1 1 5E81BC7D
 P 10250 4150
 F 0 "C21" H 10135 4104 50  0000 R CNN
 F 1 "100n" H 10135 4195 50  0000 R CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 10288 4000 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 10250 4150 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 10250 4150 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10288 4000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 10250 4150 50  0001 C CNN
+F 4 "490-16433-1-ND" H 10250 4150 50  0001 C CNN "Digikey Part Number"
 	1    10250 4150
 	-1   0    0    1   
 $EndComp
@@ -220,9 +220,9 @@ U 1 1 5E824059
 P 8700 4850
 F 0 "C16" H 8585 4804 50  0000 R CNN
 F 1 "10n" H 8585 4895 50  0000 R CNN
-F 2 "cubesat_obc:CAPC0603X33N" H 8738 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8738 4700 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" H 8700 4850 50  0001 C CNN
-F 4 "490-6143-1-ND" H 8700 4850 50  0001 C CNN "Digikey Part Number"
+F 4 "490-8295-1-ND" H 8700 4850 50  0001 C CNN "Digikey Part Number"
 	1    8700 4850
 	-1   0    0    1   
 $EndComp
@@ -245,9 +245,9 @@ U 1 1 5E835DA1
 P 9050 4850
 F 0 "C17" H 8935 4804 50  0000 R CNN
 F 1 "100n" H 8935 4895 50  0000 R CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 9088 4700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 9050 4850 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 9050 4850 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9088 4700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 9050 4850 50  0001 C CNN
+F 4 "490-16433-1-ND" H 9050 4850 50  0001 C CNN "Digikey Part Number"
 	1    9050 4850
 	-1   0    0    1   
 $EndComp
@@ -259,8 +259,9 @@ U 1 1 5E83AC3B
 P 9450 4850
 F 0 "C18" H 9568 4896 50  0000 L CNN
 F 1 "1u" H 9568 4805 50  0000 L CNN
-F 2 "" H 9488 4700 50  0001 C CNN
-F 3 "~" H 9450 4850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9488 4700 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 9450 4850 50  0001 C CNN
+F 4 "493-15407-ND" H 9450 4850 50  0001 C CNN "Digikey Part Number"
 	1    9450 4850
 	1    0    0    -1  
 $EndComp
@@ -306,8 +307,9 @@ U 1 1 5E84BA24
 P 10150 1150
 F 0 "C20" H 10268 1196 50  0000 L CNN
 F 1 "4.7u" H 10268 1105 50  0000 L CNN
-F 2 "" H 10188 1000 50  0001 C CNN
-F 3 "~" H 10150 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10188 1000 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 10150 1150 50  0001 C CNN
+F 4 "493-15371-ND" H 10150 1150 50  0001 C CNN "Digikey Part Number"
 	1    10150 1150
 	1    0    0    -1  
 $EndComp
@@ -317,8 +319,9 @@ U 1 1 5E84CA90
 P 10600 1150
 F 0 "C25" H 10718 1196 50  0000 L CNN
 F 1 "4.7u" H 10718 1105 50  0000 L CNN
-F 2 "" H 10638 1000 50  0001 C CNN
-F 3 "~" H 10600 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10638 1000 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 10600 1150 50  0001 C CNN
+F 4 "493-15371-ND" H 10600 1150 50  0001 C CNN "Digikey Part Number"
 	1    10600 1150
 	1    0    0    -1  
 $EndComp
@@ -328,8 +331,9 @@ U 1 1 5E84DC3C
 P 9700 1150
 F 0 "C19" H 9818 1196 50  0000 L CNN
 F 1 "1u" H 9818 1105 50  0000 L CNN
-F 2 "" H 9738 1000 50  0001 C CNN
-F 3 "~" H 9700 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9738 1000 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ukl.pdf~" H 9700 1150 50  0001 C CNN
+F 4 "493-15407-ND" H 9700 1150 50  0001 C CNN "Digikey Part Number"
 	1    9700 1150
 	1    0    0    -1  
 $EndComp
@@ -367,9 +371,9 @@ U 1 1 5E86831C
 P 7650 5050
 F 0 "C14" H 7765 5096 50  0000 L CNN
 F 1 "100n" H 7765 5005 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 7688 4900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 7650 5050 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 7650 5050 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7688 4900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7650 5050 50  0001 C CNN
+F 4 "490-16433-1-ND" H 7650 5050 50  0001 C CNN "Digikey Part Number"
 	1    7650 5050
 	1    0    0    -1  
 $EndComp
@@ -402,8 +406,9 @@ U 1 1 5E87D546
 P 3900 5400
 F 0 "C6" H 4015 5446 50  0000 L CNN
 F 1 "10p" H 4015 5355 50  0000 L CNN
-F 2 "" H 3938 5250 50  0001 C CNN
-F 3 "~" H 3900 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3938 5250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H100FA01-01.pdf~" H 3900 5400 50  0001 C CNN
+F 4 "490-7750-1-ND" H 3900 5400 50  0001 C CNN "Digikey Part Number"
 	1    3900 5400
 	1    0    0    -1  
 $EndComp
@@ -413,8 +418,9 @@ U 1 1 5E87DCD2
 P 4400 5400
 F 0 "C7" H 4515 5446 50  0000 L CNN
 F 1 "10p" H 4515 5355 50  0000 L CNN
-F 2 "" H 4438 5250 50  0001 C CNN
-F 3 "~" H 4400 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4438 5250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H100FA01-01.pdf~" H 4400 5400 50  0001 C CNN
+F 4 "490-7750-1-ND" H 4400 5400 50  0001 C CNN "Digikey Part Number"
 	1    4400 5400
 	1    0    0    -1  
 $EndComp
@@ -466,8 +472,9 @@ U 1 1 5E8976B8
 P 5700 6100
 F 0 "C10" V 5952 6100 50  0000 C CNN
 F 1 "20p" V 5861 6100 50  0000 C CNN
-F 2 "" H 5738 5950 50  0001 C CNN
-F 3 "~" H 5700 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5738 5950 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us~" H 5700 6100 50  0001 C CNN
+F 4 "490-9618-1-ND" H 5700 6100 50  0001 C CNN "Digikey Part Number"
 	1    5700 6100
 	0    -1   -1   0   
 $EndComp
@@ -477,8 +484,9 @@ U 1 1 5E8976BE
 P 5700 5600
 F 0 "C9" V 5952 5600 50  0000 C CNN
 F 1 "20p" V 5861 5600 50  0000 C CNN
-F 2 "" H 5738 5450 50  0001 C CNN
-F 3 "~" H 5700 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5738 5450 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us~" H 5700 5600 50  0001 C CNN
+F 4 "490-9618-1-ND" H 5700 5600 50  0001 C CNN "Digikey Part Number"
 	1    5700 5600
 	0    -1   -1   0   
 $EndComp
@@ -515,7 +523,7 @@ U 1 1 5E8B9B17
 P 2000 6700
 F 0 "J3" H 1471 6746 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_20" H 1471 6655 50  0000 R CNN
-F 2 "" H 2450 5650 50  0001 L TNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2450 5650 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 1650 5450 50  0001 C CNN
 	1    2000 6700
 	1    0    0    -1  
@@ -536,8 +544,9 @@ U 1 1 5E922293
 P 2850 7400
 F 0 "R12" H 2920 7446 50  0000 L CNN
 F 1 "10k" H 2920 7355 50  0000 L CNN
-F 2 "" V 2780 7400 50  0001 C CNN
-F 3 "~" H 2850 7400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2780 7400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2850 7400 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 2850 7400 50  0001 C CNN "Digikey Part Number"
 	1    2850 7400
 	1    0    0    -1  
 $EndComp
@@ -550,8 +559,9 @@ U 1 1 5E922EFC
 P 3200 7400
 F 0 "R13" H 3270 7446 50  0000 L CNN
 F 1 "10k" H 3270 7355 50  0000 L CNN
-F 2 "" V 3130 7400 50  0001 C CNN
-F 3 "~" H 3200 7400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 7400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3200 7400 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3200 7400 50  0001 C CNN "Digikey Part Number"
 	1    3200 7400
 	1    0    0    -1  
 $EndComp
@@ -565,8 +575,9 @@ U 1 1 5E92F679
 P 3450 6750
 F 0 "R14" H 3520 6796 50  0000 L CNN
 F 1 "10k" H 3520 6705 50  0000 L CNN
-F 2 "" V 3380 6750 50  0001 C CNN
-F 3 "~" H 3450 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 6750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3450 6750 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3450 6750 50  0001 C CNN "Digikey Part Number"
 	1    3450 6750
 	1    0    0    -1  
 $EndComp
@@ -658,8 +669,9 @@ U 1 1 5F6001BE
 P 5000 7050
 F 0 "J4" H 4950 6233 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 4950 6324 50  0000 C CNN
-F 2 "" H 7050 7750 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5000 7150 50  0001 C CNN
+F 2 "cubesat_obc:HRS_DM3AT-SF-PEJM5" H 7050 7750 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en" H 5000 7150 50  0001 C CNN
+F 4 "HR1964CT-ND" H 5000 7050 50  0001 C CNN "Digikey Part Number"
 	1    5000 7050
 	-1   0    0    1   
 $EndComp
@@ -679,9 +691,9 @@ U 1 1 5E7F59EF
 P 2250 850
 F 0 "C3" H 2365 896 50  0000 L CNN
 F 1 "100n" H 2365 805 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 2288 700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 2250 850 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 2250 850 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2288 700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 2250 850 50  0001 C CNN
+F 4 "490-16433-1-ND" H 2250 850 50  0001 C CNN "Digikey Part Number"
 	1    2250 850 
 	1    0    0    1   
 $EndComp
@@ -716,9 +728,9 @@ U 1 1 5E85C7EE
 P 6150 900
 F 0 "C11" V 5898 900 50  0000 C CNN
 F 1 "100n" V 5989 900 50  0000 C CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 6188 750 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 6150 900 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 6150 900 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6150 900 50  0001 C CNN
+F 4 "490-16433-1-ND" H 6150 900 50  0001 C CNN "Digikey Part Number"
 	1    6150 900 
 	-1   0    0    1   
 $EndComp
@@ -735,9 +747,9 @@ U 1 1 5E7FDC18
 P 6550 900
 F 0 "C12" V 6298 900 50  0000 C CNN
 F 1 "100n" V 6389 900 50  0000 C CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 6588 750 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 6550 900 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 6550 900 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6588 750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6550 900 50  0001 C CNN
+F 4 "490-16433-1-ND" H 6550 900 50  0001 C CNN "Digikey Part Number"
 	1    6550 900 
 	-1   0    0    1   
 $EndComp
@@ -757,8 +769,9 @@ U 1 1 5F6F5F72
 P 9450 6000
 F 0 "R21" H 9520 6046 50  0000 L CNN
 F 1 "10k" H 9520 5955 50  0000 L CNN
-F 2 "" V 9380 6000 50  0001 C CNN
-F 3 "~" H 9450 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9380 6000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 9450 6000 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 9450 6000 50  0001 C CNN "Digikey Part Number"
 	1    9450 6000
 	1    0    0    -1  
 $EndComp
@@ -844,8 +857,9 @@ U 1 1 5F9FC147
 P 9800 6000
 F 0 "R22" H 9870 6046 50  0000 L CNN
 F 1 "10k" H 9870 5955 50  0000 L CNN
-F 2 "" V 9730 6000 50  0001 C CNN
-F 3 "~" H 9800 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 6000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 9800 6000 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 9800 6000 50  0001 C CNN "Digikey Part Number"
 	1    9800 6000
 	1    0    0    -1  
 $EndComp
@@ -855,8 +869,9 @@ U 1 1 5FA039E4
 P 10150 6000
 F 0 "R23" H 10220 6046 50  0000 L CNN
 F 1 "10k" H 10220 5955 50  0000 L CNN
-F 2 "" V 10080 6000 50  0001 C CNN
-F 3 "~" H 10150 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 6000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 10150 6000 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 10150 6000 50  0001 C CNN "Digikey Part Number"
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
@@ -866,8 +881,9 @@ U 1 1 5FA0B331
 P 10500 6000
 F 0 "R24" H 10570 6046 50  0000 L CNN
 F 1 "10k" H 10570 5955 50  0000 L CNN
-F 2 "" V 10430 6000 50  0001 C CNN
-F 3 "~" H 10500 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10430 6000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 10500 6000 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 10500 6000 50  0001 C CNN "Digikey Part Number"
 	1    10500 6000
 	1    0    0    -1  
 $EndComp
@@ -877,9 +893,9 @@ U 1 1 5FA12D6C
 P 6550 7350
 F 0 "C13" H 6665 7396 50  0000 L CNN
 F 1 "100n" H 6665 7305 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 6588 7200 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 6550 7350 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 6550 7350 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6588 7200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6550 7350 50  0001 C CNN
+F 4 "490-16433-1-ND" H 6550 7350 50  0001 C CNN "Digikey Part Number"
 	1    6550 7350
 	1    0    0    -1  
 $EndComp
@@ -953,8 +969,9 @@ U 1 1 5F3D4284
 P 1150 2300
 F 0 "R9" H 1220 2346 50  0000 L CNN
 F 1 "100k" H 1220 2255 50  0000 L CNN
-F 2 "" V 1080 2300 50  0001 C CNN
-F 3 "~" H 1150 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1080 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1150 2300 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 1150 2300 50  0001 C CNN "Digikey Part Number"
 	1    1150 2300
 	1    0    0    -1  
 $EndComp
@@ -974,8 +991,9 @@ U 1 1 5F3F7087
 P 1150 3050
 F 0 "R10" H 1220 3096 50  0000 L CNN
 F 1 "100k" H 1220 3005 50  0000 L CNN
-F 2 "" V 1080 3050 50  0001 C CNN
-F 3 "~" H 1150 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1080 3050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1150 3050 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 1150 3050 50  0001 C CNN "Digikey Part Number"
 	1    1150 3050
 	1    0    0    -1  
 $EndComp
@@ -995,8 +1013,9 @@ U 1 1 5F411ED1
 P 1150 3800
 F 0 "R11" H 1220 3846 50  0000 L CNN
 F 1 "100k" H 1220 3755 50  0000 L CNN
-F 2 "" V 1080 3800 50  0001 C CNN
-F 3 "~" H 1150 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1080 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1150 3800 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 1150 3800 50  0001 C CNN "Digikey Part Number"
 	1    1150 3800
 	1    0    0    -1  
 $EndComp
@@ -1038,8 +1057,9 @@ U 1 1 5F47EB27
 P 7250 5650
 F 0 "R15" H 7320 5696 50  0000 L CNN
 F 1 "100k" H 7320 5605 50  0000 L CNN
-F 2 "" V 7180 5650 50  0001 C CNN
-F 3 "~" H 7250 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7250 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 7250 5650 50  0001 C CNN "Digikey Part Number"
 	1    7250 5650
 	1    0    0    -1  
 $EndComp
@@ -1053,8 +1073,9 @@ U 1 1 5F49BE24
 P 7600 5650
 F 0 "R16" H 7670 5696 50  0000 L CNN
 F 1 "100k" H 7670 5605 50  0000 L CNN
-F 2 "" V 7530 5650 50  0001 C CNN
-F 3 "~" H 7600 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7600 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 7600 5650 50  0001 C CNN "Digikey Part Number"
 	1    7600 5650
 	1    0    0    -1  
 $EndComp
@@ -1069,8 +1090,9 @@ U 1 1 5F4B9F38
 P 7950 5650
 F 0 "R17" H 8020 5696 50  0000 L CNN
 F 1 "100k" H 8020 5605 50  0000 L CNN
-F 2 "" V 7880 5650 50  0001 C CNN
-F 3 "~" H 7950 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7880 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 7950 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 7950 5650 50  0001 C CNN "Digikey Part Number"
 	1    7950 5650
 	1    0    0    -1  
 $EndComp
@@ -1085,8 +1107,9 @@ U 1 1 5F4D928A
 P 8300 5650
 F 0 "R18" H 8370 5696 50  0000 L CNN
 F 1 "100k" H 8370 5605 50  0000 L CNN
-F 2 "" V 8230 5650 50  0001 C CNN
-F 3 "~" H 8300 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 8300 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 8300 5650 50  0001 C CNN "Digikey Part Number"
 	1    8300 5650
 	1    0    0    -1  
 $EndComp
@@ -1145,8 +1168,9 @@ U 1 1 5F5A60A0
 P 8650 5650
 F 0 "R19" H 8720 5696 50  0000 L CNN
 F 1 "100k" H 8720 5605 50  0000 L CNN
-F 2 "" V 8580 5650 50  0001 C CNN
-F 3 "~" H 8650 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 8650 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 8650 5650 50  0001 C CNN "Digikey Part Number"
 	1    8650 5650
 	1    0    0    -1  
 $EndComp
@@ -1156,8 +1180,9 @@ U 1 1 5F5A60A6
 P 9000 5650
 F 0 "R20" H 9070 5696 50  0000 L CNN
 F 1 "100k" H 9070 5605 50  0000 L CNN
-F 2 "" V 8930 5650 50  0001 C CNN
-F 3 "~" H 9000 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8930 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 9000 5650 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 9000 5650 50  0001 C CNN "Digikey Part Number"
 	1    9000 5650
 	1    0    0    -1  
 $EndComp

@@ -45,9 +45,9 @@ U 1 1 5F3B8BBB
 P 6700 2600
 F 0 "C1" H 6815 2646 50  0000 L CNN
 F 1 "100n" H 6815 2555 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 6738 2450 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 6700 2600 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 6700 2600 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6738 2450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6700 2600 50  0001 C CNN
+F 4 "490-16433-1-ND" H 6700 2600 50  0001 C CNN "Digikey Part Number"
 	1    6700 2600
 	1    0    0    -1  
 $EndComp
@@ -66,8 +66,9 @@ U 1 1 5F42F3C4
 P 4000 2450
 F 0 "R7" H 4070 2496 50  0000 L CNN
 F 1 "10k" H 4070 2405 50  0000 L CNN
-F 2 "" V 3930 2450 50  0001 C CNN
-F 3 "~" H 4000 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4000 2450 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 4000 2450 50  0001 C CNN "Digikey Part Number"
 	1    4000 2450
 	1    0    0    -1  
 $EndComp
@@ -84,8 +85,9 @@ U 1 1 5F4303A6
 P 3700 2450
 F 0 "R5" H 3770 2496 50  0000 L CNN
 F 1 "10k" H 3770 2405 50  0000 L CNN
-F 2 "" V 3630 2450 50  0001 C CNN
-F 3 "~" H 3700 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3700 2450 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3700 2450 50  0001 C CNN "Digikey Part Number"
 	1    3700 2450
 	1    0    0    -1  
 $EndComp
@@ -95,8 +97,9 @@ U 1 1 5F430694
 P 3400 2450
 F 0 "R3" H 3470 2496 50  0000 L CNN
 F 1 "10k" H 3470 2405 50  0000 L CNN
-F 2 "" V 3330 2450 50  0001 C CNN
-F 3 "~" H 3400 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3400 2450 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3400 2450 50  0001 C CNN "Digikey Part Number"
 	1    3400 2450
 	1    0    0    -1  
 $EndComp
@@ -159,9 +162,9 @@ U 1 1 5F434A98
 P 6700 4650
 F 0 "C2" H 6815 4696 50  0000 L CNN
 F 1 "100n" H 6815 4605 50  0000 L CNN
-F 2 "cubesat_obc:CAPC1005X55N" H 6738 4500 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf" H 6700 4650 50  0001 C CNN
-F 4 "	490-13342-1-ND" H 6700 4650 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6738 4500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6700 4650 50  0001 C CNN
+F 4 "490-16433-1-ND" H 6700 4650 50  0001 C CNN "Digikey Part Number"
 	1    6700 4650
 	1    0    0    -1  
 $EndComp
@@ -180,8 +183,9 @@ U 1 1 5F434AA3
 P 4000 4500
 F 0 "R8" H 4070 4546 50  0000 L CNN
 F 1 "10k" H 4070 4455 50  0000 L CNN
-F 2 "" V 3930 4500 50  0001 C CNN
-F 3 "~" H 4000 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 4500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4000 4500 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 4000 4500 50  0001 C CNN "Digikey Part Number"
 	1    4000 4500
 	1    0    0    -1  
 $EndComp
@@ -198,8 +202,9 @@ U 1 1 5F434AAD
 P 3700 4500
 F 0 "R6" H 3770 4546 50  0000 L CNN
 F 1 "10k" H 3770 4455 50  0000 L CNN
-F 2 "" V 3630 4500 50  0001 C CNN
-F 3 "~" H 3700 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 4500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3700 4500 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3700 4500 50  0001 C CNN "Digikey Part Number"
 	1    3700 4500
 	1    0    0    -1  
 $EndComp
@@ -232,8 +237,9 @@ U 1 1 5F43582E
 P 3400 5200
 F 0 "R4" H 3470 5246 50  0000 L CNN
 F 1 "10k" H 3470 5155 50  0000 L CNN
-F 2 "" V 3330 5200 50  0001 C CNN
-F 3 "~" H 3400 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3400 5200 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 3400 5200 50  0001 C CNN "Digikey Part Number"
 	1    3400 5200
 	1    0    0    -1  
 $EndComp

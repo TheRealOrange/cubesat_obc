@@ -117,8 +117,8 @@ P 3700 5800
 F 0 "U1" H 3700 7348 50  0000 C CNN
 F 1 "PC104" H 3700 7257 50  0000 C CNN
 F 2 "cubesat_obc:PC104-Standard" H 2600 6600 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10153302.pdf" H 2600 6600 50  0001 C CNN
-F 4 "	609-10153302-20111LF-ND" H 3700 5800 50  0001 C CNN "Digikey Part Number"
+F 3 "" H 2600 6600 50  0001 C CNN
+F 4 "" H 3700 5800 50  0001 C CNN "Digikey Part Number"
 	1    3700 5800
 	1    0    0    -1  
 $EndComp
@@ -416,8 +416,9 @@ U 1 1 5F6F0159
 P 7400 5800
 F 0 "J1" H 7428 5776 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7428 5685 50  0000 L CNN
-F 2 "" H 7400 5800 50  0001 C CNN
-F 3 "~" H 7400 5800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 7400 5800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/533980471_sd.pdf" H 7400 5800 50  0001 C CNN
+F 4 "	WM7608CT-ND" H 7400 5800 50  0001 C CNN "Digikey Part Number"
 	1    7400 5800
 	1    0    0    -1  
 $EndComp
@@ -460,8 +461,9 @@ U 1 1 5F6F5054
 P 8850 5800
 F 0 "J2" H 8878 5776 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 8878 5685 50  0000 L CNN
-F 2 "" H 8850 5800 50  0001 C CNN
-F 3 "~" H 8850 5800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 8850 5800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/533980471_sd.pdf" H 8850 5800 50  0001 C CNN
+F 4 "	WM7608CT-ND" H 8850 5800 50  0001 C CNN "Digikey Part Number"
 	1    8850 5800
 	1    0    0    -1  
 $EndComp
@@ -492,8 +494,9 @@ U 1 1 5F6F647B
 P 7000 4550
 F 0 "R1" H 7070 4596 50  0000 L CNN
 F 1 "40k" H 7070 4505 50  0000 L CNN
-F 2 "" V 6930 4550 50  0001 C CNN
-F 3 "~" H 7000 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/60024/pat.pdf~" H 7000 4550 50  0001 C CNN
+F 4 "PAT40KACT-ND" H 7000 4550 50  0001 C CNN "Digikey Part Number"
 	1    7000 4550
 	1    0    0    -1  
 $EndComp
@@ -503,8 +506,9 @@ U 1 1 5F6F758C
 P 7000 4950
 F 0 "R2" H 7070 4996 50  0000 L CNN
 F 1 "20k" H 7070 4905 50  0000 L CNN
-F 2 "" V 6930 4950 50  0001 C CNN
-F 3 "~" H 7000 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 4950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/60026/ptn.pdf~" H 7000 4950 50  0001 C CNN
+F 4 "764-1399-1-ND" H 7000 4950 50  0001 C CNN "Digikey Part Number"
 	1    7000 4950
 	1    0    0    -1  
 $EndComp
