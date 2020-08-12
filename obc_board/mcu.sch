@@ -649,7 +649,7 @@ Wire Wire Line
 Connection ~ 6550 650 
 Wire Wire Line
 	6550 750  6550 650 
-Text HLabel 6550 1200 3    50   Input ~ 0
+Text HLabel 6650 1100 2    50   Input ~ 0
 GND
 $Comp
 L Device:C C12
@@ -830,8 +830,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 1100 6400 1100
 Connection ~ 6550 1100
-Wire Wire Line
-	6550 1100 6550 1200
 Wire Wire Line
 	6400 1100 6400 1500
 Connection ~ 6400 1100
@@ -1184,4 +1182,12 @@ Text HLabel 1800 6600 2    50   Input ~ 0
 GND
 Text HLabel 9200 2400 2    50   Input ~ 0
 3V3_P
+Text HLabel 6700 1500 1    50   Input ~ 0
+PG6
+Text HLabel 6600 1500 1    50   Input ~ 0
+PG7
+Wire Wire Line
+	6550 1100 6650 1100
+Text HLabel 6500 1500 1    50   Input ~ 0
+PG8
 $EndSCHEMATC

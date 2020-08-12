@@ -116,8 +116,8 @@ P 900 2050
 F 0 "J5" H 792 1725 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 792 1816 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 900 2050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980271_sd.pdf~" H 900 2050 50  0001 C CNN
-F 4 "WM7606CT-ND" H 900 2050 50  0001 C CNN "Digikey Part Number"
+F 3 "~" H 900 2050 50  0001 C CNN
+F 4 "WM7620CT-ND" H 900 2050 50  0001 C CNN "Digikey Part Number"
 	1    900  2050
 	-1   0    0    1   
 $EndComp
@@ -376,8 +376,8 @@ P 4950 2100
 F 0 "J7" H 4842 1775 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4842 1866 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 4950 2100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980271_sd.pdf~" H 4950 2100 50  0001 C CNN
-F 4 "WM7606CT-ND" H 4950 2100 50  0001 C CNN "Digikey Part Number"
+F 3 "~" H 4950 2100 50  0001 C CNN
+F 4 "WM7620CT-ND" H 4950 2100 50  0001 C CNN "Digikey Part Number"
 	1    4950 2100
 	-1   0    0    1   
 $EndComp
@@ -623,8 +623,8 @@ P 950 5250
 F 0 "J6" H 842 4925 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 842 5016 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 950 5250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980271_sd.pdf~" H 950 5250 50  0001 C CNN
-F 4 "WM7606CT-ND" H 950 5250 50  0001 C CNN "Digikey Part Number"
+F 3 "~" H 950 5250 50  0001 C CNN
+F 4 "WM7620CT-ND" H 950 5250 50  0001 C CNN "Digikey Part Number"
 	1    950  5250
 	-1   0    0    1   
 $EndComp
@@ -860,8 +860,8 @@ P 5050 5300
 F 0 "J8" H 4942 4975 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4942 5066 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 5050 5300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980271_sd.pdf~" H 5050 5300 50  0001 C CNN
-F 4 "WM7606CT-ND" H 5050 5300 50  0001 C CNN "Digikey Part Number"
+F 3 "~" H 5050 5300 50  0001 C CNN
+F 4 "WM7620CT-ND" H 5050 5300 50  0001 C CNN "Digikey Part Number"
 	1    5050 5300
 	-1   0    0    1   
 $EndComp
