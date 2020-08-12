@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L cubesat_obc_lib:BMM150 U11
+L cubesat_obc_lib:BMM150 U10
 U 1 1 5F317B0E
 P 10500 2400
-F 0 "U11" H 10700 2750 50  0000 C CNN
+F 0 "U10" H 10700 2750 50  0000 C CNN
 F 1 "BMM150" H 10800 2650 50  0000 C CNN
 F 2 "Package_CSP:WLCSP-12_1.56x1.56mm_P0.4mm" H 10050 2550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf" H 10150 2650 50  0001 C CNN
@@ -95,10 +95,10 @@ Wire Wire Line
 	9700 2300 10000 2300
 Connection ~ 9900 1950
 $Comp
-L cubesat_obc_lib:MCP9600-E_MX U6
+L cubesat_obc_lib:MCP9600-E_MX U5
 U 1 1 5F37C06B
 P 3950 2300
-F 0 "U6" H 4000 2900 50  0000 C CNN
+F 0 "U5" H 4000 2900 50  0000 C CNN
 F 1 "MCP9600-E_MX" H 4250 2800 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 3750 2400 50  0001 L BNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 3950 2300 50  0001 L BNN
@@ -110,49 +110,49 @@ F 7 "MCP9600-E/MX-ND" H 3950 2300 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J5
+L Connector:Conn_01x02_Female J10
 U 1 1 5F37DDB8
 P 900 2050
-F 0 "J5" H 792 1725 50  0000 C CNN
+F 0 "J10" H 792 1725 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 792 1816 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 900 2050 50  0001 C CNN
-F 3 "~" H 900 2050 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 900 2050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 900 2050 50  0001 C CNN
 F 4 "WM7620CT-ND" H 900 2050 50  0001 C CNN "Digikey Part Number"
 	1    900  2050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R25
+L Device:R R22
 U 1 1 5F380B0C
 P 1550 1400
-F 0 "R25" V 1343 1400 50  0000 C CNN
+F 0 "R22" V 1343 1400 50  0000 C CNN
 F 1 "2M" V 1434 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1480 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1550 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1550 1400 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 1550 1400 50  0001 C CNN "Digikey Part Number"
 	1    1550 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R29
+L Device:R R26
 U 1 1 5F381BF6
 P 1850 1400
-F 0 "R29" V 1643 1400 50  0000 C CNN
+F 0 "R26" V 1643 1400 50  0000 C CNN
 F 1 "1M" V 1734 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1850 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1850 1400 50  0001 C CNN
 F 4 "11-1.00MHRCT-ND" H 1850 1400 50  0001 C CNN "Digikey Part Number"
 	1    1850 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R24
 U 1 1 5F382833
 P 1700 3000
-F 0 "R27" H 1770 3046 50  0000 L CNN
+F 0 "R24" H 1770 3046 50  0000 L CNN
 F 1 "2M" H 1770 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 3000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1700 3000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 3000 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 1700 3000 50  0001 C CNN "Digikey Part Number"
 	1    1700 3000
 	1    0    0    -1  
@@ -169,25 +169,25 @@ Wire Wire Line
 Wire Wire Line
 	1350 1400 1400 1400
 $Comp
-L Device:R R30
+L Device:R R27
 U 1 1 5F390E2C
 P 1900 1950
-F 0 "R30" V 1693 1950 50  0000 C CNN
+F 0 "R27" V 1693 1950 50  0000 C CNN
 F 1 "100" V 1784 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 1950 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1900 1950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 1950 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 1900 1950 50  0001 C CNN "Digikey Part Number"
 	1    1900 1950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R31
+L Device:R R28
 U 1 1 5F39198A
 P 1900 2350
-F 0 "R31" V 1693 2350 50  0000 C CNN
+F 0 "R28" V 1693 2350 50  0000 C CNN
 F 1 "100" V 1784 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 2350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1900 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 2350 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 1900 2350 50  0001 C CNN "Digikey Part Number"
 	1    1900 2350
 	0    1    1    0   
@@ -221,7 +221,7 @@ P 1500 1950
 F 0 "L1" V 1690 1950 50  0000 C CNN
 F 1 "300n" V 1599 1950 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 1500 1950 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 1500 1950 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 1500 1950 50  0001 C CNN
 F 4 "732-7338-2-ND" H 1500 1950 50  0001 C CNN "Digikey Part Number"
 	1    1500 1950
 	0    -1   -1   0   
@@ -233,7 +233,7 @@ P 1500 2350
 F 0 "L2" V 1690 2350 50  0000 C CNN
 F 1 "300n" V 1599 2350 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 1500 2350 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 1500 2350 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 1500 2350 50  0001 C CNN
 F 4 "732-7338-2-ND" H 1500 2350 50  0001 C CNN "Digikey Part Number"
 	1    1500 2350
 	0    -1   -1   0   
@@ -349,16 +349,16 @@ Wire Wire Line
 	2700 2200 3350 2200
 Connection ~ 2700 1400
 Wire Wire Line
-	2700 1400 3850 1400
+	2700 1400 3250 1400
 Wire Wire Line
 	2700 1300 2700 1400
 Wire Wire Line
 	2000 1400 2700 1400
 $Comp
-L cubesat_obc_lib:MCP9600-E_MX U8
+L cubesat_obc_lib:MCP9600-E_MX U7
 U 1 1 5F44DA1A
 P 8000 2350
-F 0 "U8" H 8050 2950 50  0000 C CNN
+F 0 "U7" H 8050 2950 50  0000 C CNN
 F 1 "MCP9600-E_MX" H 8300 2850 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 7800 2450 50  0001 L BNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 8000 2350 50  0001 L BNN
@@ -370,37 +370,37 @@ F 7 "MCP9600-E/MX-ND" H 8000 2350 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J7
+L Connector:Conn_01x02_Female J12
 U 1 1 5F44DA20
 P 4950 2100
-F 0 "J7" H 4842 1775 50  0000 C CNN
+F 0 "J12" H 4842 1775 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4842 1866 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 4950 2100 50  0001 C CNN
-F 3 "~" H 4950 2100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 4950 2100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 4950 2100 50  0001 C CNN
 F 4 "WM7620CT-ND" H 4950 2100 50  0001 C CNN "Digikey Part Number"
 	1    4950 2100
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R40
+L Device:R R37
 U 1 1 5F44DA26
 P 5600 1450
-F 0 "R40" V 5393 1450 50  0000 C CNN
+F 0 "R37" V 5393 1450 50  0000 C CNN
 F 1 "2M" V 5484 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 1450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5600 1450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1450 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5600 1450 50  0001 C CNN "Digikey Part Number"
 	1    5600 1450
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R44
+L Device:R R41
 U 1 1 5F44DA2C
 P 5900 1450
-F 0 "R44" V 5693 1450 50  0000 C CNN
+F 0 "R41" V 5693 1450 50  0000 C CNN
 F 1 "1M" V 5784 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 1450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5900 1450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5900 1450 50  0001 C CNN
 F 4 "11-1.00MHRCT-ND" H 5900 1450 50  0001 C CNN "Digikey Part Number"
 	1    5900 1450
 	0    1    1    0   
@@ -413,25 +413,25 @@ GND
 Wire Wire Line
 	5400 1450 5450 1450
 $Comp
-L Device:R R45
+L Device:R R42
 U 1 1 5F44DA3E
 P 5950 2000
-F 0 "R45" V 5743 2000 50  0000 C CNN
+F 0 "R42" V 5743 2000 50  0000 C CNN
 F 1 "100" V 5834 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 2000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5950 2000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5950 2000 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 5950 2000 50  0001 C CNN "Digikey Part Number"
 	1    5950 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R46
+L Device:R R43
 U 1 1 5F44DA44
 P 5950 2400
-F 0 "R46" V 5743 2400 50  0000 C CNN
+F 0 "R43" V 5743 2400 50  0000 C CNN
 F 1 "100" V 5834 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 2400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5950 2400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5950 2400 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 5950 2400 50  0001 C CNN "Digikey Part Number"
 	1    5950 2400
 	0    1    1    0   
@@ -465,7 +465,7 @@ P 5550 2000
 F 0 "L5" V 5740 2000 50  0000 C CNN
 F 1 "300n" V 5649 2000 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5550 2000 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 5550 2000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5550 2000 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5550 2000 50  0001 C CNN "Digikey Part Number"
 	1    5550 2000
 	0    -1   -1   0   
@@ -477,7 +477,7 @@ P 5550 2400
 F 0 "L6" V 5740 2400 50  0000 C CNN
 F 1 "300n" V 5649 2400 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5550 2400 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 5550 2400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5550 2400 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5550 2400 50  0001 C CNN "Digikey Part Number"
 	1    5550 2400
 	0    -1   -1   0   
@@ -550,25 +550,25 @@ Wire Wire Line
 Wire Wire Line
 	6600 2100 7400 2100
 $Comp
-L Device:R R50
+L Device:R R47
 U 1 1 5F44DAA0
 P 6750 1750
-F 0 "R50" H 6820 1796 50  0000 L CNN
+F 0 "R47" H 6820 1796 50  0000 L CNN
 F 1 "10k" H 6820 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6680 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6750 1750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6750 1750 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 6750 1750 50  0001 C CNN "Digikey Part Number"
 	1    6750 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R51
+L Device:R R48
 U 1 1 5F44DAA6
 P 6750 2450
-F 0 "R51" H 6820 2496 50  0000 L CNN
+F 0 "R48" H 6820 2496 50  0000 L CNN
 F 1 "2.2k" H 6820 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6680 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6750 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6750 2450 50  0001 C CNN
 F 4 "311-2.20KLRCT-ND" H 6750 2450 50  0001 C CNN "Digikey Part Number"
 	1    6750 2450
 	1    0    0    -1  
@@ -586,7 +586,7 @@ Wire Wire Line
 	6750 1450 6750 1600
 Connection ~ 6750 1450
 Wire Wire Line
-	6750 1450 7900 1450
+	6750 1450 7300 1450
 Wire Wire Line
 	6750 1350 6750 1450
 Wire Wire Line
@@ -602,10 +602,10 @@ Connection ~ 10400 1450
 Wire Wire Line
 	10400 1450 10500 1450
 $Comp
-L cubesat_obc_lib:MCP9600-E_MX U7
+L cubesat_obc_lib:MCP9600-E_MX U6
 U 1 1 5F4E80D8
 P 4000 5500
-F 0 "U7" H 4050 6100 50  0000 C CNN
+F 0 "U6" H 4050 6100 50  0000 C CNN
 F 1 "MCP9600-E_MX" H 4300 6000 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 3800 5600 50  0001 L BNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 4000 5500 50  0001 L BNN
@@ -617,37 +617,37 @@ F 7 "MCP9600-E/MX-ND" H 4000 5500 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J6
+L Connector:Conn_01x02_Female J11
 U 1 1 5F4E80DE
 P 950 5250
-F 0 "J6" H 842 4925 50  0000 C CNN
+F 0 "J11" H 842 4925 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 842 5016 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 950 5250 50  0001 C CNN
-F 3 "~" H 950 5250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 950 5250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 950 5250 50  0001 C CNN
 F 4 "WM7620CT-ND" H 950 5250 50  0001 C CNN "Digikey Part Number"
 	1    950  5250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R26
+L Device:R R23
 U 1 1 5F4E80E4
 P 1600 4600
-F 0 "R26" V 1393 4600 50  0000 C CNN
+F 0 "R23" V 1393 4600 50  0000 C CNN
 F 1 "2M" V 1484 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1600 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1600 4600 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 1600 4600 50  0001 C CNN "Digikey Part Number"
 	1    1600 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R32
+L Device:R R29
 U 1 1 5F4E80EA
 P 1900 4600
-F 0 "R32" V 1693 4600 50  0000 C CNN
+F 0 "R29" V 1693 4600 50  0000 C CNN
 F 1 "1M" V 1784 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1900 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 4600 50  0001 C CNN
 F 4 "11-1.00MHRCT-ND" H 1900 4600 50  0001 C CNN "Digikey Part Number"
 	1    1900 4600
 	0    1    1    0   
@@ -660,25 +660,25 @@ GND
 Wire Wire Line
 	1400 4600 1450 4600
 $Comp
-L Device:R R33
+L Device:R R30
 U 1 1 5F4E80FC
 P 1950 5150
-F 0 "R33" V 1743 5150 50  0000 C CNN
+F 0 "R30" V 1743 5150 50  0000 C CNN
 F 1 "100" V 1834 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1880 5150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1950 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 5150 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 1950 5150 50  0001 C CNN "Digikey Part Number"
 	1    1950 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R34
+L Device:R R31
 U 1 1 5F4E8102
 P 1950 5550
-F 0 "R34" V 1743 5550 50  0000 C CNN
+F 0 "R31" V 1743 5550 50  0000 C CNN
 F 1 "100" V 1834 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1880 5550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1950 5550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 5550 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 1950 5550 50  0001 C CNN "Digikey Part Number"
 	1    1950 5550
 	0    1    1    0   
@@ -712,7 +712,7 @@ P 1550 5150
 F 0 "L3" V 1740 5150 50  0000 C CNN
 F 1 "300n" V 1649 5150 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 1550 5150 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 1550 5150 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 1550 5150 50  0001 C CNN
 F 4 "732-7338-2-ND" H 1550 5150 50  0001 C CNN "Digikey Part Number"
 	1    1550 5150
 	0    -1   -1   0   
@@ -724,7 +724,7 @@ P 1550 5550
 F 0 "L4" V 1740 5550 50  0000 C CNN
 F 1 "300n" V 1649 5550 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 1550 5550 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 1550 5550 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 1550 5550 50  0001 C CNN
 F 4 "732-7338-2-ND" H 1550 5550 50  0001 C CNN "Digikey Part Number"
 	1    1550 5550
 	0    -1   -1   0   
@@ -797,25 +797,25 @@ Wire Wire Line
 Wire Wire Line
 	2600 5250 3400 5250
 $Comp
-L Device:R R35
+L Device:R R32
 U 1 1 5F4E815E
 P 2750 4900
-F 0 "R35" H 2820 4946 50  0000 L CNN
+F 0 "R32" H 2820 4946 50  0000 L CNN
 F 1 "10k" H 2820 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 4900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2750 4900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 4900 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 2750 4900 50  0001 C CNN "Digikey Part Number"
 	1    2750 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R36
+L Device:R R33
 U 1 1 5F4E8164
 P 2750 5600
-F 0 "R36" H 2820 5646 50  0000 L CNN
+F 0 "R33" H 2820 5646 50  0000 L CNN
 F 1 "4.3k" H 2820 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 5600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 2750 5600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 5600 50  0001 C CNN
 F 4 "311-4.30KLRCT-ND" H 2750 5600 50  0001 C CNN "Digikey Part Number"
 	1    2750 5600
 	1    0    0    -1  
@@ -833,58 +833,43 @@ Wire Wire Line
 	2750 4600 2750 4750
 Connection ~ 2750 4600
 Wire Wire Line
-	2750 4600 3900 4600
+	2750 4600 3300 4600
 Wire Wire Line
 	2750 4500 2750 4600
 Wire Wire Line
 	2050 4600 2750 4600
 $Comp
-L cubesat_obc_lib:MCP9600-E_MX U9
-U 1 1 5F50AFEA
-P 8100 5550
-F 0 "U9" H 8150 6150 50  0000 C CNN
-F 1 "MCP9600-E_MX" H 8400 6050 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 7900 5650 50  0001 L BNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 8100 5550 50  0001 L BNN
-F 4 "" H 7900 5650 50  0001 L BNN "Field4"
-F 5 "" H 7900 5650 50  0001 L BNN "Field5"
-F 6 "" H 7900 5650 50  0001 L BNN "Field6"
-F 7 "MCP9600-E/MX-ND" H 8100 5550 50  0001 C CNN "Digikey Part Number"
-	1    8100 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J8
+L Connector:Conn_01x02_Female J13
 U 1 1 5F50AFF0
 P 5050 5300
-F 0 "J8" H 4942 4975 50  0000 C CNN
+F 0 "J13" H 4942 4975 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4942 5066 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 5050 5300 50  0001 C CNN
-F 3 "~" H 5050 5300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 5050 5300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 5050 5300 50  0001 C CNN
 F 4 "WM7620CT-ND" H 5050 5300 50  0001 C CNN "Digikey Part Number"
 	1    5050 5300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R41
+L Device:R R38
 U 1 1 5F50AFF6
 P 5700 4650
-F 0 "R41" V 5493 4650 50  0000 C CNN
+F 0 "R38" V 5493 4650 50  0000 C CNN
 F 1 "2M" V 5584 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5700 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5700 4650 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5700 4650 50  0001 C CNN "Digikey Part Number"
 	1    5700 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R47
+L Device:R R44
 U 1 1 5F50AFFC
 P 6000 4650
-F 0 "R47" V 5793 4650 50  0000 C CNN
+F 0 "R44" V 5793 4650 50  0000 C CNN
 F 1 "1M" V 5884 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6000 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6000 4650 50  0001 C CNN
 F 4 "11-1.00MHRCT-ND" H 6000 4650 50  0001 C CNN "Digikey Part Number"
 	1    6000 4650
 	0    1    1    0   
@@ -897,25 +882,25 @@ GND
 Wire Wire Line
 	5500 4650 5550 4650
 $Comp
-L Device:R R48
+L Device:R R45
 U 1 1 5F50B00E
 P 6050 5200
-F 0 "R48" V 5843 5200 50  0000 C CNN
+F 0 "R45" V 5843 5200 50  0000 C CNN
 F 1 "100" V 5934 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 5200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6050 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 5200 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 6050 5200 50  0001 C CNN "Digikey Part Number"
 	1    6050 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R49
+L Device:R R46
 U 1 1 5F50B014
 P 6050 5600
-F 0 "R49" V 5843 5600 50  0000 C CNN
+F 0 "R46" V 5843 5600 50  0000 C CNN
 F 1 "100" V 5934 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 5600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6050 5600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 5600 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 6050 5600 50  0001 C CNN "Digikey Part Number"
 	1    6050 5600
 	0    1    1    0   
@@ -949,7 +934,7 @@ P 5650 5200
 F 0 "L7" V 5840 5200 50  0000 C CNN
 F 1 "300n" V 5749 5200 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 5200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 5650 5200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5650 5200 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5650 5200 50  0001 C CNN "Digikey Part Number"
 	1    5650 5200
 	0    -1   -1   0   
@@ -961,7 +946,7 @@ P 5650 5600
 F 0 "L8" V 5840 5600 50  0000 C CNN
 F 1 "300n" V 5749 5600 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 5600 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf~" H 5650 5600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5650 5600 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5650 5600 50  0001 C CNN "Digikey Part Number"
 	1    5650 5600
 	0    -1   -1   0   
@@ -1017,8 +1002,6 @@ Wire Wire Line
 Connection ~ 6300 5600
 Wire Wire Line
 	8000 4650 8000 4900
-Wire Wire Line
-	6300 5200 7500 5200
 Connection ~ 6300 5200
 Text HLabel 8000 6200 3    50   Input ~ 0
 GND
@@ -1031,28 +1014,26 @@ Wire Wire Line
 Connection ~ 8000 6150
 Wire Wire Line
 	8000 6150 8000 6200
-Wire Wire Line
-	6700 5300 7500 5300
 $Comp
-L Device:R R52
+L Device:R R49
 U 1 1 5F50B070
 P 6850 4950
-F 0 "R52" H 6920 4996 50  0000 L CNN
+F 0 "R49" H 6920 4996 50  0000 L CNN
 F 1 "10k" H 6920 4905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 4950 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6850 4950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6850 4950 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 6850 4950 50  0001 C CNN "Digikey Part Number"
 	1    6850 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R53
+L Device:R R50
 U 1 1 5F50B076
 P 6850 5650
-F 0 "R53" H 6920 5696 50  0000 L CNN
+F 0 "R50" H 6920 5696 50  0000 L CNN
 F 1 "7.5k" H 6920 5605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 5650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 6850 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6850 5650 50  0001 C CNN
 F 4 "311-7.50KLRCT-ND" H 6850 5650 50  0001 C CNN "Digikey Part Number"
 	1    6850 5650
 	1    0    0    -1  
@@ -1061,16 +1042,12 @@ Text HLabel 6850 5800 3    50   Input ~ 0
 GND
 Wire Wire Line
 	6850 5100 6850 5450
-Wire Wire Line
-	6850 5450 7500 5450
 Connection ~ 6850 5450
 Wire Wire Line
 	6850 5450 6850 5500
 Wire Wire Line
 	6850 4650 6850 4800
 Connection ~ 6850 4650
-Wire Wire Line
-	6850 4650 8000 4650
 Wire Wire Line
 	6850 4550 6850 4650
 Wire Wire Line
@@ -1128,19 +1105,19 @@ P 10250 4050
 F 0 "R55" H 10320 4096 50  0000 L CNN
 F 1 "2.2k" H 10320 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10180 4050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 10250 4050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10250 4050 50  0001 C CNN
 F 4 "311-2.20KLRCT-ND" H 10250 4050 50  0001 C CNN "Digikey Part Number"
 	1    10250 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R54
+L Device:R R53
 U 1 1 5F3675EA
 P 9950 4050
-F 0 "R54" H 10020 4096 50  0000 L CNN
+F 0 "R53" H 10020 4096 50  0000 L CNN
 F 1 "2.2k" H 10020 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 4050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 9950 4050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9950 4050 50  0001 C CNN
 F 4 "311-2.20KLRCT-ND" H 9950 4050 50  0001 C CNN "Digikey Part Number"
 	1    9950 4050
 	1    0    0    -1  
@@ -1181,10 +1158,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 5000 9350 5100
 $Comp
-L cubesat_obc_lib:BMI160 U10
+L cubesat_obc_lib:BMI160 U9
 U 1 1 5F316D53
 P 9450 4500
-F 0 "U10" H 9550 4950 50  0000 C CNN
+F 0 "U9" H 9550 4950 50  0000 C CNN
 F 1 "BMI160" H 9650 4850 50  0000 C CNN
 F 2 "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" H 9450 4500 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf" H 8750 5350 50  0001 C CNN
@@ -1227,10 +1204,10 @@ GND
 Wire Wire Line
 	2700 2200 2700 2550
 $Comp
-L cubesat_obc_lib:LTC4304CMSTRPBF U5
+L cubesat_obc_lib:LTC4304CMSTRPBF U4
 U 1 1 5F752A48
 P 2950 7100
-F 0 "U5" H 4500 7417 50  0000 C CNN
+F 0 "U4" H 4500 7417 50  0000 C CNN
 F 1 "LTC4304CMSTRPBF" H 4500 7326 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3900 7150 50  0001 L BNN
 F 3 "http://www.linear.com/docs/16798" H 3900 7150 50  0001 L BNN
@@ -1264,13 +1241,13 @@ SCL
 Text HLabel 5100 7250 2    50   Input ~ 0
 SDA
 $Comp
-L Device:R R38
+L Device:R R35
 U 1 1 5F7CEA4C
 P 3800 6850
-F 0 "R38" H 3870 6896 50  0000 L CNN
+F 0 "R35" H 3870 6896 50  0000 L CNN
 F 1 "10k" H 3870 6805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 6850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3800 6850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3800 6850 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3800 6850 50  0001 C CNN "Digikey Part Number"
 	1    3800 6850
 	1    0    0    -1  
@@ -1292,13 +1269,13 @@ ACC1
 Wire Wire Line
 	3200 7350 3400 7350
 $Comp
-L Device:R R37
+L Device:R R34
 U 1 1 5F821198
 P 3400 7000
-F 0 "R37" H 3470 7046 50  0000 L CNN
+F 0 "R34" H 3470 7046 50  0000 L CNN
 F 1 "10k" H 3470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3400 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3400 7000 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3400 7000 50  0001 C CNN "Digikey Part Number"
 	1    3400 7000
 	1    0    0    -1  
@@ -1313,13 +1290,13 @@ Connection ~ 3400 7350
 Wire Wire Line
 	3400 7350 3900 7350
 $Comp
-L Device:R R39
+L Device:R R36
 U 1 1 5F852308
 P 5400 7000
-F 0 "R39" H 5470 7046 50  0000 L CNN
+F 0 "R36" H 5470 7046 50  0000 L CNN
 F 1 "10k" H 5470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5330 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5400 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5400 7000 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 5400 7000 50  0001 C CNN "Digikey Part Number"
 	1    5400 7000
 	1    0    0    -1  
@@ -1341,13 +1318,13 @@ Connection ~ 1700 2800
 Wire Wire Line
 	1700 5550 1800 5550
 $Comp
-L Device:R R28
+L Device:R R25
 U 1 1 5F8AA424
 P 1750 6200
-F 0 "R28" H 1820 6246 50  0000 L CNN
+F 0 "R25" H 1820 6246 50  0000 L CNN
 F 1 "2M" H 1820 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 6200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 1750 6200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1750 6200 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 1750 6200 50  0001 C CNN "Digikey Part Number"
 	1    1750 6200
 	1    0    0    -1  
@@ -1400,13 +1377,13 @@ Connection ~ 1750 6000
 Wire Wire Line
 	5700 2400 5800 2400
 $Comp
-L Device:R R42
+L Device:R R39
 U 1 1 5F8D07DD
 P 5750 3050
-F 0 "R42" H 5820 3096 50  0000 L CNN
+F 0 "R39" H 5820 3096 50  0000 L CNN
 F 1 "2M" H 5820 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 3050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5750 3050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5750 3050 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5750 3050 50  0001 C CNN "Digikey Part Number"
 	1    5750 3050
 	1    0    0    -1  
@@ -1459,13 +1436,13 @@ Connection ~ 5750 2850
 Wire Wire Line
 	5800 5600 5900 5600
 $Comp
-L Device:R R43
+L Device:R R40
 U 1 1 5F902FCD
 P 5850 6250
-F 0 "R43" H 5920 6296 50  0000 L CNN
+F 0 "R40" H 5920 6296 50  0000 L CNN
 F 1 "2M" H 5920 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 5850 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 6250 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5850 6250 50  0001 C CNN "Digikey Part Number"
 	1    5850 6250
 	1    0    0    -1  
@@ -1549,46 +1526,50 @@ Text Label 9300 5900 2    50   ~ 0
 Text HLabel 9300 6400 0    50   Input ~ 0
 3V3
 $Comp
-L Device:R R?
+L Device:R R51
 U 1 1 5F50639E
 P 9550 6150
-F 0 "R?" H 9620 6196 50  0000 L CNN
+F 0 "R51" H 9620 6196 50  0000 L CNN
 F 1 "0" H 9620 6105 50  0000 L CNN
-F 2 "" V 9480 6150 50  0001 C CNN
-F 3 "~" H 9550 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 6150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9550 6150 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9550 6150 50  0001 C CNN "Digikey Part Number"
 	1    9550 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R52
 U 1 1 5F507ABA
 P 9800 6150
-F 0 "R?" H 9870 6196 50  0000 L CNN
+F 0 "R52" H 9870 6196 50  0000 L CNN
 F 1 "0" H 9870 6105 50  0000 L CNN
-F 2 "" V 9730 6150 50  0001 C CNN
-F 3 "~" H 9800 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 6150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9800 6150 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9800 6150 50  0001 C CNN "Digikey Part Number"
 	1    9800 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R54
 U 1 1 5F51494E
 P 10050 6150
-F 0 "R?" H 10120 6196 50  0000 L CNN
+F 0 "R54" H 10120 6196 50  0000 L CNN
 F 1 "0" H 10120 6105 50  0000 L CNN
-F 2 "" V 9980 6150 50  0001 C CNN
-F 3 "~" H 10050 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 6150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10050 6150 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10050 6150 50  0001 C CNN "Digikey Part Number"
 	1    10050 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R56
 U 1 1 5F5215C0
 P 10300 6150
-F 0 "R?" H 10370 6196 50  0000 L CNN
+F 0 "R56" H 10370 6196 50  0000 L CNN
 F 1 "0" H 10370 6105 50  0000 L CNN
-F 2 "" V 10230 6150 50  0001 C CNN
-F 3 "~" H 10300 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10230 6150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10300 6150 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10300 6150 50  0001 C CNN "Digikey Part Number"
 	1    10300 6150
 	1    0    0    -1  
 $EndComp
@@ -1627,4 +1608,189 @@ Wire Wire Line
 	9800 6000 9800 5800
 Wire Wire Line
 	9800 5800 9300 5800
+$Comp
+L Device:C C37
+U 1 1 5F5108F6
+P 3300 4750
+F 0 "C37" H 3415 4796 50  0000 L CNN
+F 1 "100n" H 3415 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 4600 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3300 4750 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3300 4750 50  0001 C CNN "Digikey Part Number"
+	1    3300 4750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3300 4900 3    50   Input ~ 0
+GND
+Connection ~ 3300 4600
+Wire Wire Line
+	3300 4600 3900 4600
+$Comp
+L Device:C C36
+U 1 1 5F568D8D
+P 3250 1550
+F 0 "C36" H 3365 1596 50  0000 L CNN
+F 1 "100n" H 3365 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3288 1400 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3250 1550 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3250 1550 50  0001 C CNN "Digikey Part Number"
+	1    3250 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 3250 1700 3    50   Input ~ 0
+GND
+$Comp
+L Device:C C38
+U 1 1 5F5778F5
+P 7300 1600
+F 0 "C38" H 7415 1646 50  0000 L CNN
+F 1 "100n" H 7415 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 1450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7300 1600 50  0001 C CNN
+F 4 "490-16433-1-ND" H 7300 1600 50  0001 C CNN "Digikey Part Number"
+	1    7300 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 1750 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6850 5450 7500 5450
+Wire Wire Line
+	6700 5300 7500 5300
+Wire Wire Line
+	6300 5200 7500 5200
+$Comp
+L cubesat_obc_lib:MCP9600-E_MX U8
+U 1 1 5F50AFEA
+P 8100 5550
+F 0 "U8" H 8150 6150 50  0000 C CNN
+F 1 "MCP9600-E_MX" H 8400 6050 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 7900 5650 50  0001 L BNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 8100 5550 50  0001 L BNN
+F 4 "" H 7900 5650 50  0001 L BNN "Field4"
+F 5 "" H 7900 5650 50  0001 L BNN "Field5"
+F 6 "" H 7900 5650 50  0001 L BNN "Field6"
+F 7 "MCP9600-E/MX-ND" H 8100 5550 50  0001 C CNN "Digikey Part Number"
+	1    8100 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4650 7300 4650
+$Comp
+L Device:C C39
+U 1 1 5F5865D7
+P 7300 4800
+F 0 "C39" H 7415 4846 50  0000 L CNN
+F 1 "100n" H 7415 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 4650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7300 4800 50  0001 C CNN
+F 4 "490-16433-1-ND" H 7300 4800 50  0001 C CNN "Digikey Part Number"
+	1    7300 4800
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 4950 3    50   Input ~ 0
+GND
+Connection ~ 7300 4650
+Wire Wire Line
+	7300 4650 8000 4650
+Connection ~ 7300 1450
+Wire Wire Line
+	7300 1450 7900 1450
+Connection ~ 3250 1400
+Wire Wire Line
+	3250 1400 3850 1400
+Text Label 900  7350 2    50   ~ 0
+SCL
+Text Label 900  7450 2    50   ~ 0
+SDA
+$Comp
+L Device:R R95
+U 1 1 5F61F04C
+P 1350 7100
+F 0 "R95" H 1420 7146 50  0000 L CNN
+F 1 "10k" H 1420 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1280 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1350 7100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 1350 7100 50  0001 C CNN "Digikey Part Number"
+	1    1350 7100
+	1    0    0    -1  
+$EndComp
+Text HLabel 950  6800 0    50   Input ~ 0
+3V3
+$Comp
+L Device:R R96
+U 1 1 5F64B66D
+P 1650 7100
+F 0 "R96" H 1720 7146 50  0000 L CNN
+F 1 "10k" H 1720 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1580 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1650 7100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 1650 7100 50  0001 C CNN "Digikey Part Number"
+	1    1650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6800 1350 6950
+Wire Wire Line
+	950  6800 1350 6800
+Wire Wire Line
+	1350 6800 1650 6800
+Wire Wire Line
+	1650 6800 1650 6950
+Connection ~ 1350 6800
+Wire Wire Line
+	900  7350 1350 7350
+Wire Wire Line
+	1350 7350 1350 7250
+Wire Wire Line
+	1650 7450 1650 7250
+Wire Wire Line
+	900  7450 1650 7450
+$Comp
+L Device:R R97
+U 1 1 5F6AE2D0
+P 2500 7100
+F 0 "R97" H 2570 7146 50  0000 L CNN
+F 1 "10k" H 2570 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2500 7100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 2500 7100 50  0001 C CNN "Digikey Part Number"
+	1    2500 7100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2100 6800 0    50   Input ~ 0
+3V3
+$Comp
+L Device:R R98
+U 1 1 5F6AE2D8
+P 2800 7100
+F 0 "R98" H 2870 7146 50  0000 L CNN
+F 1 "10k" H 2870 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2730 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2800 7100 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" H 2800 7100 50  0001 C CNN "Digikey Part Number"
+	1    2800 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6800 2500 6950
+Wire Wire Line
+	2100 6800 2500 6800
+Wire Wire Line
+	2500 6800 2800 6800
+Wire Wire Line
+	2800 6800 2800 6950
+Connection ~ 2500 6800
+Wire Wire Line
+	2050 7350 2500 7350
+Wire Wire Line
+	2500 7350 2500 7250
+Wire Wire Line
+	2800 7450 2800 7250
+Wire Wire Line
+	2050 7450 2800 7450
+Text HLabel 2050 7350 0    50   Input ~ 0
+SCL
+Text HLabel 2050 7450 0    50   Input ~ 0
+SDA
 $EndSCHEMATC

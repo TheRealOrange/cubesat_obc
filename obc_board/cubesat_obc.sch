@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR012
 U 1 1 5F33CD00
 P 7700 1450
-F 0 "#PWR0101" H 7700 1200 50  0001 C CNN
+F 0 "#PWR012" H 7700 1200 50  0001 C CNN
 F 1 "GND" H 7705 1277 50  0000 C CNN
 F 2 "" H 7700 1450 50  0001 C CNN
 F 3 "" H 7700 1450 50  0001 C CNN
@@ -27,10 +27,10 @@ $EndComp
 Wire Wire Line
 	7700 1450 7700 1300
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR04
 U 1 1 5F33E025
 P 3650 1800
-F 0 "#PWR0104" H 3650 1550 50  0001 C CNN
+F 0 "#PWR04" H 3650 1550 50  0001 C CNN
 F 1 "GND" H 3655 1627 50  0000 C CNN
 F 2 "" H 3650 1800 50  0001 C CNN
 F 3 "" H 3650 1800 50  0001 C CNN
@@ -42,10 +42,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 1750 3650 1800
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR01
 U 1 1 5F33EB7E
 P 900 2650
-F 0 "#PWR0105" H 900 2400 50  0001 C CNN
+F 0 "#PWR01" H 900 2400 50  0001 C CNN
 F 1 "GND" H 905 2477 50  0000 C CNN
 F 2 "" H 900 2650 50  0001 C CNN
 F 3 "" H 900 2650 50  0001 C CNN
@@ -58,12 +58,10 @@ Text Label 4000 1450 2    50   ~ 0
 3V3_1
 Text Label 4000 1550 2    50   ~ 0
 3V3_2
-Text Label 4000 1650 2    50   ~ 0
-3V3_3
 Text Label 1400 2500 2    50   ~ 0
-3V3_4
+3V3_3
 Text Label 8300 1200 2    50   ~ 0
-3V3_4
+3V3_3
 Text Label 10000 1200 0    50   ~ 0
 MISO_1
 Text Label 10000 1300 0    50   ~ 0
@@ -205,7 +203,6 @@ F11 "ACC2" I L 4000 2950 50
 F12 "FAULT2" I L 4000 3050 50 
 F13 "3V3_0" I L 4000 1450 50 
 F14 "3V3_1" I L 4000 1550 50 
-F15 "3V3_GPS" I L 4000 1650 50 
 $EndSheet
 Text Label 10000 3950 0    50   ~ 0
 GYRO
@@ -256,10 +253,10 @@ WP1
 Text Label 2600 1600 0    50   ~ 0
 RST2
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR02
 U 1 1 5F5192B7
 P 950 1400
-F 0 "#PWR0106" H 950 1150 50  0001 C CNN
+F 0 "#PWR02" H 950 1150 50  0001 C CNN
 F 1 "GND" H 955 1227 50  0000 C CNN
 F 2 "" H 950 1400 50  0001 C CNN
 F 3 "" H 950 1400 50  0001 C CNN
@@ -269,7 +266,7 @@ $EndComp
 Wire Wire Line
 	950  1350 950  1400
 Text Label 1450 1250 2    50   ~ 0
-3V3_4
+3V3_3
 Wire Wire Line
 	950  1350 1450 1350
 Text Label 8300 1650 2    50   ~ 0
@@ -321,14 +318,14 @@ CS1
 Text Label 10000 3750 0    50   ~ 0
 CS2
 $Comp
-L Connector:Conn_01x04_Female J1
+L Connector:Conn_01x04_Female J6
 U 1 1 5F6F0159
 P 8050 5500
-F 0 "J1" H 8078 5476 50  0000 L CNN
+F 0 "J6" H 8078 5476 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 8078 5385 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 8050 5500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980471_sd.pdf" H 8050 5500 50  0001 C CNN
-F 4 "WM7608CT-ND" H 8050 5500 50  0001 C CNN "Digikey Part Number"
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 8050 5500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 8050 5500 50  0001 C CNN
+F 4 "WM7622CT-ND" H 8050 5500 50  0001 C CNN "Digikey Part Number"
 	1    8050 5500
 	1    0    0    -1  
 $EndComp
@@ -351,10 +348,10 @@ ADC2
 Text Label 7850 5600 2    50   ~ 0
 ADC3
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR011
 U 1 1 5F6F2A66
 P 7600 5850
-F 0 "#PWR0107" H 7600 5600 50  0001 C CNN
+F 0 "#PWR011" H 7600 5600 50  0001 C CNN
 F 1 "GND" H 7605 5677 50  0000 C CNN
 F 2 "" H 7600 5850 50  0001 C CNN
 F 3 "" H 7600 5850 50  0001 C CNN
@@ -366,22 +363,22 @@ Wire Wire Line
 Wire Wire Line
 	7600 5700 7850 5700
 $Comp
-L Connector:Conn_01x04_Female J2
+L Connector:Conn_01x04_Female J7
 U 1 1 5F6F5054
 P 9500 5500
-F 0 "J2" H 9528 5476 50  0000 L CNN
+F 0 "J7" H 9528 5476 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 9528 5385 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 9500 5500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/533980471_sd.pdf" H 9500 5500 50  0001 C CNN
-F 4 "WM7608CT-ND" H 9500 5500 50  0001 C CNN "Digikey Part Number"
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 9500 5500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 9500 5500 50  0001 C CNN
+F 4 "WM7622CT-ND" H 9500 5500 50  0001 C CNN "Digikey Part Number"
 	1    9500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR013
 U 1 1 5F6F505D
 P 9050 5850
-F 0 "#PWR0108" H 9050 5600 50  0001 C CNN
+F 0 "#PWR013" H 9050 5600 50  0001 C CNN
 F 1 "GND" H 9055 5677 50  0000 C CNN
 F 2 "" H 9050 5850 50  0001 C CNN
 F 3 "" H 9050 5850 50  0001 C CNN
@@ -405,7 +402,7 @@ P 7350 4250
 F 0 "R1" H 7420 4296 50  0000 L CNN
 F 1 "40k" H 7420 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 4250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/60024/pat.pdf~" H 7350 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/60024/pat.pdf" H 7350 4250 50  0001 C CNN
 F 4 "PAT40KACT-ND" H 7350 4250 50  0001 C CNN "Digikey Part Number"
 	1    7350 4250
 	1    0    0    -1  
@@ -417,7 +414,7 @@ P 7350 4650
 F 0 "R2" H 7420 4696 50  0000 L CNN
 F 1 "20k" H 7420 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 4650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/60026/ptn.pdf~" H 7350 4650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/60026/ptn.pdf" H 7350 4650 50  0001 C CNN
 F 4 "764-1399-1-ND" H 7350 4650 50  0001 C CNN "Digikey Part Number"
 	1    7350 4650
 	1    0    0    -1  
@@ -431,10 +428,10 @@ Wire Wire Line
 Wire Wire Line
 	7350 4400 7350 4450
 $Comp
-L power:GND #PWR0109
+L power:GND #PWR010
 U 1 1 5F6FA8AC
 P 7350 4950
-F 0 "#PWR0109" H 7350 4700 50  0001 C CNN
+F 0 "#PWR010" H 7350 4700 50  0001 C CNN
 F 1 "GND" H 7355 4777 50  0000 C CNN
 F 2 "" H 7350 4950 50  0001 C CNN
 F 3 "" H 7350 4950 50  0001 C CNN
@@ -449,45 +446,45 @@ Connection ~ 7350 4450
 Wire Wire Line
 	7350 4450 7350 4500
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5F3ACD69
 P 6500 1900
-F 0 "H?" H 6600 1946 50  0000 L CNN
+F 0 "H3" H 6600 1946 50  0000 L CNN
 F 1 "MountingHole" H 6600 1855 50  0000 L CNN
-F 2 "" H 6500 1900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6500 1900 50  0001 C CNN
 F 3 "~" H 6500 1900 50  0001 C CNN
 	1    6500 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5F3AD578
 P 6500 2100
-F 0 "H?" H 6600 2146 50  0000 L CNN
+F 0 "H4" H 6600 2146 50  0000 L CNN
 F 1 "MountingHole" H 6600 2055 50  0000 L CNN
-F 2 "" H 6500 2100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6500 2100 50  0001 C CNN
 F 3 "~" H 6500 2100 50  0001 C CNN
 	1    6500 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5F3ADE1B
 P 6500 1700
-F 0 "H?" H 6600 1746 50  0000 L CNN
+F 0 "H2" H 6600 1746 50  0000 L CNN
 F 1 "MountingHole" H 6600 1655 50  0000 L CNN
-F 2 "" H 6500 1700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6500 1700 50  0001 C CNN
 F 3 "~" H 6500 1700 50  0001 C CNN
 	1    6500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5F3AE45A
 P 6500 1500
-F 0 "H?" H 6600 1546 50  0000 L CNN
+F 0 "H1" H 6600 1546 50  0000 L CNN
 F 1 "MountingHole" H 6600 1455 50  0000 L CNN
-F 2 "" H 6500 1500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6500 1500 50  0001 C CNN
 F 3 "~" H 6500 1500 50  0001 C CNN
 	1    6500 1500
 	1    0    0    -1  
@@ -515,7 +512,7 @@ F16 "GND" I L 2050 5700 50
 F17 "VBAT" I L 2050 5600 50 
 F18 "3V3_1" I L 2050 5050 50 
 F19 "3V3_2" I L 2050 5150 50 
-F20 "3V3_4" I L 2050 5350 50 
+F20 "VCC" I L 2050 5350 50 
 F21 "3V3_3" I L 2050 5250 50 
 $EndSheet
 Text Label 2050 4950 2    50   ~ 0
@@ -541,10 +538,10 @@ RX3
 Text Label 3750 5950 0    50   ~ 0
 TX3
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR03
 U 1 1 5F33D67B
 P 1450 5850
-F 0 "#PWR0103" H 1450 5600 50  0001 C CNN
+F 0 "#PWR03" H 1450 5600 50  0001 C CNN
 F 1 "GND" H 1455 5677 50  0000 C CNN
 F 2 "" H 1450 5850 50  0001 C CNN
 F 3 "" H 1450 5850 50  0001 C CNN
@@ -570,23 +567,12 @@ Text Label 2050 5150 2    50   ~ 0
 Text Label 2050 5250 2    50   ~ 0
 3V3_3
 Text Label 2050 5350 2    50   ~ 0
-3V3_4
+VCC
 $Comp
-L Connector:Conn_01x03_Female J?
-U 1 1 5F59FE6F
-P 5250 5850
-F 0 "J?" H 5278 5876 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5278 5785 50  0000 L CNN
-F 2 "" H 5250 5850 50  0001 C CNN
-F 3 "~" H 5250 5850 50  0001 C CNN
-	1    5250 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5F5A0983
 P 4800 6100
-F 0 "#PWR?" H 4800 5850 50  0001 C CNN
+F 0 "#PWR07" H 4800 5850 50  0001 C CNN
 F 1 "GND" H 4805 5927 50  0000 C CNN
 F 2 "" H 4800 6100 50  0001 C CNN
 F 3 "" H 4800 6100 50  0001 C CNN
@@ -602,21 +588,10 @@ TX3
 Text Label 5050 5850 2    50   ~ 0
 RX3
 $Comp
-L Connector:Conn_01x03_Female J?
-U 1 1 5F5A31A1
-P 5250 6600
-F 0 "J?" H 5278 6626 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5278 6535 50  0000 L CNN
-F 2 "" H 5250 6600 50  0001 C CNN
-F 3 "~" H 5250 6600 50  0001 C CNN
-	1    5250 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5F5A31A7
 P 4800 6850
-F 0 "#PWR?" H 4800 6600 50  0001 C CNN
+F 0 "#PWR08" H 4800 6600 50  0001 C CNN
 F 1 "GND" H 4805 6677 50  0000 C CNN
 F 2 "" H 4800 6850 50  0001 C CNN
 F 3 "" H 4800 6850 50  0001 C CNN
@@ -632,21 +607,10 @@ TX4
 Text Label 5050 6600 2    50   ~ 0
 RX4
 $Comp
-L Connector:Conn_01x03_Female J?
-U 1 1 5F5A77E9
-P 5250 5100
-F 0 "J?" H 5278 5126 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5278 5035 50  0000 L CNN
-F 2 "" H 5250 5100 50  0001 C CNN
-F 3 "~" H 5250 5100 50  0001 C CNN
-	1    5250 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5F5A77EF
 P 4800 5350
-F 0 "#PWR?" H 4800 5100 50  0001 C CNN
+F 0 "#PWR06" H 4800 5100 50  0001 C CNN
 F 1 "GND" H 4805 5177 50  0000 C CNN
 F 2 "" H 4800 5350 50  0001 C CNN
 F 3 "" H 4800 5350 50  0001 C CNN
@@ -662,21 +626,10 @@ TX2
 Text Label 5050 5100 2    50   ~ 0
 RX2
 $Comp
-L Connector:Conn_01x03_Female J?
-U 1 1 5F5B1828
-P 6700 3350
-F 0 "J?" H 6728 3376 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 6728 3285 50  0000 L CNN
-F 2 "" H 6700 3350 50  0001 C CNN
-F 3 "~" H 6700 3350 50  0001 C CNN
-	1    6700 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5F5B182E
 P 6250 3600
-F 0 "#PWR?" H 6250 3350 50  0001 C CNN
+F 0 "#PWR09" H 6250 3350 50  0001 C CNN
 F 1 "GND" H 6255 3427 50  0000 C CNN
 F 2 "" H 6250 3600 50  0001 C CNN
 F 3 "" H 6250 3600 50  0001 C CNN
@@ -687,10 +640,109 @@ Wire Wire Line
 	6250 3600 6250 3450
 Wire Wire Line
 	6250 3450 6500 3450
-Text Label 6500 3250 2    50   ~ 0
-SDA2
-Text Label 6500 3350 2    50   ~ 0
-SCL2
 Text Label 8300 1400 2    50   ~ 0
 3V3_P
+$Comp
+L power:GND #PWR05
+U 1 1 5F33DC7A
+P 4800 4600
+F 0 "#PWR05" H 4800 4350 50  0001 C CNN
+F 1 "GND" H 4805 4427 50  0000 C CNN
+F 2 "" H 4800 4600 50  0001 C CNN
+F 3 "" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4600 4800 4450
+Wire Wire Line
+	4800 4450 5050 4450
+Text Label 5050 4250 2    50   ~ 0
+TX1
+Text Label 5050 4350 2    50   ~ 0
+RX1
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 5F34029D
+P 5250 4250
+F 0 "J1" H 5278 4226 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5278 4135 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 4250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 4250 50  0001 C CNN
+F 4 "WM7622CT-ND" H 5250 4250 50  0001 C CNN "Digikey Part Number"
+	1    5250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5F340B99
+P 5250 5000
+F 0 "J2" H 5278 4976 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5278 4885 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 5000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 5000 50  0001 C CNN
+F 4 "WM7622CT-ND" H 5250 5000 50  0001 C CNN "Digikey Part Number"
+	1    5250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5F34136F
+P 5250 5750
+F 0 "J3" H 5278 5726 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5278 5635 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 5750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 5750 50  0001 C CNN
+F 4 "WM7622CT-ND" H 5250 5750 50  0001 C CNN "Digikey Part Number"
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5F341C85
+P 5250 6500
+F 0 "J4" H 5278 6476 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5278 6385 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 6500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 6500 50  0001 C CNN
+F 4 "WM7622CT-ND" H 5250 6500 50  0001 C CNN "Digikey Part Number"
+	1    5250 6500
+	1    0    0    -1  
+$EndComp
+Text Label 5050 4150 2    50   ~ 0
+VCC
+Text Label 5050 4900 2    50   ~ 0
+VCC
+Text Label 5050 5650 2    50   ~ 0
+VCC
+Text Label 5050 6400 2    50   ~ 0
+VCC
+$Comp
+L Connector:Conn_01x05_Female J5
+U 1 1 5F3493AD
+P 6700 3250
+F 0 "J5" H 6728 3276 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 6728 3185 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal" H 6700 3250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610571_sd.pdf" H 6700 3250 50  0001 C CNN
+F 4 "WM7623CT-ND" H 6700 3250 50  0001 C CNN "Digikey Part Number"
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+Text Label 6500 3050 2    50   ~ 0
+SCK_2
+Text Label 6500 3150 2    50   ~ 0
+MOSI_2
+Text Label 6500 3250 2    50   ~ 0
+MISO_2
+Text Label 8300 3300 2    50   ~ 0
+CS1
+Text Label 8300 3400 2    50   ~ 0
+CS2
+$Sheet
+S 6300 5200 1100 850 
+U 5F6EB2F1
+F0 "uart_expander" 50
+F1 "uart_expander.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -37,8 +37,8 @@ L cubesat_obc_lib:PC104 U?
 U 1 1 5F466B38
 P 3400 3100
 AR Path="/5F466B38" Ref="U?"  Part="1" 
-AR Path="/5F45B718/5F466B38" Ref="U?"  Part="1" 
-F 0 "U?" H 3400 4648 50  0000 C CNN
+AR Path="/5F45B718/5F466B38" Ref="U13"  Part="1" 
+F 0 "U13" H 3400 4648 50  0000 C CNN
 F 1 "PC104" H 3400 4557 50  0000 C CNN
 F 2 "cubesat_obc:PC104-Standard" H 2300 3900 50  0001 C CNN
 F 3 "" H 2300 3900 50  0001 C CNN
@@ -72,68 +72,74 @@ OUT5
 Text Label 7200 3150 2    50   ~ 0
 OUT6
 $Comp
-L Device:R R?
+L Device:R R71
 U 1 1 5F471BF1
 P 7600 2300
-F 0 "R?" H 7670 2346 50  0000 L CNN
+F 0 "R71" H 7670 2346 50  0000 L CNN
 F 1 "0" H 7670 2255 50  0000 L CNN
-F 2 "" V 7530 2300 50  0001 C CNN
-F 3 "~" H 7600 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7600 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 7600 2300 50  0001 C CNN "Digikey Part Number"
 	1    7600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R73
 U 1 1 5F471FDD
 P 7850 2300
-F 0 "R?" H 7920 2346 50  0000 L CNN
+F 0 "R73" H 7920 2346 50  0000 L CNN
 F 1 "0" H 7920 2255 50  0000 L CNN
-F 2 "" V 7780 2300 50  0001 C CNN
-F 3 "~" H 7850 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7850 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 7850 2300 50  0001 C CNN "Digikey Part Number"
 	1    7850 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R75
 U 1 1 5F4722B8
 P 8100 2300
-F 0 "R?" H 8170 2346 50  0000 L CNN
+F 0 "R75" H 8170 2346 50  0000 L CNN
 F 1 "0" H 8170 2255 50  0000 L CNN
-F 2 "" V 8030 2300 50  0001 C CNN
-F 3 "~" H 8100 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8030 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8100 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8100 2300 50  0001 C CNN "Digikey Part Number"
 	1    8100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R77
 U 1 1 5F472497
 P 8350 2300
-F 0 "R?" H 8420 2346 50  0000 L CNN
+F 0 "R77" H 8420 2346 50  0000 L CNN
 F 1 "0" H 8420 2255 50  0000 L CNN
-F 2 "" V 8280 2300 50  0001 C CNN
-F 3 "~" H 8350 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8280 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8350 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8350 2300 50  0001 C CNN "Digikey Part Number"
 	1    8350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R79
 U 1 1 5F472AE3
 P 8600 2300
-F 0 "R?" H 8670 2346 50  0000 L CNN
+F 0 "R79" H 8670 2346 50  0000 L CNN
 F 1 "0" H 8670 2255 50  0000 L CNN
-F 2 "" V 8530 2300 50  0001 C CNN
-F 3 "~" H 8600 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8600 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8600 2300 50  0001 C CNN "Digikey Part Number"
 	1    8600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R81
 U 1 1 5F472C83
 P 8850 2300
-F 0 "R?" H 8920 2346 50  0000 L CNN
+F 0 "R81" H 8920 2346 50  0000 L CNN
 F 1 "0" H 8920 2255 50  0000 L CNN
-F 2 "" V 8780 2300 50  0001 C CNN
-F 3 "~" H 8850 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8780 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8850 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8850 2300 50  0001 C CNN "Digikey Part Number"
 	1    8850 2300
 	1    0    0    -1  
 $EndComp
@@ -386,200 +392,218 @@ Wire Wire Line
 Wire Wire Line
 	9200 3350 9600 3350
 $Comp
-L Device:R R?
+L Device:R R83
 U 1 1 5F495AD2
 P 9600 2300
-F 0 "R?" H 9670 2346 50  0000 L CNN
+F 0 "R83" H 9670 2346 50  0000 L CNN
 F 1 "0" H 9670 2255 50  0000 L CNN
-F 2 "" V 9530 2300 50  0001 C CNN
-F 3 "~" H 9600 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9530 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9600 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9600 2300 50  0001 C CNN "Digikey Part Number"
 	1    9600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R85
 U 1 1 5F495AD8
 P 9850 2300
-F 0 "R?" H 9920 2346 50  0000 L CNN
+F 0 "R85" H 9920 2346 50  0000 L CNN
 F 1 "0" H 9920 2255 50  0000 L CNN
-F 2 "" V 9780 2300 50  0001 C CNN
-F 3 "~" H 9850 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9780 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9850 2300 50  0001 C CNN "Digikey Part Number"
 	1    9850 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R87
 U 1 1 5F495ADE
 P 10100 2300
-F 0 "R?" H 10170 2346 50  0000 L CNN
+F 0 "R87" H 10170 2346 50  0000 L CNN
 F 1 "0" H 10170 2255 50  0000 L CNN
-F 2 "" V 10030 2300 50  0001 C CNN
-F 3 "~" H 10100 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10100 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10100 2300 50  0001 C CNN "Digikey Part Number"
 	1    10100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R89
 U 1 1 5F495AE4
 P 10350 2300
-F 0 "R?" H 10420 2346 50  0000 L CNN
+F 0 "R89" H 10420 2346 50  0000 L CNN
 F 1 "0" H 10420 2255 50  0000 L CNN
-F 2 "" V 10280 2300 50  0001 C CNN
-F 3 "~" H 10350 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10280 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10350 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10350 2300 50  0001 C CNN "Digikey Part Number"
 	1    10350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R91
 U 1 1 5F495AEA
 P 10600 2300
-F 0 "R?" H 10670 2346 50  0000 L CNN
+F 0 "R91" H 10670 2346 50  0000 L CNN
 F 1 "0" H 10670 2255 50  0000 L CNN
-F 2 "" V 10530 2300 50  0001 C CNN
-F 3 "~" H 10600 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10530 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10600 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10600 2300 50  0001 C CNN "Digikey Part Number"
 	1    10600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R93
 U 1 1 5F495AF0
 P 10850 2300
-F 0 "R?" H 10920 2346 50  0000 L CNN
+F 0 "R93" H 10920 2346 50  0000 L CNN
 F 1 "0" H 10920 2255 50  0000 L CNN
-F 2 "" V 10780 2300 50  0001 C CNN
-F 3 "~" H 10850 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10780 2300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10850 2300 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10850 2300 50  0001 C CNN "Digikey Part Number"
 	1    10850 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R84
 U 1 1 5F499B14
 P 9600 3700
-F 0 "R?" H 9670 3746 50  0000 L CNN
+F 0 "R84" H 9670 3746 50  0000 L CNN
 F 1 "0" H 9670 3655 50  0000 L CNN
-F 2 "" V 9530 3700 50  0001 C CNN
-F 3 "~" H 9600 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9530 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9600 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9600 3700 50  0001 C CNN "Digikey Part Number"
 	1    9600 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R86
 U 1 1 5F499B1A
 P 9850 3700
-F 0 "R?" H 9920 3746 50  0000 L CNN
+F 0 "R86" H 9920 3746 50  0000 L CNN
 F 1 "0" H 9920 3655 50  0000 L CNN
-F 2 "" V 9780 3700 50  0001 C CNN
-F 3 "~" H 9850 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9780 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 9850 3700 50  0001 C CNN "Digikey Part Number"
 	1    9850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R88
 U 1 1 5F499B20
 P 10100 3700
-F 0 "R?" H 10170 3746 50  0000 L CNN
+F 0 "R88" H 10170 3746 50  0000 L CNN
 F 1 "0" H 10170 3655 50  0000 L CNN
-F 2 "" V 10030 3700 50  0001 C CNN
-F 3 "~" H 10100 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10100 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10100 3700 50  0001 C CNN "Digikey Part Number"
 	1    10100 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R90
 U 1 1 5F499B26
 P 10350 3700
-F 0 "R?" H 10420 3746 50  0000 L CNN
+F 0 "R90" H 10420 3746 50  0000 L CNN
 F 1 "0" H 10420 3655 50  0000 L CNN
-F 2 "" V 10280 3700 50  0001 C CNN
-F 3 "~" H 10350 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10280 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10350 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10350 3700 50  0001 C CNN "Digikey Part Number"
 	1    10350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R92
 U 1 1 5F499B2C
 P 10600 3700
-F 0 "R?" H 10670 3746 50  0000 L CNN
+F 0 "R92" H 10670 3746 50  0000 L CNN
 F 1 "0" H 10670 3655 50  0000 L CNN
-F 2 "" V 10530 3700 50  0001 C CNN
-F 3 "~" H 10600 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10530 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10600 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10600 3700 50  0001 C CNN "Digikey Part Number"
 	1    10600 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R94
 U 1 1 5F499B32
 P 10850 3700
-F 0 "R?" H 10920 3746 50  0000 L CNN
+F 0 "R94" H 10920 3746 50  0000 L CNN
 F 1 "0" H 10920 3655 50  0000 L CNN
-F 2 "" V 10780 3700 50  0001 C CNN
-F 3 "~" H 10850 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10780 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10850 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 10850 3700 50  0001 C CNN "Digikey Part Number"
 	1    10850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R72
 U 1 1 5F49D2BA
 P 7600 3700
-F 0 "R?" H 7670 3746 50  0000 L CNN
+F 0 "R72" H 7670 3746 50  0000 L CNN
 F 1 "0" H 7670 3655 50  0000 L CNN
-F 2 "" V 7530 3700 50  0001 C CNN
-F 3 "~" H 7600 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7600 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 7600 3700 50  0001 C CNN "Digikey Part Number"
 	1    7600 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R74
 U 1 1 5F49D2C0
 P 7850 3700
-F 0 "R?" H 7920 3746 50  0000 L CNN
+F 0 "R74" H 7920 3746 50  0000 L CNN
 F 1 "0" H 7920 3655 50  0000 L CNN
-F 2 "" V 7780 3700 50  0001 C CNN
-F 3 "~" H 7850 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7850 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 7850 3700 50  0001 C CNN "Digikey Part Number"
 	1    7850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R76
 U 1 1 5F49D2C6
 P 8100 3700
-F 0 "R?" H 8170 3746 50  0000 L CNN
+F 0 "R76" H 8170 3746 50  0000 L CNN
 F 1 "0" H 8170 3655 50  0000 L CNN
-F 2 "" V 8030 3700 50  0001 C CNN
-F 3 "~" H 8100 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8030 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8100 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8100 3700 50  0001 C CNN "Digikey Part Number"
 	1    8100 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R78
 U 1 1 5F49D2CC
 P 8350 3700
-F 0 "R?" H 8420 3746 50  0000 L CNN
+F 0 "R78" H 8420 3746 50  0000 L CNN
 F 1 "0" H 8420 3655 50  0000 L CNN
-F 2 "" V 8280 3700 50  0001 C CNN
-F 3 "~" H 8350 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8280 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8350 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8350 3700 50  0001 C CNN "Digikey Part Number"
 	1    8350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R80
 U 1 1 5F49D2D2
 P 8600 3700
-F 0 "R?" H 8670 3746 50  0000 L CNN
+F 0 "R80" H 8670 3746 50  0000 L CNN
 F 1 "0" H 8670 3655 50  0000 L CNN
-F 2 "" V 8530 3700 50  0001 C CNN
-F 3 "~" H 8600 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8600 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8600 3700 50  0001 C CNN "Digikey Part Number"
 	1    8600 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R82
 U 1 1 5F49D2D8
 P 8850 3700
-F 0 "R?" H 8920 3746 50  0000 L CNN
+F 0 "R82" H 8920 3746 50  0000 L CNN
 F 1 "0" H 8920 3655 50  0000 L CNN
-F 2 "" V 8780 3700 50  0001 C CNN
-F 3 "~" H 8850 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8780 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8850 3700 50  0001 C CNN
+F 4 "311-0.0JRTR-ND" H 8850 3700 50  0001 C CNN "Digikey Part Number"
 	1    8850 3700
 	1    0    0    -1  
 $EndComp
@@ -624,7 +648,7 @@ Text HLabel 7200 1950 0    50   Input ~ 0
 Text HLabel 9200 1950 0    50   Input ~ 0
 3V3_2
 Text HLabel 9200 3350 0    50   Input ~ 0
-3V3_4
+VCC
 Text HLabel 7200 3350 0    50   Input ~ 0
 3V3_3
 $EndSCHEMATC

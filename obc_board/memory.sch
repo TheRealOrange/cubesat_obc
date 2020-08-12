@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -18,8 +18,8 @@ L cubesat_obc_lib:AT45DB041E-SSHN-B U?
 U 1 1 5F3B7CBB
 P 5200 2950
 AR Path="/5E7EC636/5F3B7CBB" Ref="U?"  Part="1" 
-AR Path="/5F3B62A5/5F3B7CBB" Ref="U2"  Part="1" 
-F 0 "U2" H 5200 3765 50  0000 C CNN
+AR Path="/5F3B62A5/5F3B7CBB" Ref="U1"  Part="1" 
+F 0 "U1" H 5200 3765 50  0000 C CNN
 F 1 "AT45DB041E-SSHN-B" H 5200 3674 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 2950 50  0001 L BNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT45DB041E-HTADD.pdf" H 5200 2950 50  0001 L BNN
@@ -67,7 +67,7 @@ P 4000 2450
 F 0 "R7" H 4070 2496 50  0000 L CNN
 F 1 "10k" H 4070 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4000 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4000 2450 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 4000 2450 50  0001 C CNN "Digikey Part Number"
 	1    4000 2450
 	1    0    0    -1  
@@ -86,7 +86,7 @@ P 3700 2450
 F 0 "R5" H 3770 2496 50  0000 L CNN
 F 1 "10k" H 3770 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3700 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3700 2450 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3700 2450 50  0001 C CNN "Digikey Part Number"
 	1    3700 2450
 	1    0    0    -1  
@@ -98,7 +98,7 @@ P 3400 2450
 F 0 "R3" H 3470 2496 50  0000 L CNN
 F 1 "10k" H 3470 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3400 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3400 2450 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3400 2450 50  0001 C CNN "Digikey Part Number"
 	1    3400 2450
 	1    0    0    -1  
@@ -135,8 +135,8 @@ L cubesat_obc_lib:AT45DB041E-SSHN-B U?
 U 1 1 5F434A8C
 P 5200 5000
 AR Path="/5E7EC636/5F434A8C" Ref="U?"  Part="1" 
-AR Path="/5F3B62A5/5F434A8C" Ref="U3"  Part="1" 
-F 0 "U3" H 5200 5815 50  0000 C CNN
+AR Path="/5F3B62A5/5F434A8C" Ref="U2"  Part="1" 
+F 0 "U2" H 5200 5815 50  0000 C CNN
 F 1 "AT45DB041E-SSHN-B" H 5200 5724 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 5000 50  0001 L BNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT45DB041E-HTADD.pdf" H 5200 5000 50  0001 L BNN
@@ -184,7 +184,7 @@ P 4000 4500
 F 0 "R8" H 4070 4546 50  0000 L CNN
 F 1 "10k" H 4070 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 4500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4000 4500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4000 4500 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 4000 4500 50  0001 C CNN "Digikey Part Number"
 	1    4000 4500
 	1    0    0    -1  
@@ -203,7 +203,7 @@ P 3700 4500
 F 0 "R6" H 3770 4546 50  0000 L CNN
 F 1 "10k" H 3770 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 4500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3700 4500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3700 4500 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3700 4500 50  0001 C CNN "Digikey Part Number"
 	1    3700 4500
 	1    0    0    -1  
@@ -238,7 +238,7 @@ P 3400 5200
 F 0 "R4" H 3470 5246 50  0000 L CNN
 F 1 "10k" H 3470 5155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 5200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 3400 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3400 5200 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3400 5200 50  0001 C CNN "Digikey Part Number"
 	1    3400 5200
 	1    0    0    -1  
