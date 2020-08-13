@@ -394,9 +394,10 @@ L Device:Crystal Y1
 U 1 1 5E87D1D8
 P 4150 5100
 F 0 "Y1" H 4150 5368 50  0000 C CNN
-F 1 "32kHz" H 4150 5277 50  0000 C CNN
-F 2 "" H 4150 5100 50  0001 C CNN
-F 3 "~" H 4150 5100 50  0001 C CNN
+F 1 "32.768kHz" H 4150 5277 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 4150 5100 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECX-34Q.pdf" H 4150 5100 50  0001 C CNN
+F 4 "XC2162CT-ND" H 4150 5100 50  0001 C CNN "Digikey Part Number"
 	1    4150 5100
 	1    0    0    -1  
 $EndComp
@@ -461,8 +462,9 @@ U 1 1 5E8976B2
 P 5250 5850
 F 0 "Y2" V 5296 5719 50  0000 R CNN
 F 1 "8MHz" V 5205 5719 50  0000 R CNN
-F 2 "" H 5250 5850 50  0001 C CNN
-F 3 "~" H 5250 5850 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5250 5850 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/FL.pdf" H 5250 5850 50  0001 C CNN
+F 4 "FL0800011QDICT-ND" H 5250 5850 50  0001 C CNN "Digikey Part Number"
 	1    5250 5850
 	0    -1   -1   0   
 $EndComp
@@ -1192,4 +1194,6 @@ Wire Wire Line
 Text HLabel 6500 1500 1    50   Input ~ 0
 PG8
 Connection ~ 5200 7000
+Text HLabel 2400 4300 3    50   Input ~ 0
+PG5
 $EndSCHEMATC

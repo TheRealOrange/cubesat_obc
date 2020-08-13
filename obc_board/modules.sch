@@ -621,7 +621,7 @@ Connection ~ 9450 2700
 Wire Wire Line
 	9450 2700 9350 2700
 Text HLabel 8350 3300 0    50   Input ~ 0
-UART0_RX
+UART2_RX
 Wire Wire Line
 	6850 2900 8350 2900
 Wire Wire Line
@@ -636,11 +636,11 @@ Wire Wire Line
 Wire Wire Line
 	7600 1900 9750 1900
 Text HLabel 8350 3400 0    50   Input ~ 0
-UART0_TX
+UART2_TX
 Text HLabel 9350 3300 2    50   Input ~ 0
-UART1_RX
+UART3_RX
 Text HLabel 9350 3400 2    50   Input ~ 0
-UART1_TX
+UART3_TX
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5F3B0DB2

@@ -168,6 +168,7 @@ F49 "3V3_P" I L 8300 1400 50
 F50 "PG6" I L 8300 3300 50 
 F51 "PG7" I L 8300 3400 50 
 F52 "PG8" I L 8300 3500 50 
+F53 "PG5" I L 8300 3200 50 
 $EndSheet
 $Sheet
 S 1400 2300 1350 1100
@@ -203,6 +204,10 @@ F11 "ACC2" I L 4000 2950 50
 F12 "FAULT2" I L 4000 3050 50 
 F13 "3V3_0" I L 4000 1450 50 
 F14 "3V3_1" I L 4000 1550 50 
+F15 "UART2_RX" I R 5600 2050 50 
+F16 "UART2_TX" I R 5600 2150 50 
+F17 "UART3_RX" I R 5600 2350 50 
+F18 "UART3_TX" I R 5600 2450 50 
 $EndSheet
 Text Label 10000 3950 0    50   ~ 0
 GYRO
@@ -295,13 +300,13 @@ Text Label 8300 2950 2    50   ~ 0
 TX3
 Text Label 8300 3050 2    50   ~ 0
 RX3
-Text Label 5600 1550 0    50   ~ 0
-TX1
 Text Label 5600 1450 0    50   ~ 0
+TX1
+Text Label 5600 1550 0    50   ~ 0
 RX1
-Text Label 5600 1850 0    50   ~ 0
-TX2
 Text Label 5600 1750 0    50   ~ 0
+TX2
+Text Label 5600 1850 0    50   ~ 0
 RX2
 Text Label 8300 2150 2    50   ~ 0
 RX4
@@ -313,10 +318,6 @@ Text Label 10000 1750 0    50   ~ 0
 MOSI_2
 Text Label 10000 1850 0    50   ~ 0
 SCK_2
-Text Label 10000 3650 0    50   ~ 0
-CS1
-Text Label 10000 3750 0    50   ~ 0
-CS2
 $Comp
 L Connector:Conn_01x04_Female J6
 U 1 1 5F6F0159
@@ -569,63 +570,6 @@ Text Label 2050 5250 2    50   ~ 0
 Text Label 2050 5350 2    50   ~ 0
 VCC
 $Comp
-L power:GND #PWR07
-U 1 1 5F5A0983
-P 4800 6100
-F 0 "#PWR07" H 4800 5850 50  0001 C CNN
-F 1 "GND" H 4805 5927 50  0000 C CNN
-F 2 "" H 4800 6100 50  0001 C CNN
-F 3 "" H 4800 6100 50  0001 C CNN
-	1    4800 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 6100 4800 5950
-Wire Wire Line
-	4800 5950 5050 5950
-Text Label 5050 5750 2    50   ~ 0
-TX3
-Text Label 5050 5850 2    50   ~ 0
-RX3
-$Comp
-L power:GND #PWR08
-U 1 1 5F5A31A7
-P 4800 6850
-F 0 "#PWR08" H 4800 6600 50  0001 C CNN
-F 1 "GND" H 4805 6677 50  0000 C CNN
-F 2 "" H 4800 6850 50  0001 C CNN
-F 3 "" H 4800 6850 50  0001 C CNN
-	1    4800 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 6850 4800 6700
-Wire Wire Line
-	4800 6700 5050 6700
-Text Label 5050 6500 2    50   ~ 0
-TX4
-Text Label 5050 6600 2    50   ~ 0
-RX4
-$Comp
-L power:GND #PWR06
-U 1 1 5F5A77EF
-P 4800 5350
-F 0 "#PWR06" H 4800 5100 50  0001 C CNN
-F 1 "GND" H 4805 5177 50  0000 C CNN
-F 2 "" H 4800 5350 50  0001 C CNN
-F 3 "" H 4800 5350 50  0001 C CNN
-	1    4800 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 5350 4800 5200
-Wire Wire Line
-	4800 5200 5050 5200
-Text Label 5050 5000 2    50   ~ 0
-TX2
-Text Label 5050 5100 2    50   ~ 0
-RX2
-$Comp
 L power:GND #PWR09
 U 1 1 5F5B182E
 P 6250 3600
@@ -642,81 +586,6 @@ Wire Wire Line
 	6250 3450 6500 3450
 Text Label 8300 1400 2    50   ~ 0
 3V3_P
-$Comp
-L power:GND #PWR05
-U 1 1 5F33DC7A
-P 4800 4600
-F 0 "#PWR05" H 4800 4350 50  0001 C CNN
-F 1 "GND" H 4805 4427 50  0000 C CNN
-F 2 "" H 4800 4600 50  0001 C CNN
-F 3 "" H 4800 4600 50  0001 C CNN
-	1    4800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 4600 4800 4450
-Wire Wire Line
-	4800 4450 5050 4450
-Text Label 5050 4250 2    50   ~ 0
-TX1
-Text Label 5050 4350 2    50   ~ 0
-RX1
-$Comp
-L Connector:Conn_01x04_Female J1
-U 1 1 5F34029D
-P 5250 4250
-F 0 "J1" H 5278 4226 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5278 4135 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 4250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 4250 50  0001 C CNN
-F 4 "WM7622CT-ND" H 5250 4250 50  0001 C CNN "Digikey Part Number"
-	1    5250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 5F340B99
-P 5250 5000
-F 0 "J2" H 5278 4976 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5278 4885 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 5000 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 5000 50  0001 C CNN
-F 4 "WM7622CT-ND" H 5250 5000 50  0001 C CNN "Digikey Part Number"
-	1    5250 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 5F34136F
-P 5250 5750
-F 0 "J3" H 5278 5726 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5278 5635 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 5750 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 5750 50  0001 C CNN
-F 4 "WM7622CT-ND" H 5250 5750 50  0001 C CNN "Digikey Part Number"
-	1    5250 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J4
-U 1 1 5F341C85
-P 5250 6500
-F 0 "J4" H 5278 6476 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5278 6385 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 5250 6500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 5250 6500 50  0001 C CNN
-F 4 "WM7622CT-ND" H 5250 6500 50  0001 C CNN "Digikey Part Number"
-	1    5250 6500
-	1    0    0    -1  
-$EndComp
-Text Label 5050 4150 2    50   ~ 0
-VCC
-Text Label 5050 4900 2    50   ~ 0
-VCC
-Text Label 5050 5650 2    50   ~ 0
-VCC
-Text Label 5050 6400 2    50   ~ 0
-VCC
 $Comp
 L Connector:Conn_01x05_Female J5
 U 1 1 5F3493AD
@@ -740,9 +609,67 @@ CS1
 Text Label 8300 3400 2    50   ~ 0
 CS2
 $Sheet
-S 6300 5200 1100 850 
+S 4850 4700 1600 1900
 U 5F6EB2F1
 F0 "uart_expander" 50
 F1 "uart_expander.sch" 50
+F2 "MISO" I R 6450 4950 50 
+F3 "MOSI" I R 6450 5050 50 
+F4 "SCK" I R 6450 5150 50 
+F5 "RST" I R 6450 5350 50 
+F6 "IRQ" I R 6450 5450 50 
+F7 "CS" I R 6450 5550 50 
+F8 "GND" I L 4850 5050 50 
+F9 "3V3" I L 4850 4950 50 
+F10 "VCC" I L 4850 5250 50 
 $EndSheet
+Text Label 5600 2150 0    50   ~ 0
+RX3
+Text Label 5600 2050 0    50   ~ 0
+TX3
+Text Label 5600 2350 0    50   ~ 0
+TX4
+Text Label 5600 2450 0    50   ~ 0
+RX4
+Text Label 8300 3500 2    50   ~ 0
+CS3
+Text Label 6500 3350 2    50   ~ 0
+CS3
+Text Label 8300 3200 2    50   ~ 0
+EXP
+Text Label 4850 5250 2    50   ~ 0
+VCC
+Text Label 4850 4950 2    50   ~ 0
+3V3_3
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3B3184
+P 4500 5100
+F 0 "#PWR0101" H 4500 4850 50  0001 C CNN
+F 1 "GND" H 4505 4927 50  0000 C CNN
+F 2 "" H 4500 5100 50  0001 C CNN
+F 3 "" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5050 4500 5050
+Wire Wire Line
+	4500 5050 4500 5100
+Text Label 6450 5150 0    50   ~ 0
+SCK_2
+Text Label 6450 5050 0    50   ~ 0
+MOSI_2
+Text Label 6450 4950 0    50   ~ 0
+MISO_2
+Text Label 6450 5550 0    50   ~ 0
+EXP
+Text Label 10000 3650 0    50   ~ 0
+INT
+Text Label 10000 3750 0    50   ~ 0
+RST
+Text Label 6450 5350 0    50   ~ 0
+RST
+Text Label 6450 5450 0    50   ~ 0
+INT
 $EndSCHEMATC
