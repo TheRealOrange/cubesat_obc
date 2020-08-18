@@ -1315,8 +1315,6 @@ Connection ~ 1700 2350
 Wire Wire Line
 	1700 2350 1750 2350
 Connection ~ 1700 2800
-Wire Wire Line
-	1700 5550 1800 5550
 $Comp
 L Device:R R25
 U 1 1 5F8AA424
@@ -1371,9 +1369,6 @@ Wire Wire Line
 	1750 6400 1750 6450
 Wire Wire Line
 	2250 5700 2150 5700
-Wire Wire Line
-	1750 5550 1750 6000
-Connection ~ 1750 6000
 Wire Wire Line
 	5700 2400 5800 2400
 $Comp
@@ -1793,4 +1788,12 @@ Text HLabel 2050 7350 0    50   Input ~ 0
 SCL
 Text HLabel 2050 7450 0    50   Input ~ 0
 SDA
+Wire Wire Line
+	1700 5550 1750 5550
+Wire Wire Line
+	1750 5550 1750 6000
+Connection ~ 1750 5550
+Wire Wire Line
+	1750 5550 1800 5550
+Connection ~ 1750 6000
 $EndSCHEMATC

@@ -301,13 +301,13 @@ TX3
 Text Label 8300 3050 2    50   ~ 0
 RX3
 Text Label 5600 1450 0    50   ~ 0
-TX1
+TX4
 Text Label 5600 1550 0    50   ~ 0
-RX1
+RX4
 Text Label 5600 1750 0    50   ~ 0
-TX2
+TX1
 Text Label 5600 1850 0    50   ~ 0
-RX2
+RX1
 Text Label 8300 2150 2    50   ~ 0
 RX4
 Text Label 8300 2050 2    50   ~ 0
@@ -624,13 +624,13 @@ F9 "3V3" I L 4850 4950 50
 F10 "VCC" I L 4850 5250 50 
 $EndSheet
 Text Label 5600 2150 0    50   ~ 0
-RX3
+RX2
 Text Label 5600 2050 0    50   ~ 0
-TX3
+TX2
 Text Label 5600 2350 0    50   ~ 0
-TX4
+TX3
 Text Label 5600 2450 0    50   ~ 0
-RX4
+RX3
 Text Label 8300 3500 2    50   ~ 0
 CS3
 Text Label 6500 3350 2    50   ~ 0
