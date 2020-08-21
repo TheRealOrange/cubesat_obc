@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R111
+L Device:R R105
 U 1 1 5F3FD422
 P 4250 2900
-F 0 "R111" V 4043 2900 50  0000 C CNN
+F 0 "R105" V 4043 2900 50  0000 C CNN
 F 1 "1k" V 4134 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 2900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf~" H 4250 2900 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "311-1.00KLRCT-ND" H 4250 2900 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R113
+L Device:R R107
 U 1 1 5F3FF77C
 P 5000 3550
-F 0 "R113" H 5070 3596 50  0000 L CNN
+F 0 "R107" H 5070 3596 50  0000 L CNN
 F 1 "12k" H 5070 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 4930 3550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20052/crcw0201e3.pdf" H 5000 3550 50  0001 C CNN
@@ -367,10 +367,10 @@ OSC_IN
 Text Label 3000 5100 2    50   ~ 0
 OSC_OUT
 $Comp
-L Device:R R112
+L Device:R R106
 U 1 1 5F3FDD47
 P 4800 3200
-F 0 "R112" H 4870 3246 50  0000 L CNN
+F 0 "R106" H 4870 3246 50  0000 L CNN
 F 1 "100k" H 4870 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4730 3200 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4800 3200 50  0001 C CNN

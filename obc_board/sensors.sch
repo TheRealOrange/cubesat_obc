@@ -26,10 +26,10 @@ F 4 "828-1044-1-ND" H 10500 2400 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C32
+L Device:C C36
 U 1 1 5F34C8FD
 P 9500 1700
-F 0 "C32" H 9615 1746 50  0000 L CNN
+F 0 "C36" H 9615 1746 50  0000 L CNN
 F 1 "100n" H 9615 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 1550 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 9500 1700 50  0001 C CNN
@@ -40,10 +40,10 @@ $EndComp
 Wire Wire Line
 	9250 1450 9500 1450
 $Comp
-L Device:C C33
+L Device:C C37
 U 1 1 5F34C904
 P 9900 1700
-F 0 "C33" H 10015 1746 50  0000 L CNN
+F 0 "C37" H 10015 1746 50  0000 L CNN
 F 1 "100n" H 10015 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9938 1550 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 9900 1700 50  0001 C CNN
@@ -110,10 +110,10 @@ F 7 "MCP9600-E/MX-ND" H 3950 2300 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L Device:R R17
 U 1 1 5F380B0C
 P 1550 1400
-F 0 "R22" V 1343 1400 50  0000 C CNN
+F 0 "R17" V 1343 1400 50  0000 C CNN
 F 1 "2M" V 1434 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1480 1400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1550 1400 50  0001 C CNN
@@ -122,10 +122,10 @@ F 4 "311-2.00MHRCT-ND" H 1550 1400 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R26
+L Device:R R22
 U 1 1 5F381BF6
 P 1850 1400
-F 0 "R26" V 1643 1400 50  0000 C CNN
+F 0 "R22" V 1643 1400 50  0000 C CNN
 F 1 "1M" V 1734 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 1400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1850 1400 50  0001 C CNN
@@ -134,10 +134,10 @@ F 4 "11-1.00MHRCT-ND" H 1850 1400 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R24
+L Device:R R20
 U 1 1 5F382833
 P 1700 3000
-F 0 "R24" H 1770 3046 50  0000 L CNN
+F 0 "R20" H 1770 3046 50  0000 L CNN
 F 1 "2M" H 1770 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 3000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 3000 50  0001 C CNN
@@ -157,10 +157,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 1400 1400 1400
 $Comp
-L Device:R R27
+L Device:R R23
 U 1 1 5F390E2C
 P 1900 1950
-F 0 "R27" V 1693 1950 50  0000 C CNN
+F 0 "R23" V 1693 1950 50  0000 C CNN
 F 1 "100" V 1784 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 1950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 1950 50  0001 C CNN
@@ -169,10 +169,10 @@ F 4 "311-100LRCT-ND" H 1900 1950 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R28
+L Device:R R24
 U 1 1 5F39198A
 P 1900 2350
-F 0 "R28" V 1693 2350 50  0000 C CNN
+F 0 "R24" V 1693 2350 50  0000 C CNN
 F 1 "100" V 1784 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 2350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 2350 50  0001 C CNN
@@ -358,10 +358,10 @@ F 7 "MCP9600-E/MX-ND" H 8000 2350 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J12
+L Connector:Conn_01x02_Female J8
 U 1 1 5F44DA20
 P 4950 2100
-F 0 "J12" H 4842 1775 50  0000 C CNN
+F 0 "J8" H 4842 1775 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4842 1866 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 4950 2100 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 4950 2100 50  0001 C CNN
@@ -370,10 +370,10 @@ F 4 "WM7620CT-ND" H 4950 2100 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R37
+L Device:R R35
 U 1 1 5F44DA26
 P 5600 1450
-F 0 "R37" V 5393 1450 50  0000 C CNN
+F 0 "R35" V 5393 1450 50  0000 C CNN
 F 1 "2M" V 5484 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 1450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1450 50  0001 C CNN
@@ -382,10 +382,10 @@ F 4 "311-2.00MHRCT-ND" H 5600 1450 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R41
+L Device:R R39
 U 1 1 5F44DA2C
 P 5900 1450
-F 0 "R41" V 5693 1450 50  0000 C CNN
+F 0 "R39" V 5693 1450 50  0000 C CNN
 F 1 "1M" V 5784 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 1450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5900 1450 50  0001 C CNN
@@ -401,10 +401,10 @@ GND
 Wire Wire Line
 	5400 1450 5450 1450
 $Comp
-L Device:R R42
+L Device:R R40
 U 1 1 5F44DA3E
 P 5950 2000
-F 0 "R42" V 5743 2000 50  0000 C CNN
+F 0 "R40" V 5743 2000 50  0000 C CNN
 F 1 "100" V 5834 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 2000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5950 2000 50  0001 C CNN
@@ -413,10 +413,10 @@ F 4 "311-100LRCT-ND" H 5950 2000 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R43
+L Device:R R41
 U 1 1 5F44DA44
 P 5950 2400
-F 0 "R43" V 5743 2400 50  0000 C CNN
+F 0 "R41" V 5743 2400 50  0000 C CNN
 F 1 "100" V 5834 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5950 2400 50  0001 C CNN
@@ -427,10 +427,10 @@ $EndComp
 Wire Wire Line
 	5800 2000 5750 2000
 $Comp
-L Device:C C28
+L Device:C C30
 U 1 1 5F44DA4B
 P 6200 2200
-F 0 "C28" H 6315 2246 50  0000 L CNN
+F 0 "C30" H 6315 2246 50  0000 L CNN
 F 1 "100n" H 6315 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 2050 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6200 2200 50  0001 C CNN
@@ -538,10 +538,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 2100 7400 2100
 $Comp
-L Device:R R47
+L Device:R R45
 U 1 1 5F44DAA0
 P 6750 1750
-F 0 "R47" H 6820 1796 50  0000 L CNN
+F 0 "R45" H 6820 1796 50  0000 L CNN
 F 1 "10k" H 6820 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6680 1750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6750 1750 50  0001 C CNN
@@ -550,10 +550,10 @@ F 4 "311-10.0KLRCT-ND" H 6750 1750 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R48
+L Device:R R46
 U 1 1 5F44DAA6
 P 6750 2450
-F 0 "R48" H 6820 2496 50  0000 L CNN
+F 0 "R46" H 6820 2496 50  0000 L CNN
 F 1 "2.2k" H 6820 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6680 2450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6750 2450 50  0001 C CNN
@@ -605,10 +605,10 @@ F 7 "MCP9600-E/MX-ND" H 4000 5500 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J11
+L Connector:Conn_01x02_Female J7
 U 1 1 5F4E80DE
 P 950 5250
-F 0 "J11" H 842 4925 50  0000 C CNN
+F 0 "J7" H 842 4925 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 842 5016 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 950 5250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 950 5250 50  0001 C CNN
@@ -617,10 +617,10 @@ F 4 "WM7620CT-ND" H 950 5250 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R23
+L Device:R R18
 U 1 1 5F4E80E4
 P 1600 4600
-F 0 "R23" V 1393 4600 50  0000 C CNN
+F 0 "R18" V 1393 4600 50  0000 C CNN
 F 1 "2M" V 1484 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 4600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1600 4600 50  0001 C CNN
@@ -629,10 +629,10 @@ F 4 "311-2.00MHRCT-ND" H 1600 4600 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R29
+L Device:R R25
 U 1 1 5F4E80EA
 P 1900 4600
-F 0 "R29" V 1693 4600 50  0000 C CNN
+F 0 "R25" V 1693 4600 50  0000 C CNN
 F 1 "1M" V 1784 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 4600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1900 4600 50  0001 C CNN
@@ -648,10 +648,10 @@ GND
 Wire Wire Line
 	1400 4600 1450 4600
 $Comp
-L Device:R R30
+L Device:R R26
 U 1 1 5F4E80FC
 P 1950 5150
-F 0 "R30" V 1743 5150 50  0000 C CNN
+F 0 "R26" V 1743 5150 50  0000 C CNN
 F 1 "100" V 1834 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1880 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 5150 50  0001 C CNN
@@ -660,10 +660,10 @@ F 4 "311-100LRCT-ND" H 1950 5150 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R31
+L Device:R R27
 U 1 1 5F4E8102
 P 1950 5550
-F 0 "R31" V 1743 5550 50  0000 C CNN
+F 0 "R27" V 1743 5550 50  0000 C CNN
 F 1 "100" V 1834 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1880 5550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 5550 50  0001 C CNN
@@ -785,10 +785,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 5250 3400 5250
 $Comp
-L Device:R R32
+L Device:R R29
 U 1 1 5F4E815E
 P 2750 4900
-F 0 "R32" H 2820 4946 50  0000 L CNN
+F 0 "R29" H 2820 4946 50  0000 L CNN
 F 1 "10k" H 2820 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 4900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 4900 50  0001 C CNN
@@ -797,10 +797,10 @@ F 4 "311-10.0KLRCT-ND" H 2750 4900 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R33
+L Device:R R30
 U 1 1 5F4E8164
 P 2750 5600
-F 0 "R33" H 2820 5646 50  0000 L CNN
+F 0 "R30" H 2820 5646 50  0000 L CNN
 F 1 "4.3k" H 2820 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 5600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 5600 50  0001 C CNN
@@ -827,10 +827,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 4600 2750 4600
 $Comp
-L Connector:Conn_01x02_Female J13
+L Connector:Conn_01x02_Female J9
 U 1 1 5F50AFF0
 P 5050 5300
-F 0 "J13" H 4942 4975 50  0000 C CNN
+F 0 "J9" H 4942 4975 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 4942 5066 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 5050 5300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 5050 5300 50  0001 C CNN
@@ -839,10 +839,10 @@ F 4 "WM7620CT-ND" H 5050 5300 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R38
+L Device:R R36
 U 1 1 5F50AFF6
 P 5700 4650
-F 0 "R38" V 5493 4650 50  0000 C CNN
+F 0 "R36" V 5493 4650 50  0000 C CNN
 F 1 "2M" V 5584 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5700 4650 50  0001 C CNN
@@ -851,10 +851,10 @@ F 4 "311-2.00MHRCT-ND" H 5700 4650 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R44
+L Device:R R42
 U 1 1 5F50AFFC
 P 6000 4650
-F 0 "R44" V 5793 4650 50  0000 C CNN
+F 0 "R42" V 5793 4650 50  0000 C CNN
 F 1 "1M" V 5884 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6000 4650 50  0001 C CNN
@@ -870,10 +870,10 @@ GND
 Wire Wire Line
 	5500 4650 5550 4650
 $Comp
-L Device:R R45
+L Device:R R43
 U 1 1 5F50B00E
 P 6050 5200
-F 0 "R45" V 5843 5200 50  0000 C CNN
+F 0 "R43" V 5843 5200 50  0000 C CNN
 F 1 "100" V 5934 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 5200 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 5200 50  0001 C CNN
@@ -882,10 +882,10 @@ F 4 "311-100LRCT-ND" H 6050 5200 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R46
+L Device:R R44
 U 1 1 5F50B014
 P 6050 5600
-F 0 "R46" V 5843 5600 50  0000 C CNN
+F 0 "R44" V 5843 5600 50  0000 C CNN
 F 1 "100" V 5934 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 5600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 5600 50  0001 C CNN
@@ -896,10 +896,10 @@ $EndComp
 Wire Wire Line
 	5900 5200 5850 5200
 $Comp
-L Device:C C29
+L Device:C C31
 U 1 1 5F50B01B
 P 6300 5400
-F 0 "C29" H 6415 5446 50  0000 L CNN
+F 0 "C31" H 6415 5446 50  0000 L CNN
 F 1 "100n" H 6415 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6338 5250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6300 5400 50  0001 C CNN
@@ -1003,10 +1003,10 @@ Connection ~ 8000 6150
 Wire Wire Line
 	8000 6150 8000 6200
 $Comp
-L Device:R R49
+L Device:R R47
 U 1 1 5F50B070
 P 6850 4950
-F 0 "R49" H 6920 4996 50  0000 L CNN
+F 0 "R47" H 6920 4996 50  0000 L CNN
 F 1 "10k" H 6920 4905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 4950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6850 4950 50  0001 C CNN
@@ -1015,10 +1015,10 @@ F 4 "311-10.0KLRCT-ND" H 6850 4950 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R50
+L Device:R R48
 U 1 1 5F50B076
 P 6850 5650
-F 0 "R50" H 6920 5696 50  0000 L CNN
+F 0 "R48" H 6920 5696 50  0000 L CNN
 F 1 "7.5k" H 6920 5605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 5650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6850 5650 50  0001 C CNN
@@ -1087,10 +1087,10 @@ Wire Wire Line
 Wire Wire Line
 	9850 4400 9950 4400
 $Comp
-L Device:R R55
+L Device:R R53
 U 1 1 5F3681DE
 P 10250 4050
-F 0 "R55" H 10320 4096 50  0000 L CNN
+F 0 "R53" H 10320 4096 50  0000 L CNN
 F 1 "2.2k" H 10320 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10180 4050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10250 4050 50  0001 C CNN
@@ -1099,10 +1099,10 @@ F 4 "311-2.20KLRCT-ND" H 10250 4050 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R53
+L Device:R R51
 U 1 1 5F3675EA
 P 9950 4050
-F 0 "R53" H 10020 4096 50  0000 L CNN
+F 0 "R51" H 10020 4096 50  0000 L CNN
 F 1 "2.2k" H 10020 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 4050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9950 4050 50  0001 C CNN
@@ -1162,10 +1162,10 @@ Wire Wire Line
 Wire Wire Line
 	8850 3600 8850 3500
 $Comp
-L Device:C C31
+L Device:C C35
 U 1 1 5F328B03
 P 8850 3750
-F 0 "C31" H 8965 3796 50  0000 L CNN
+F 0 "C35" H 8965 3796 50  0000 L CNN
 F 1 "100n" H 8965 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8888 3600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 8850 3750 50  0001 C CNN
@@ -1176,10 +1176,10 @@ $EndComp
 Wire Wire Line
 	8200 3500 8450 3500
 $Comp
-L Device:C C30
+L Device:C C34
 U 1 1 5F324351
 P 8450 3750
-F 0 "C30" H 8565 3796 50  0000 L CNN
+F 0 "C34" H 8565 3796 50  0000 L CNN
 F 1 "100n" H 8565 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 3600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 8450 3750 50  0001 C CNN
@@ -1227,10 +1227,10 @@ SDA
 Text HLabel 3900 7250 0    50   Input ~ 0
 SCL1
 $Comp
-L Device:R R35
+L Device:R R33
 U 1 1 5F7CEA4C
 P 3800 6850
-F 0 "R35" H 3870 6896 50  0000 L CNN
+F 0 "R33" H 3870 6896 50  0000 L CNN
 F 1 "10k" H 3870 6805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 6850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3800 6850 50  0001 C CNN
@@ -1255,10 +1255,10 @@ ACC1
 Wire Wire Line
 	3200 7350 3400 7350
 $Comp
-L Device:R R34
+L Device:R R32
 U 1 1 5F821198
 P 3400 7000
-F 0 "R34" H 3470 7046 50  0000 L CNN
+F 0 "R32" H 3470 7046 50  0000 L CNN
 F 1 "10k" H 3470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3400 7000 50  0001 C CNN
@@ -1276,10 +1276,10 @@ Connection ~ 3400 7350
 Wire Wire Line
 	3400 7350 3900 7350
 $Comp
-L Device:R R36
+L Device:R R34
 U 1 1 5F852308
 P 5400 7000
-F 0 "R36" H 5470 7046 50  0000 L CNN
+F 0 "R34" H 5470 7046 50  0000 L CNN
 F 1 "10k" H 5470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5330 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5400 7000 50  0001 C CNN
@@ -1302,10 +1302,10 @@ Wire Wire Line
 	1700 2350 1750 2350
 Connection ~ 1700 2800
 $Comp
-L Device:R R25
+L Device:R R21
 U 1 1 5F8AA424
 P 1750 6200
-F 0 "R25" H 1820 6246 50  0000 L CNN
+F 0 "R21" H 1820 6246 50  0000 L CNN
 F 1 "2M" H 1820 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 6200 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1750 6200 50  0001 C CNN
@@ -1358,10 +1358,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 2400 5800 2400
 $Comp
-L Device:R R39
+L Device:R R37
 U 1 1 5F8D07DD
 P 5750 3050
-F 0 "R39" H 5820 3096 50  0000 L CNN
+F 0 "R37" H 5820 3096 50  0000 L CNN
 F 1 "2M" H 5820 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 3050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5750 3050 50  0001 C CNN
@@ -1417,10 +1417,10 @@ Connection ~ 5750 2850
 Wire Wire Line
 	5800 5600 5900 5600
 $Comp
-L Device:R R40
+L Device:R R38
 U 1 1 5F902FCD
 P 5850 6250
-F 0 "R40" H 5920 6296 50  0000 L CNN
+F 0 "R38" H 5920 6296 50  0000 L CNN
 F 1 "2M" H 5920 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 6250 50  0001 C CNN
@@ -1507,10 +1507,10 @@ Text Label 9300 5900 2    50   ~ 0
 Text HLabel 9300 6400 0    50   Input ~ 0
 3V3
 $Comp
-L Device:R R51
+L Device:R R49
 U 1 1 5F50639E
 P 9550 6150
-F 0 "R51" H 9620 6196 50  0000 L CNN
+F 0 "R49" H 9620 6196 50  0000 L CNN
 F 1 "0" H 9620 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 6150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9550 6150 50  0001 C CNN
@@ -1519,10 +1519,10 @@ F 4 "311-0.0JRTR-ND" H 9550 6150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R52
+L Device:R R50
 U 1 1 5F507ABA
 P 9800 6150
-F 0 "R52" H 9870 6196 50  0000 L CNN
+F 0 "R50" H 9870 6196 50  0000 L CNN
 F 1 "0" H 9870 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 6150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9800 6150 50  0001 C CNN
@@ -1531,10 +1531,10 @@ F 4 "311-0.0JRTR-ND" H 9800 6150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R54
+L Device:R R52
 U 1 1 5F51494E
 P 10050 6150
-F 0 "R54" H 10120 6196 50  0000 L CNN
+F 0 "R52" H 10120 6196 50  0000 L CNN
 F 1 "0" H 10120 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 6150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10050 6150 50  0001 C CNN
@@ -1543,10 +1543,10 @@ F 4 "311-0.0JRTR-ND" H 10050 6150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R56
+L Device:R R54
 U 1 1 5F5215C0
 P 10300 6150
-F 0 "R56" H 10370 6196 50  0000 L CNN
+F 0 "R54" H 10370 6196 50  0000 L CNN
 F 1 "0" H 10370 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10230 6150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10300 6150 50  0001 C CNN
@@ -1590,10 +1590,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 5800 9300 5800
 $Comp
-L Device:C C37
+L Device:C C29
 U 1 1 5F5108F6
 P 3300 4750
-F 0 "C37" H 3415 4796 50  0000 L CNN
+F 0 "C29" H 3415 4796 50  0000 L CNN
 F 1 "100n" H 3415 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 4600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3300 4750 50  0001 C CNN
@@ -1607,10 +1607,10 @@ Connection ~ 3300 4600
 Wire Wire Line
 	3300 4600 3900 4600
 $Comp
-L Device:C C36
+L Device:C C28
 U 1 1 5F568D8D
 P 3250 1550
-F 0 "C36" H 3365 1596 50  0000 L CNN
+F 0 "C28" H 3365 1596 50  0000 L CNN
 F 1 "100n" H 3365 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3288 1400 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3250 1550 50  0001 C CNN
@@ -1621,10 +1621,10 @@ $EndComp
 Text HLabel 3250 1700 3    50   Input ~ 0
 GND
 $Comp
-L Device:C C38
+L Device:C C32
 U 1 1 5F5778F5
 P 7300 1600
-F 0 "C38" H 7415 1646 50  0000 L CNN
+F 0 "C32" H 7415 1646 50  0000 L CNN
 F 1 "100n" H 7415 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 1450 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7300 1600 50  0001 C CNN
@@ -1658,10 +1658,10 @@ $EndComp
 Wire Wire Line
 	6850 4650 7300 4650
 $Comp
-L Device:C C39
+L Device:C C33
 U 1 1 5F5865D7
 P 7300 4800
-F 0 "C39" H 7415 4846 50  0000 L CNN
+F 0 "C33" H 7415 4846 50  0000 L CNN
 F 1 "100n" H 7415 4755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 4650 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7300 4800 50  0001 C CNN
@@ -1685,10 +1685,10 @@ SCL
 Text Label 900  7450 2    50   ~ 0
 SDA
 $Comp
-L Device:R R95
+L Device:R R16
 U 1 1 5F61F04C
 P 1350 7100
-F 0 "R95" H 1420 7146 50  0000 L CNN
+F 0 "R16" H 1420 7146 50  0000 L CNN
 F 1 "10k" H 1420 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1280 7100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1350 7100 50  0001 C CNN
@@ -1699,10 +1699,10 @@ $EndComp
 Text HLabel 950  6800 0    50   Input ~ 0
 3V3
 $Comp
-L Device:R R96
+L Device:R R19
 U 1 1 5F64B66D
 P 1650 7100
-F 0 "R96" H 1720 7146 50  0000 L CNN
+F 0 "R19" H 1720 7146 50  0000 L CNN
 F 1 "10k" H 1720 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1580 7100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1650 7100 50  0001 C CNN
@@ -1728,10 +1728,10 @@ Wire Wire Line
 Wire Wire Line
 	900  7450 1650 7450
 $Comp
-L Device:R R97
+L Device:R R28
 U 1 1 5F6AE2D0
 P 2500 7100
-F 0 "R97" H 2570 7146 50  0000 L CNN
+F 0 "R28" H 2570 7146 50  0000 L CNN
 F 1 "10k" H 2570 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 7100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2500 7100 50  0001 C CNN
@@ -1742,10 +1742,10 @@ $EndComp
 Text HLabel 2100 6800 0    50   Input ~ 0
 3V3
 $Comp
-L Device:R R98
+L Device:R R31
 U 1 1 5F6AE2D8
 P 2800 7100
-F 0 "R98" H 2870 7146 50  0000 L CNN
+F 0 "R31" H 2870 7146 50  0000 L CNN
 F 1 "10k" H 2870 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2730 7100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2800 7100 50  0001 C CNN
@@ -1783,10 +1783,10 @@ Wire Wire Line
 	1750 5550 1800 5550
 Connection ~ 1750 6000
 $Comp
-L Connector:Conn_01x02_Female J10
+L Connector:Conn_01x02_Female J6
 U 1 1 5F37DDB8
 P 900 2050
-F 0 "J10" H 792 1725 50  0000 C CNN
+F 0 "J6" H 792 1725 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 792 1816 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 900 2050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 900 2050 50  0001 C CNN

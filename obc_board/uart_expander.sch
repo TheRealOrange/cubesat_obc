@@ -79,10 +79,10 @@ Wire Wire Line
 Text HLabel 3250 3250 0    50   Input ~ 0
 3V3
 $Comp
-L Device:R R102
+L Device:R R96
 U 1 1 5F35B981
 P 3500 3500
-F 0 "R102" H 3570 3546 50  0000 L CNN
+F 0 "R96" H 3570 3546 50  0000 L CNN
 F 1 "10k" H 3570 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 3500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3500 3500 50  0001 C CNN
@@ -105,10 +105,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 4350 2450 4350
 $Comp
-L Device:R R99
+L Device:R R93
 U 1 1 5F35E104
 P 2450 3650
-F 0 "R99" H 2520 3696 50  0000 L CNN
+F 0 "R93" H 2520 3696 50  0000 L CNN
 F 1 "10k" H 2520 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2380 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2450 3650 50  0001 C CNN
@@ -117,10 +117,10 @@ F 4 "311-10.0KLRCT-ND" H 2450 3650 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R100
+L Device:R R94
 U 1 1 5F35E5F6
 P 2750 3650
-F 0 "R100" H 2820 3696 50  0000 L CNN
+F 0 "R94" H 2820 3696 50  0000 L CNN
 F 1 "10k" H 2820 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 3650 50  0001 C CNN
@@ -150,10 +150,10 @@ Connection ~ 2750 4250
 Wire Wire Line
 	2750 4250 3900 4250
 $Comp
-L Device:R R101
+L Device:R R95
 U 1 1 5F360EEB
 P 3050 3650
-F 0 "R101" H 3120 3696 50  0000 L CNN
+F 0 "R95" H 3120 3696 50  0000 L CNN
 F 1 "10k" H 3120 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 3650 50  0001 C CNN
@@ -285,8 +285,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABAA
 P 7750 3150
 AR Path="/5F37ABAA" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABAA" Ref="J1"  Part="1" 
-F 0 "J1" H 7778 3126 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABAA" Ref="J12"  Part="1" 
+F 0 "J12" H 7778 3126 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7778 3035 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7750 3150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7750 3150 50  0001 C CNN
@@ -299,8 +299,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABB1
 P 7750 3900
 AR Path="/5F37ABB1" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABB1" Ref="J2"  Part="1" 
-F 0 "J2" H 7778 3876 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABB1" Ref="J13"  Part="1" 
+F 0 "J13" H 7778 3876 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7778 3785 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7750 3900 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7750 3900 50  0001 C CNN
@@ -313,8 +313,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABB8
 P 7750 4650
 AR Path="/5F37ABB8" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABB8" Ref="J3"  Part="1" 
-F 0 "J3" H 7778 4626 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABB8" Ref="J14"  Part="1" 
+F 0 "J14" H 7778 4626 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7778 4535 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7750 4650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7750 4650 50  0001 C CNN
@@ -327,8 +327,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABBF
 P 7750 5400
 AR Path="/5F37ABBF" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABBF" Ref="J4"  Part="1" 
-F 0 "J4" H 7778 5376 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABBF" Ref="J15"  Part="1" 
+F 0 "J15" H 7778 5376 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7778 5285 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7750 5400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7750 5400 50  0001 C CNN
@@ -387,10 +387,10 @@ Wire Wire Line
 Text HLabel 6650 2600 0    50   Input ~ 0
 VCC
 $Comp
-L Device:R R103
+L Device:R R97
 U 1 1 5F38F396
 P 6800 2900
-F 0 "R103" H 6870 2946 50  0000 L CNN
+F 0 "R97" H 6870 2946 50  0000 L CNN
 F 1 "100k" H 6870 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 2900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6800 2900 50  0001 C CNN
@@ -408,10 +408,10 @@ Connection ~ 6800 3150
 Wire Wire Line
 	6800 3150 7550 3150
 $Comp
-L Device:R R107
+L Device:R R101
 U 1 1 5F393783
 P 7150 2900
-F 0 "R107" H 7220 2946 50  0000 L CNN
+F 0 "R101" H 7220 2946 50  0000 L CNN
 F 1 "100k" H 7220 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 2900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7150 2900 50  0001 C CNN
@@ -432,10 +432,10 @@ Wire Wire Line
 Text HLabel 6650 3350 0    50   Input ~ 0
 VCC
 $Comp
-L Device:R R104
+L Device:R R98
 U 1 1 5F39805E
 P 6800 3650
-F 0 "R104" H 6870 3696 50  0000 L CNN
+F 0 "R98" H 6870 3696 50  0000 L CNN
 F 1 "100k" H 6870 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6800 3650 50  0001 C CNN
@@ -448,10 +448,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 3350 6800 3500
 $Comp
-L Device:R R108
+L Device:R R102
 U 1 1 5F398066
 P 7150 3650
-F 0 "R108" H 7220 3696 50  0000 L CNN
+F 0 "R102" H 7220 3696 50  0000 L CNN
 F 1 "100k" H 7220 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7150 3650 50  0001 C CNN
@@ -477,10 +477,10 @@ Wire Wire Line
 Text HLabel 6650 4100 0    50   Input ~ 0
 VCC
 $Comp
-L Device:R R105
+L Device:R R99
 U 1 1 5F39BCAA
 P 6800 4400
-F 0 "R105" H 6870 4446 50  0000 L CNN
+F 0 "R99" H 6870 4446 50  0000 L CNN
 F 1 "100k" H 6870 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 4400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6800 4400 50  0001 C CNN
@@ -493,10 +493,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 4100 6800 4250
 $Comp
-L Device:R R109
+L Device:R R103
 U 1 1 5F39BCB2
 P 7150 4400
-F 0 "R109" H 7220 4446 50  0000 L CNN
+F 0 "R103" H 7220 4446 50  0000 L CNN
 F 1 "100k" H 7220 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 4400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7150 4400 50  0001 C CNN
@@ -522,10 +522,10 @@ Wire Wire Line
 Text HLabel 6650 4850 0    50   Input ~ 0
 VCC
 $Comp
-L Device:R R106
+L Device:R R100
 U 1 1 5F3A014C
 P 6800 5150
-F 0 "R106" H 6870 5196 50  0000 L CNN
+F 0 "R100" H 6870 5196 50  0000 L CNN
 F 1 "100k" H 6870 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6800 5150 50  0001 C CNN
@@ -538,10 +538,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 4850 6800 5000
 $Comp
-L Device:R R110
+L Device:R R104
 U 1 1 5F3A0154
 P 7150 5150
-F 0 "R110" H 7220 5196 50  0000 L CNN
+F 0 "R104" H 7220 5196 50  0000 L CNN
 F 1 "100k" H 7220 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7150 5150 50  0001 C CNN
