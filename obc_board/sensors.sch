@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -108,18 +108,6 @@ F 6 "" H 3750 2400 50  0001 L BNN "Field6"
 F 7 "MCP9600-E/MX-ND" H 3950 2300 50  0001 C CNN "Digikey Part Number"
 	1    3950 2300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J10
-U 1 1 5F37DDB8
-P 900 2050
-F 0 "J10" H 792 1725 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 792 1816 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 900 2050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 900 2050 50  0001 C CNN
-F 4 "WM7620CT-ND" H 900 2050 50  0001 C CNN "Digikey Part Number"
-	1    900  2050
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R22
@@ -1237,9 +1225,7 @@ SCL
 Text Label 5100 7150 0    50   ~ 0
 SDA
 Text HLabel 3900 7250 0    50   Input ~ 0
-SCL
-Text HLabel 5100 7250 2    50   Input ~ 0
-SDA
+SCL1
 $Comp
 L Device:R R35
 U 1 1 5F7CEA4C
@@ -1785,9 +1771,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 7450 2800 7450
 Text HLabel 2050 7350 0    50   Input ~ 0
-SCL
+SCL1
 Text HLabel 2050 7450 0    50   Input ~ 0
-SDA
+SDA1
 Wire Wire Line
 	1700 5550 1750 5550
 Wire Wire Line
@@ -1796,4 +1782,18 @@ Connection ~ 1750 5550
 Wire Wire Line
 	1750 5550 1800 5550
 Connection ~ 1750 6000
+$Comp
+L Connector:Conn_01x02_Female J10
+U 1 1 5F37DDB8
+P 900 2050
+F 0 "J10" H 792 1725 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 792 1816 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 900 2050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 900 2050 50  0001 C CNN
+F 4 "WM7620CT-ND" H 900 2050 50  0001 C CNN "Digikey Part Number"
+	1    900  2050
+	-1   0    0    1   
+$EndComp
+Text HLabel 5100 7250 2    50   Input ~ 0
+SDA1
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -181,8 +181,8 @@ F4 "MISO" I L 1400 2900 50
 F5 "MOSI" I L 1400 3000 50 
 F6 "SCK" I L 1400 3100 50 
 F7 "CSB" I L 1400 3200 50 
-F8 "SCL" I R 2750 2500 50 
-F9 "SDA" I R 2750 2600 50 
+F8 "SCL1" I R 2750 2500 50 
+F9 "SDA1" I R 2750 2600 50 
 F10 "ACC1" I R 2750 2900 50 
 F11 "FAULT1" I R 2750 3000 50 
 $EndSheet
@@ -288,30 +288,6 @@ Text Label 1450 1650 2    50   ~ 0
 MOSI_3
 Text Label 1450 1750 2    50   ~ 0
 SCK_3
-Text Label 8300 2350 2    50   ~ 0
-TX1
-Text Label 8300 2450 2    50   ~ 0
-RX1
-Text Label 8300 2650 2    50   ~ 0
-TX2
-Text Label 8300 2750 2    50   ~ 0
-RX2
-Text Label 8300 2950 2    50   ~ 0
-TX3
-Text Label 8300 3050 2    50   ~ 0
-RX3
-Text Label 5600 1450 0    50   ~ 0
-TX4
-Text Label 5600 1550 0    50   ~ 0
-RX4
-Text Label 5600 1750 0    50   ~ 0
-TX1
-Text Label 5600 1850 0    50   ~ 0
-RX1
-Text Label 8300 2150 2    50   ~ 0
-RX4
-Text Label 8300 2050 2    50   ~ 0
-TX4
 Text Label 10000 1650 0    50   ~ 0
 MISO_2
 Text Label 10000 1750 0    50   ~ 0
@@ -491,83 +467,83 @@ F 3 "~" H 6500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2050 4700 1700 1900
+S 1350 3950 1700 1900
 U 5F45B718
 F0 "stacking_connector" 50
 F1 "stacking_connector.sch" 50
-F2 "MISO" I R 3750 4950 50 
-F3 "MOSI" I R 3750 5050 50 
-F4 "SCK" I R 3750 5150 50 
-F5 "CS1" I R 3750 5350 50 
-F6 "CS2" I R 3750 5450 50 
-F7 "TX1" I R 3750 5650 50 
-F8 "RX1" I R 3750 5750 50 
-F9 "TX2" I R 3750 5950 50 
-F10 "RX2" I R 3750 6050 50 
-F11 "SCL1" I L 2050 5950 50 
-F12 "SDA1" I L 2050 6050 50 
-F13 "SCL2" I L 2050 6250 50 
-F14 "SDA2" I L 2050 6350 50 
-F15 "3V3_P" I L 2050 4950 50 
-F16 "GND" I L 2050 5700 50 
-F17 "VBAT" I L 2050 5600 50 
-F18 "3V3_1" I L 2050 5050 50 
-F19 "3V3_2" I L 2050 5150 50 
-F20 "VCC" I L 2050 5350 50 
-F21 "3V3_3" I L 2050 5250 50 
+F2 "MISO" I R 3050 4200 50 
+F3 "MOSI" I R 3050 4300 50 
+F4 "SCK" I R 3050 4400 50 
+F5 "CS1" I R 3050 4600 50 
+F6 "CS2" I R 3050 4700 50 
+F7 "TX1" I R 3050 4900 50 
+F8 "RX1" I R 3050 5000 50 
+F9 "TX2" I R 3050 5200 50 
+F10 "RX2" I R 3050 5300 50 
+F11 "SCL1" I L 1350 5200 50 
+F12 "SDA1" I L 1350 5300 50 
+F13 "SCL2" I L 1350 5500 50 
+F14 "SDA2" I L 1350 5600 50 
+F15 "3V3_P" I L 1350 4200 50 
+F16 "GND" I L 1350 4950 50 
+F17 "VBAT" I L 1350 4850 50 
+F18 "3V3_1" I L 1350 4300 50 
+F19 "3V3_2" I L 1350 4400 50 
+F20 "VCC" I L 1350 4600 50 
+F21 "3V3_3" I L 1350 4500 50 
 $EndSheet
-Text Label 2050 4950 2    50   ~ 0
+Text Label 1350 4200 2    50   ~ 0
 3V3_P
-Text Label 2050 5600 2    50   ~ 0
+Text Label 1350 4850 2    50   ~ 0
 VBAT
-Text Label 3750 5450 0    50   ~ 0
+Text Label 3050 4700 0    50   ~ 0
 CS2
-Text Label 3750 5350 0    50   ~ 0
+Text Label 3050 4600 0    50   ~ 0
 CS1
-Text Label 3750 5150 0    50   ~ 0
+Text Label 3050 4400 0    50   ~ 0
 SCK_2
-Text Label 3750 5050 0    50   ~ 0
+Text Label 3050 4300 0    50   ~ 0
 MOSI_2
-Text Label 3750 4950 0    50   ~ 0
+Text Label 3050 4200 0    50   ~ 0
 MISO_2
-Text Label 3750 5650 0    50   ~ 0
+Text Label 3050 4900 0    50   ~ 0
 TX4
-Text Label 3750 5750 0    50   ~ 0
+Text Label 3050 5000 0    50   ~ 0
 RX4
-Text Label 3750 6050 0    50   ~ 0
+Text Label 3050 5300 0    50   ~ 0
 RX3
-Text Label 3750 5950 0    50   ~ 0
+Text Label 3050 5200 0    50   ~ 0
 TX3
 $Comp
 L power:GND #PWR03
 U 1 1 5F33D67B
-P 1450 5850
-F 0 "#PWR03" H 1450 5600 50  0001 C CNN
-F 1 "GND" H 1455 5677 50  0000 C CNN
-F 2 "" H 1450 5850 50  0001 C CNN
-F 3 "" H 1450 5850 50  0001 C CNN
-	1    1450 5850
+P 750 5100
+F 0 "#PWR03" H 750 4850 50  0001 C CNN
+F 1 "GND" H 755 4927 50  0000 C CNN
+F 2 "" H 750 5100 50  0001 C CNN
+F 3 "" H 750 5100 50  0001 C CNN
+	1    750  5100
 	1    0    0    -1  
 $EndComp
-Text Label 2050 6250 2    50   ~ 0
+Text Label 1350 5500 2    50   ~ 0
 SDA2
-Text Label 2050 6350 2    50   ~ 0
+Text Label 1350 5600 2    50   ~ 0
 SCL2
-Text Label 2050 6050 2    50   ~ 0
+Text Label 1350 5300 2    50   ~ 0
 SCL3
-Text Label 2050 5950 2    50   ~ 0
+Text Label 1350 5200 2    50   ~ 0
 SDA3
 Wire Wire Line
-	2050 5700 1450 5700
+	1350 4950 750  4950
 Wire Wire Line
-	1450 5700 1450 5850
-Text Label 2050 5050 2    50   ~ 0
+	750  4950 750  5100
+Text Label 1350 4300 2    50   ~ 0
 3V3_1
-Text Label 2050 5150 2    50   ~ 0
+Text Label 1350 4400 2    50   ~ 0
 3V3_2
-Text Label 2050 5250 2    50   ~ 0
+Text Label 1350 4500 2    50   ~ 0
 3V3_3
-Text Label 2050 5350 2    50   ~ 0
+Text Label 1350 4600 2    50   ~ 0
 VCC
 $Comp
 L power:GND #PWR09
@@ -609,67 +585,121 @@ CS1
 Text Label 8300 3400 2    50   ~ 0
 CS2
 $Sheet
-S 4850 4700 1600 1900
+S 4150 3950 1600 1050
 U 5F6EB2F1
 F0 "uart_expander" 50
 F1 "uart_expander.sch" 50
-F2 "MISO" I R 6450 4950 50 
-F3 "MOSI" I R 6450 5050 50 
-F4 "SCK" I R 6450 5150 50 
-F5 "RST" I R 6450 5350 50 
-F6 "IRQ" I R 6450 5450 50 
-F7 "CS" I R 6450 5550 50 
-F8 "GND" I L 4850 5050 50 
-F9 "3V3" I L 4850 4950 50 
-F10 "VCC" I L 4850 5250 50 
+F2 "MISO" I R 5750 4200 50 
+F3 "MOSI" I R 5750 4300 50 
+F4 "SCK" I R 5750 4400 50 
+F5 "RST" I R 5750 4600 50 
+F6 "IRQ" I R 5750 4700 50 
+F7 "CS" I R 5750 4800 50 
+F8 "GND" I L 4150 4300 50 
+F9 "3V3" I L 4150 4200 50 
+F10 "VCC" I L 4150 4500 50 
 $EndSheet
-Text Label 5600 2150 0    50   ~ 0
-RX2
-Text Label 5600 2050 0    50   ~ 0
-TX2
-Text Label 5600 2350 0    50   ~ 0
-TX3
-Text Label 5600 2450 0    50   ~ 0
-RX3
 Text Label 8300 3500 2    50   ~ 0
 CS3
 Text Label 6500 3350 2    50   ~ 0
 CS3
 Text Label 8300 3200 2    50   ~ 0
 EXP
-Text Label 4850 5250 2    50   ~ 0
+Text Label 4150 4500 2    50   ~ 0
 VCC
-Text Label 4850 4950 2    50   ~ 0
+Text Label 4150 4200 2    50   ~ 0
 3V3_3
 $Comp
 L power:GND #PWR0101
 U 1 1 5F3B3184
-P 4500 5100
-F 0 "#PWR0101" H 4500 4850 50  0001 C CNN
-F 1 "GND" H 4505 4927 50  0000 C CNN
-F 2 "" H 4500 5100 50  0001 C CNN
-F 3 "" H 4500 5100 50  0001 C CNN
-	1    4500 5100
+P 3800 4350
+F 0 "#PWR0101" H 3800 4100 50  0001 C CNN
+F 1 "GND" H 3805 4177 50  0000 C CNN
+F 2 "" H 3800 4350 50  0001 C CNN
+F 3 "" H 3800 4350 50  0001 C CNN
+	1    3800 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 5050 4500 5050
+	4150 4300 3800 4300
 Wire Wire Line
-	4500 5050 4500 5100
-Text Label 6450 5150 0    50   ~ 0
+	3800 4300 3800 4350
+Text Label 5750 4400 0    50   ~ 0
 SCK_2
-Text Label 6450 5050 0    50   ~ 0
+Text Label 5750 4300 0    50   ~ 0
 MOSI_2
-Text Label 6450 4950 0    50   ~ 0
+Text Label 5750 4200 0    50   ~ 0
 MISO_2
-Text Label 6450 5550 0    50   ~ 0
+Text Label 5750 4800 0    50   ~ 0
 EXP
 Text Label 10000 3650 0    50   ~ 0
 INT
 Text Label 10000 3750 0    50   ~ 0
 RST
-Text Label 6450 5350 0    50   ~ 0
+Text Label 5750 4600 0    50   ~ 0
 RST
-Text Label 6450 5450 0    50   ~ 0
+Text Label 5750 4700 0    50   ~ 0
 INT
+$Sheet
+S 4150 5450 1600 1150
+U 5F3F9D17
+F0 "ftdi" 50
+F1 "ftdi.sch" 50
+F2 "GND" I L 4150 5800 50 
+F3 "RX1" I R 5750 5950 50 
+F4 "TX1" I R 5750 5850 50 
+F5 "RX0" I R 5750 5700 50 
+F6 "TX0" I R 5750 5600 50 
+F7 "RX2" I R 5750 6200 50 
+F8 "TX2" I R 5750 6100 50 
+F9 "TX3" I R 5750 6350 50 
+F10 "RX3" I R 5750 6450 50 
+$EndSheet
+$Comp
+L power:GND #PWR0102
+U 1 1 5F42F428
+P 3800 5850
+F 0 "#PWR0102" H 3800 5600 50  0001 C CNN
+F 1 "GND" H 3805 5677 50  0000 C CNN
+F 2 "" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5800 3800 5800
+Wire Wire Line
+	3800 5800 3800 5850
+Text Label 5750 5600 0    50   ~ 0
+TX0
+Text Label 5750 5700 0    50   ~ 0
+RX0
+Text Label 5750 5850 0    50   ~ 0
+TX1
+Text Label 5750 5950 0    50   ~ 0
+RX1
+Text Label 5750 6100 0    50   ~ 0
+TX2
+Text Label 5750 6200 0    50   ~ 0
+RX2
+Text Label 5750 6350 0    50   ~ 0
+TX3
+Text Label 5750 6450 0    50   ~ 0
+RX3
+Text Label 5600 1450 0    50   ~ 0
+TX0
+Text Label 5600 1550 0    50   ~ 0
+RX0
+Text Label 5600 2050 0    50   ~ 0
+TX1
+Text Label 5600 2150 0    50   ~ 0
+RX1
+Text Label 8300 2150 2    50   ~ 0
+TX2
+Text Label 8300 2050 2    50   ~ 0
+RX2
+Text Label 5600 1750 0    50   ~ 0
+TX3
+Text Label 5600 1850 0    50   ~ 0
+RX3
 $EndSCHEMATC
