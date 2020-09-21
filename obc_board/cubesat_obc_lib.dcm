@@ -34,4 +34,10 @@ K ARM Cortex-M33 STM32L552ZET6
 F https://docs.google.com/viewerng/viewer?url=https://s3.amazonaws.com/snapeda/datasheet/STM32L552VET6_STMicroelectronics.pdf
 $ENDCMP
 #
+$CMP STM32L552ZET6Q
+D Ultra-low-power Arm® Cortex®-M33 32-bit MCU+TrustZone®+FPU,SMPS165 DMIPS, up to 512 KB Flash memory, 256 KB SRAM, SMPS
+K ARM Cortex-M33 STM32L552ZET6
+F https://docs.google.com/viewerng/viewer?url=https://s3.amazonaws.com/snapeda/datasheet/STM32L552VET6_STMicroelectronics.pdf
+$ENDCMP
+#
 #End Doc Library

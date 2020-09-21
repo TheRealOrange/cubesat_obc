@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J10
+L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J9
 U 1 1 5FA42BE1
 P 4550 3000
-F 0 "J10" H 4550 3767 50  0000 C CNN
+F 0 "J9" H 4550 3767 50  0000 C CNN
 F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 4550 3676 50  0000 C CNN
 F 2 "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR" H 4550 3000 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf" H 4550 3000 50  0001 L BNN
@@ -35,14 +35,14 @@ Text HLabel 2150 2700 0    50   Input ~ 0
 Wire Wire Line
 	2150 2700 2250 2700
 $Comp
-L Device:C C38
+L Device:C C33
 U 1 1 5FA44CB1
 P 2250 2950
-F 0 "C38" H 2365 2996 50  0000 L CNN
+F 0 "C33" H 2365 2996 50  0000 L CNN
 F 1 "10u" H 2365 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 2288 2800 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=mvy" H 2250 2950 50  0001 C CNN
-F 4 "565-2442-1-ND" H 2250 2950 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2288 2800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2250 2950 50  0001 C CNN
+F 4 "311-1952-1-ND" H 2250 2950 50  0001 C CNN "Digikey Part Number"
 	1    2250 2950
 	1    0    0    -1  
 $EndComp
@@ -98,8 +98,8 @@ L Device:R R?
 U 1 1 5FA51731
 P 3000 3950
 AR Path="/5F315FB6/5FA51731" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA51731" Ref="R58"  Part="1" 
-F 0 "R58" H 3070 3996 50  0000 L CNN
+AR Path="/5FA4220C/5FA51731" Ref="R51"  Part="1" 
+F 0 "R51" H 3070 3996 50  0000 L CNN
 F 1 "10k" H 3070 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 3950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3000 3950 50  0001 C CNN
@@ -128,8 +128,8 @@ L Device:R R?
 U 1 1 5FA5173F
 P 2250 4100
 AR Path="/5F315FB6/5FA5173F" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA5173F" Ref="R55"  Part="1" 
-F 0 "R55" H 2320 4146 50  0000 L CNN
+AR Path="/5FA4220C/5FA5173F" Ref="R48"  Part="1" 
+F 0 "R48" H 2320 4146 50  0000 L CNN
 F 1 "10k" H 2320 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 4100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2250 4100 50  0001 C CNN
@@ -149,8 +149,8 @@ L Device:R R?
 U 1 1 5FA5174A
 P 4750 4100
 AR Path="/5F315FB6/5FA5174A" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA5174A" Ref="R61"  Part="1" 
-F 0 "R61" H 4820 4146 50  0000 L CNN
+AR Path="/5FA4220C/5FA5174A" Ref="R54"  Part="1" 
+F 0 "R54" H 4820 4146 50  0000 L CNN
 F 1 "10k" H 4820 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 4100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4750 4100 50  0001 C CNN
@@ -182,8 +182,8 @@ L Device:R R?
 U 1 1 5FA5ADB3
 P 3450 3650
 AR Path="/5F315FB6/5FA5ADB3" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA5ADB3" Ref="R60"  Part="1" 
-F 0 "R60" H 3520 3696 50  0000 L CNN
+AR Path="/5FA4220C/5FA5ADB3" Ref="R53"  Part="1" 
+F 0 "R53" H 3520 3696 50  0000 L CNN
 F 1 "10k" H 3520 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3450 3650 50  0001 C CNN
@@ -200,8 +200,8 @@ L Device:R R?
 U 1 1 5FA5BDA5
 P 2700 3950
 AR Path="/5F315FB6/5FA5BDA5" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA5BDA5" Ref="R57"  Part="1" 
-F 0 "R57" H 2770 3996 50  0000 L CNN
+AR Path="/5FA4220C/5FA5BDA5" Ref="R50"  Part="1" 
+F 0 "R50" H 2770 3996 50  0000 L CNN
 F 1 "10k" H 2770 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 3950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2700 3950 50  0001 C CNN
@@ -228,8 +228,8 @@ L Device:R R?
 U 1 1 5FA7F305
 P 2550 3300
 AR Path="/5F315FB6/5FA7F305" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA7F305" Ref="R56"  Part="1" 
-F 0 "R56" H 2620 3346 50  0000 L CNN
+AR Path="/5FA4220C/5FA7F305" Ref="R49"  Part="1" 
+F 0 "R49" H 2620 3346 50  0000 L CNN
 F 1 "1k" H 2620 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2550 3300 50  0001 C CNN
@@ -248,8 +248,8 @@ L Device:R R?
 U 1 1 5FA89462
 P 3150 3300
 AR Path="/5F315FB6/5FA89462" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FA89462" Ref="R59"  Part="1" 
-F 0 "R59" H 3220 3346 50  0000 L CNN
+AR Path="/5FA4220C/5FA89462" Ref="R52"  Part="1" 
+F 0 "R52" H 3220 3346 50  0000 L CNN
 F 1 "1k" H 3220 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3150 3300 50  0001 C CNN
@@ -328,10 +328,10 @@ UART1_RX
 Text HLabel 5050 3400 2    50   Input ~ 0
 UART1_TX
 $Comp
-L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J11
+L cubesat_obc_lib:FSI-110-03-X-D-AD-SD-K-TR J10
 U 1 1 5FAAED71
 P 8850 3000
-F 0 "J11" H 8850 3767 50  0000 C CNN
+F 0 "J10" H 8850 3767 50  0000 C CNN
 F 1 "FSI-110-03-X-D-AD-SD-K-TR" H 8850 3676 50  0000 C CNN
 F 2 "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR" H 8850 3000 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf" H 8850 3000 50  0001 L BNN
@@ -349,14 +349,14 @@ Text HLabel 6450 2700 0    50   Input ~ 0
 Wire Wire Line
 	6450 2700 6550 2700
 $Comp
-L Device:C C39
+L Device:C C34
 U 1 1 5FAAED7A
 P 6550 2950
-F 0 "C39" H 6665 2996 50  0000 L CNN
+F 0 "C34" H 6665 2996 50  0000 L CNN
 F 1 "10u" H 6665 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 6588 2800 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=mvy" H 6550 2950 50  0001 C CNN
-F 4 "565-2442-1-ND" H 6550 2950 50  0001 C CNN "Digikey Part Number"
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6588 2800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6550 2950 50  0001 C CNN
+F 4 "311-1952-1-ND" H 6550 2950 50  0001 C CNN "Digikey Part Number"
 	1    6550 2950
 	1    0    0    -1  
 $EndComp
@@ -412,8 +412,8 @@ L Device:R R?
 U 1 1 5FAAED9A
 P 7300 3950
 AR Path="/5F315FB6/5FAAED9A" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAED9A" Ref="R65"  Part="1" 
-F 0 "R65" H 7370 3996 50  0000 L CNN
+AR Path="/5FA4220C/5FAAED9A" Ref="R58"  Part="1" 
+F 0 "R58" H 7370 3996 50  0000 L CNN
 F 1 "10k" H 7370 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 3950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7300 3950 50  0001 C CNN
@@ -442,8 +442,8 @@ L Device:R R?
 U 1 1 5FAAEDA8
 P 6550 4100
 AR Path="/5F315FB6/5FAAEDA8" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDA8" Ref="R62"  Part="1" 
-F 0 "R62" H 6620 4146 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDA8" Ref="R55"  Part="1" 
+F 0 "R55" H 6620 4146 50  0000 L CNN
 F 1 "10k" H 6620 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 4100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6550 4100 50  0001 C CNN
@@ -463,8 +463,8 @@ L Device:R R?
 U 1 1 5FAAEDB2
 P 9050 4100
 AR Path="/5F315FB6/5FAAEDB2" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDB2" Ref="R68"  Part="1" 
-F 0 "R68" H 9120 4146 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDB2" Ref="R61"  Part="1" 
+F 0 "R61" H 9120 4146 50  0000 L CNN
 F 1 "10k" H 9120 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8980 4100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9050 4100 50  0001 C CNN
@@ -496,8 +496,8 @@ L Device:R R?
 U 1 1 5FAAEDC2
 P 7750 3650
 AR Path="/5F315FB6/5FAAEDC2" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDC2" Ref="R67"  Part="1" 
-F 0 "R67" H 7820 3696 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDC2" Ref="R60"  Part="1" 
+F 0 "R60" H 7820 3696 50  0000 L CNN
 F 1 "10k" H 7820 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 3650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7750 3650 50  0001 C CNN
@@ -514,8 +514,8 @@ L Device:R R?
 U 1 1 5FAAEDCA
 P 7000 3950
 AR Path="/5F315FB6/5FAAEDCA" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDCA" Ref="R64"  Part="1" 
-F 0 "R64" H 7070 3996 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDCA" Ref="R57"  Part="1" 
+F 0 "R57" H 7070 3996 50  0000 L CNN
 F 1 "10k" H 7070 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 3950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7000 3950 50  0001 C CNN
@@ -542,8 +542,8 @@ L Device:R R?
 U 1 1 5FAAEDD8
 P 6850 3300
 AR Path="/5F315FB6/5FAAEDD8" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDD8" Ref="R63"  Part="1" 
-F 0 "R63" H 6920 3346 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDD8" Ref="R56"  Part="1" 
+F 0 "R56" H 6920 3346 50  0000 L CNN
 F 1 "1k" H 6920 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6850 3300 50  0001 C CNN
@@ -562,8 +562,8 @@ L Device:R R?
 U 1 1 5FAAEDE1
 P 7450 3300
 AR Path="/5F315FB6/5FAAEDE1" Ref="R?"  Part="1" 
-AR Path="/5FA4220C/5FAAEDE1" Ref="R66"  Part="1" 
-F 0 "R66" H 7520 3346 50  0000 L CNN
+AR Path="/5FA4220C/5FAAEDE1" Ref="R59"  Part="1" 
+F 0 "R59" H 7520 3346 50  0000 L CNN
 F 1 "1k" H 7520 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7380 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7450 3300 50  0001 C CNN
