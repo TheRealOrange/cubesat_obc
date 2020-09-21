@@ -159,11 +159,11 @@ Text Label 2600 1500 0    50   ~ 0
 MEM2
 Text Label 2750 2900 0    50   ~ 0
 TEMP_ACC
-Text Label 8300 5050 2    50   ~ 0
+Text Label 10000 6000 0    50   ~ 0
 TEMP_ACC
 Text Label 2750 3000 0    50   ~ 0
 TEMP_FAULT
-Text Label 8300 4950 2    50   ~ 0
+Text Label 10000 6100 0    50   ~ 0
 TEMP_FAULT
 Text Label 4000 2650 2    50   ~ 0
 ACC1
