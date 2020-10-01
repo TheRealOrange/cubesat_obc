@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -109,8 +109,8 @@ $EndSheet
 $Sheet
 S 1400 2300 1350 1100
 U 5F315FB6
-F0 "sensors" 50
-F1 "sensors.sch" 50
+F0 "temp_sensors" 50
+F1 "temp_sensors.sch" 50
 F2 "3V3" I L 1400 2500 50 
 F3 "GND" I L 1400 2600 50 
 F4 "MISO" I L 1400 2900 50 
@@ -213,10 +213,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 1150 8300 1150
 $Comp
-L Connector:Conn_01x04_Female J3
+L Connector:Conn_01x04_Female ADC0
 U 1 1 5F6F0159
 P 4400 7100
-F 0 "J3" H 4428 7076 50  0000 L CNN
+F 0 "ADC0" H 4428 7076 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 4428 6985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 4400 7100 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 4400 7100 50  0001 C CNN
@@ -256,10 +256,10 @@ $EndComp
 Wire Wire Line
 	3700 7150 3700 7000
 $Comp
-L Connector:Conn_01x04_Female J4
+L Connector:Conn_01x04_Female ADC1
 U 1 1 5F6F5054
 P 6100 7100
-F 0 "J4" H 6128 7076 50  0000 L CNN
+F 0 "ADC1" H 6128 7076 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6128 6985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 6100 7100 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 6100 7100 50  0001 C CNN
@@ -467,10 +467,10 @@ Wire Wire Line
 Text Label 8300 1250 2    50   ~ 0
 3V3_P
 $Comp
-L Connector:Conn_01x05_Female J2
+L Connector:Conn_01x05_Female SPI0
 U 1 1 5F3493AD
 P 7250 3050
-F 0 "J2" H 7278 3076 50  0000 L CNN
+F 0 "SPI0" H 7278 3076 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 7278 2985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal" H 7250 3050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610571_sd.pdf" H 7250 3050 50  0001 C CNN
@@ -652,8 +652,8 @@ L Connector:Conn_01x08_Female J?
 U 1 1 5F5D669F
 P 3200 6900
 AR Path="/5E7EC636/5F5D669F" Ref="J?"  Part="1" 
-AR Path="/5F5D669F" Ref="J1"  Part="1" 
-F 0 "J1" H 3092 6275 50  0000 C CNN
+AR Path="/5F5D669F" Ref="UART_FTDI0"  Part="1" 
+F 0 "UART_FTDI0" H 3092 6275 50  0000 C CNN
 F 1 "Conn_01x08_Female" H 3092 6366 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 3200 6900 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610871_sd.pdf" H 3200 6900 50  0001 C CNN
@@ -786,4 +786,10 @@ Text Label 3050 5500 0    50   ~ 0
 ACC4
 Text Label 3050 5600 0    50   ~ 0
 FAULT4
+$Sheet
+S 6750 5400 850  800 
+U 5F9EB759
+F0 "imu" 50
+F1 "imu.sch" 50
+$EndSheet
 $EndSCHEMATC

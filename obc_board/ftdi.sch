@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -42,10 +42,10 @@ GND
 Text HLabel 5000 3700 3    50   Input ~ 0
 GND
 $Comp
-L Connector:Conn_01x04_Female J15
+L Connector:Conn_01x04_Female USB0
 U 1 1 5F401059
 P 2700 3850
-F 0 "J15" V 2638 3562 50  0000 R CNN
+F 0 "USB0" V 2638 3562 50  0000 R CNN
 F 1 "Conn_01x04_Female" V 2547 3562 50  0000 R CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 2700 3850 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 2700 3850 50  0001 C CNN

@@ -12,6 +12,10 @@ K Isolated DC-to-DC Converters
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5020-5028.pdf
 $ENDCMP
 #
+$CMP BMI090L
+F https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf
+$ENDCMP
+#
 $CMP BMI160
 D Small, low power inertial measurement unit, LGA-14
 K Bosh IMU small low power inertial measurement unit

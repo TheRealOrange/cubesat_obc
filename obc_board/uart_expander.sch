@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -285,8 +285,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABAA
 P 7900 3050
 AR Path="/5F37ABAA" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABAA" Ref="J11"  Part="1" 
-F 0 "J11" H 7928 3026 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABAA" Ref="UART0"  Part="1" 
+F 0 "UART0" H 7928 3026 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7928 2935 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7900 3050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7900 3050 50  0001 C CNN
@@ -299,8 +299,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABB1
 P 7900 3800
 AR Path="/5F37ABB1" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABB1" Ref="J12"  Part="1" 
-F 0 "J12" H 7928 3776 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABB1" Ref="UART1"  Part="1" 
+F 0 "UART1" H 7928 3776 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7928 3685 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7900 3800 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7900 3800 50  0001 C CNN
@@ -313,8 +313,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABB8
 P 7900 4550
 AR Path="/5F37ABB8" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABB8" Ref="J13"  Part="1" 
-F 0 "J13" H 7928 4526 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABB8" Ref="UART2"  Part="1" 
+F 0 "UART2" H 7928 4526 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7928 4435 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7900 4550 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7900 4550 50  0001 C CNN
@@ -327,8 +327,8 @@ L Connector:Conn_01x04_Female J?
 U 1 1 5F37ABBF
 P 7900 5300
 AR Path="/5F37ABBF" Ref="J?"  Part="1" 
-AR Path="/5F6EB2F1/5F37ABBF" Ref="J14"  Part="1" 
-F 0 "J14" H 7928 5276 50  0000 L CNN
+AR Path="/5F6EB2F1/5F37ABBF" Ref="UART3"  Part="1" 
+F 0 "UART3" H 7928 5276 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7928 5185 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 7900 5300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 7900 5300 50  0001 C CNN

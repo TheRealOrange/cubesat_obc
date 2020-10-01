@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -192,18 +192,6 @@ F 4 "732-3820-6-ND" H 10100 2650 50  0001 C CNN "Digikey Part Number"
 $EndComp
 Text HLabel 9500 3450 3    50   Input ~ 0
 GND
-$Comp
-L Connector:Conn_01x08_Female J16
-U 1 1 5F3C5B25
-P 6750 1600
-F 0 "J16" H 6642 975 50  0000 C CNN
-F 1 "Conn_01x08_Female" H 6642 1066 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6750 1600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610871_sd.pdf" H 6750 1600 50  0001 C CNN
-F 4 "WM7626CT-ND" H 6750 1600 50  0001 C CNN "Digikey Part Number"
-	1    6750 1600
-	-1   0    0    1   
-$EndComp
 Text HLabel 6950 1900 2    50   Input ~ 0
 GND
 Connection ~ 10100 1100
@@ -1219,4 +1207,16 @@ Text HLabel 4900 2650 1    50   Input ~ 0
 PC7
 Text HLabel 4800 2650 1    50   Input ~ 0
 PC6
+$Comp
+L Connector:Conn_01x08_Female JTAG1
+U 1 1 5F3C5B25
+P 6750 1600
+F 0 "JTAG1" H 6642 975 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 6642 1066 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6750 1600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532610871_sd.pdf" H 6750 1600 50  0001 C CNN
+F 4 "WM7626CT-ND" H 6750 1600 50  0001 C CNN "Digikey Part Number"
+	1    6750 1600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
