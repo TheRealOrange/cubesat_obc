@@ -16,223 +16,439 @@ $EndDescr
 $Comp
 L cubesat_obc_lib:BMI090L U?
 U 1 1 5F9F0780
-P 5850 2750
-F 0 "U?" H 6150 3350 50  0000 C CNN
-F 1 "BMI090L" H 6250 3250 50  0000 C CNN
-F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 5850 2750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 5850 2750 50  0001 C CNN
-	1    5850 2750
+P 4600 2700
+F 0 "U?" H 4900 3300 50  0000 C CNN
+F 1 "BMI090L" H 5000 3200 50  0000 C CNN
+F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 4600 2700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 4600 2700 50  0001 C CNN
+	1    4600 2700
 	1    0    0    -1  
 $EndComp
-Text HLabel 6600 3100 2    50   Input ~ 0
+Text HLabel 5350 3050 2    50   Input ~ 0
 MISO
-Text HLabel 6600 3000 2    50   Input ~ 0
+Text HLabel 5350 2950 2    50   Input ~ 0
 MOSI
-Text HLabel 6600 2900 2    50   Input ~ 0
+Text HLabel 5350 2850 2    50   Input ~ 0
 SCK
-Text HLabel 6600 2800 2    50   Input ~ 0
+Text HLabel 5350 2750 2    50   Input ~ 0
 CSB_GYRO1
-Text HLabel 6600 2700 2    50   Input ~ 0
+Text HLabel 5350 2650 2    50   Input ~ 0
 CSB_ACCEL1
 Wire Wire Line
-	6350 3100 6450 3100
+	5100 3050 5200 3050
 Wire Wire Line
-	6350 3200 6450 3200
+	5100 3150 5200 3150
 Wire Wire Line
-	6450 3200 6450 3100
-Connection ~ 6450 3100
+	5200 3150 5200 3050
+Connection ~ 5200 3050
 Wire Wire Line
-	6450 3100 6600 3100
+	5200 3050 5350 3050
 Wire Wire Line
-	6350 3000 6600 3000
+	5100 2950 5350 2950
 Wire Wire Line
-	6600 2900 6350 2900
+	5350 2850 5100 2850
 Wire Wire Line
-	6600 2800 6350 2800
+	5350 2750 5100 2750
 Wire Wire Line
-	6600 2700 6350 2700
-Connection ~ 4850 2200
-Connection ~ 4850 2700
-Text HLabel 4200 2200 0    50   Input ~ 0
+	5350 2650 5100 2650
+Connection ~ 3600 2150
+Connection ~ 3600 2650
+Text HLabel 2950 2150 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	4850 2750 4850 2700
+	3600 2700 3600 2650
 Wire Wire Line
-	4850 2700 4850 2600
+	3600 2650 3600 2550
 Wire Wire Line
-	4450 2700 4850 2700
+	3200 2650 3600 2650
 Wire Wire Line
-	4450 2600 4450 2700
+	3200 2550 3200 2650
 Wire Wire Line
-	4450 2200 4850 2200
-Connection ~ 4450 2200
+	3200 2150 3600 2150
+Connection ~ 3200 2150
 Wire Wire Line
-	4450 2200 4450 2300
+	3200 2150 3200 2250
 Wire Wire Line
-	4850 2300 4850 2200
+	3600 2250 3600 2150
 $Comp
 L Device:C C?
 U 1 1 5F9F07A0
-P 4850 2450
-F 0 "C?" H 4965 2496 50  0000 L CNN
-F 1 "100n" H 4965 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4888 2300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 4850 2450 50  0001 C CNN
-F 4 "490-16433-1-ND" H 4850 2450 50  0001 C CNN "Digikey Part Number"
-	1    4850 2450
+P 3600 2400
+F 0 "C?" H 3715 2446 50  0000 L CNN
+F 1 "100n" H 3715 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 2250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3600 2400 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3600 2400 50  0001 C CNN "Digikey Part Number"
+	1    3600 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2200 4450 2200
+	2950 2150 3200 2150
 $Comp
 L Device:C C?
 U 1 1 5F9F07A8
-P 4450 2450
-F 0 "C?" H 4565 2496 50  0000 L CNN
-F 1 "100n" H 4565 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 2300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 4450 2450 50  0001 C CNN
-F 4 "490-16433-1-ND" H 4450 2450 50  0001 C CNN "Digikey Part Number"
-	1    4450 2450
+P 3200 2400
+F 0 "C?" H 3315 2446 50  0000 L CNN
+F 1 "100n" H 3315 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 2250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3200 2400 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3200 2400 50  0001 C CNN "Digikey Part Number"
+	1    3200 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3700 5850 3600
-Connection ~ 5850 3700
+	4600 3650 4600 3550
+Connection ~ 4600 3650
 Wire Wire Line
-	5750 3700 5850 3700
+	4500 3650 4600 3650
 Wire Wire Line
-	5750 3600 5750 3700
+	4500 3550 4500 3650
 Wire Wire Line
-	5850 3750 5850 3700
-Text HLabel 5850 3750 3    50   Input ~ 0
+	4600 3700 4600 3650
+Text HLabel 4600 3700 3    50   Input ~ 0
 GND
-Text HLabel 4850 2750 3    50   Input ~ 0
+Text HLabel 3600 2700 3    50   Input ~ 0
 GND
 Wire Wire Line
-	5850 2200 5850 2250
+	4600 2150 4600 2200
 Wire Wire Line
-	4850 2200 5750 2200
+	3600 2150 4500 2150
 Wire Wire Line
-	5750 2250 5750 2200
-Connection ~ 5750 2200
+	4500 2200 4500 2150
+Connection ~ 4500 2150
 Wire Wire Line
-	5750 2200 5850 2200
+	4500 2150 4600 2150
 Wire Wire Line
-	5350 2650 5150 2650
+	4100 2600 3900 2600
 Wire Wire Line
-	5150 2650 5150 2700
+	3900 2600 3900 2650
 Wire Wire Line
-	5150 2700 4850 2700
+	3900 2650 3600 2650
 $Comp
 L cubesat_obc_lib:BMI090L U?
 U 1 1 5F9F07BD
-P 5850 4750
-F 0 "U?" H 6150 5350 50  0000 C CNN
-F 1 "BMI090L" H 6250 5250 50  0000 C CNN
-F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 5850 4750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 5850 4750 50  0001 C CNN
-	1    5850 4750
+P 4600 4700
+F 0 "U?" H 4900 5300 50  0000 C CNN
+F 1 "BMI090L" H 5000 5200 50  0000 C CNN
+F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 4600 4700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 4600 4700 50  0001 C CNN
+	1    4600 4700
 	1    0    0    -1  
 $EndComp
-Text HLabel 6600 5100 2    50   Input ~ 0
+Text HLabel 5350 5050 2    50   Input ~ 0
 MISO
-Text HLabel 6600 5000 2    50   Input ~ 0
+Text HLabel 5350 4950 2    50   Input ~ 0
 MOSI
-Text HLabel 6600 4900 2    50   Input ~ 0
+Text HLabel 5350 4850 2    50   Input ~ 0
 SCK
-Text HLabel 6600 4800 2    50   Input ~ 0
+Text HLabel 5350 4750 2    50   Input ~ 0
 CSB_GYRO2
-Text HLabel 6600 4700 2    50   Input ~ 0
+Text HLabel 5350 4650 2    50   Input ~ 0
 CSB_ACCEL2
 Wire Wire Line
-	6350 5100 6450 5100
+	5100 5050 5200 5050
 Wire Wire Line
-	6350 5200 6450 5200
+	5100 5150 5200 5150
 Wire Wire Line
-	6450 5200 6450 5100
-Connection ~ 6450 5100
+	5200 5150 5200 5050
+Connection ~ 5200 5050
 Wire Wire Line
-	6450 5100 6600 5100
+	5200 5050 5350 5050
 Wire Wire Line
-	6350 5000 6600 5000
+	5100 4950 5350 4950
 Wire Wire Line
-	6600 4900 6350 4900
+	5350 4850 5100 4850
 Wire Wire Line
-	6600 4800 6350 4800
+	5350 4750 5100 4750
 Wire Wire Line
-	6600 4700 6350 4700
-Connection ~ 4850 4200
-Connection ~ 4850 4700
-Text HLabel 4200 4200 0    50   Input ~ 0
+	5350 4650 5100 4650
+Connection ~ 3600 4150
+Connection ~ 3600 4650
+Text HLabel 2950 4150 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	4850 4750 4850 4700
+	3600 4700 3600 4650
 Wire Wire Line
-	4850 4700 4850 4600
+	3600 4650 3600 4550
 Wire Wire Line
-	4450 4700 4850 4700
+	3200 4650 3600 4650
 Wire Wire Line
-	4450 4600 4450 4700
+	3200 4550 3200 4650
 Wire Wire Line
-	4450 4200 4850 4200
-Connection ~ 4450 4200
+	3200 4150 3600 4150
+Connection ~ 3200 4150
 Wire Wire Line
-	4450 4200 4450 4300
+	3200 4150 3200 4250
 Wire Wire Line
-	4850 4300 4850 4200
+	3600 4250 3600 4150
 $Comp
 L Device:C C?
 U 1 1 5F9F07DD
-P 4850 4450
-F 0 "C?" H 4965 4496 50  0000 L CNN
-F 1 "100n" H 4965 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4888 4300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 4850 4450 50  0001 C CNN
-F 4 "490-16433-1-ND" H 4850 4450 50  0001 C CNN "Digikey Part Number"
-	1    4850 4450
+P 3600 4400
+F 0 "C?" H 3715 4446 50  0000 L CNN
+F 1 "100n" H 3715 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 4250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3600 4400 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3600 4400 50  0001 C CNN "Digikey Part Number"
+	1    3600 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4200 4450 4200
+	2950 4150 3200 4150
 $Comp
 L Device:C C?
 U 1 1 5F9F07E5
-P 4450 4450
-F 0 "C?" H 4565 4496 50  0000 L CNN
-F 1 "100n" H 4565 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 4300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 4450 4450 50  0001 C CNN
-F 4 "490-16433-1-ND" H 4450 4450 50  0001 C CNN "Digikey Part Number"
-	1    4450 4450
+P 3200 4400
+F 0 "C?" H 3315 4446 50  0000 L CNN
+F 1 "100n" H 3315 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 4250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3200 4400 50  0001 C CNN
+F 4 "490-16433-1-ND" H 3200 4400 50  0001 C CNN "Digikey Part Number"
+	1    3200 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 5700 5850 5600
-Connection ~ 5850 5700
+	4600 5650 4600 5550
+Connection ~ 4600 5650
 Wire Wire Line
-	5750 5700 5850 5700
+	4500 5650 4600 5650
 Wire Wire Line
-	5750 5600 5750 5700
+	4500 5550 4500 5650
 Wire Wire Line
-	5850 5750 5850 5700
-Text HLabel 5850 5750 3    50   Input ~ 0
+	4600 5700 4600 5650
+Text HLabel 4600 5700 3    50   Input ~ 0
 GND
-Text HLabel 4850 4750 3    50   Input ~ 0
+Text HLabel 3600 4700 3    50   Input ~ 0
 GND
 Wire Wire Line
-	5850 4200 5850 4250
+	4600 4150 4600 4200
 Wire Wire Line
-	4850 4200 5750 4200
+	3600 4150 4500 4150
 Wire Wire Line
-	5750 4250 5750 4200
-Connection ~ 5750 4200
+	4500 4200 4500 4150
+Connection ~ 4500 4150
 Wire Wire Line
-	5750 4200 5850 4200
+	4500 4150 4600 4150
 Wire Wire Line
-	5350 4650 5150 4650
+	4100 4600 3900 4600
 Wire Wire Line
-	5150 4650 5150 4700
+	3900 4600 3900 4650
 Wire Wire Line
-	5150 4700 4850 4700
+	3900 4650 3600 4650
+$Comp
+L cubesat_obc_lib:MMC5983MA U?
+U 1 1 5FF9B4D5
+P 7200 2500
+F 0 "U?" H 7200 2915 50  0000 C CNN
+F 1 "MMC5983MA" H 7200 2824 50  0000 C CNN
+F 2 "" H 7200 2500 50  0001 C CNN
+F 3 "" H 7200 2500 50  0001 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 2550 0    50   Input ~ 0
+MISO
+Text HLabel 6550 2450 0    50   Input ~ 0
+MOSI
+Text HLabel 6550 2350 0    50   Input ~ 0
+SCK
+Text HLabel 8750 2350 2    50   Input ~ 0
+3V3
+$Comp
+L Device:C C?
+U 1 1 5FFA46B0
+P 8250 2750
+F 0 "C?" H 8365 2796 50  0000 L CNN
+F 1 "20u" H 8365 2705 50  0000 L CNN
+F 2 "" H 8288 2600 50  0001 C CNN
+F 3 "~" H 8250 2750 50  0001 C CNN
+	1    8250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FFA600C
+P 8650 2750
+F 0 "C?" H 8765 2796 50  0000 L CNN
+F 1 "1u" H 8765 2705 50  0000 L CNN
+F 2 "" H 8688 2600 50  0001 C CNN
+F 3 "~" H 8650 2750 50  0001 C CNN
+	1    8650 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2550 8250 2550
+Wire Wire Line
+	8250 2550 8250 2600
+Wire Wire Line
+	8250 2900 8250 3100
+Wire Wire Line
+	8250 3100 7150 3100
+Wire Wire Line
+	7150 3100 7150 3000
+Wire Wire Line
+	8650 3100 8650 2900
+Wire Wire Line
+	8250 3100 8650 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	8750 2350 8650 2350
+Wire Wire Line
+	7850 2450 7950 2450
+Wire Wire Line
+	7950 2450 7950 2350
+Connection ~ 7950 2350
+Wire Wire Line
+	7950 2350 7850 2350
+Wire Wire Line
+	8650 2350 8650 2600
+Connection ~ 8650 2350
+Wire Wire Line
+	8650 2350 7950 2350
+$Comp
+L cubesat_obc_lib:MMC5983MA U?
+U 1 1 5FFB52A6
+P 7200 3700
+F 0 "U?" H 7200 4115 50  0000 C CNN
+F 1 "MMC5983MA" H 7200 4024 50  0000 C CNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 3750 0    50   Input ~ 0
+MISO
+Text HLabel 6550 3650 0    50   Input ~ 0
+MOSI
+Text HLabel 6550 3550 0    50   Input ~ 0
+SCK
+Text HLabel 8750 3550 2    50   Input ~ 0
+3V3
+$Comp
+L Device:C C?
+U 1 1 5FFB52B0
+P 8250 3950
+F 0 "C?" H 8365 3996 50  0000 L CNN
+F 1 "20u" H 8365 3905 50  0000 L CNN
+F 2 "" H 8288 3800 50  0001 C CNN
+F 3 "~" H 8250 3950 50  0001 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FFB52B6
+P 8650 3950
+F 0 "C?" H 8765 3996 50  0000 L CNN
+F 1 "1u" H 8765 3905 50  0000 L CNN
+F 2 "" H 8688 3800 50  0001 C CNN
+F 3 "~" H 8650 3950 50  0001 C CNN
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3750 8250 3750
+Wire Wire Line
+	8250 3750 8250 3800
+Wire Wire Line
+	8250 4100 8250 4300
+Wire Wire Line
+	8250 4300 7150 4300
+Wire Wire Line
+	7150 4300 7150 4200
+Wire Wire Line
+	8650 4300 8650 4100
+Wire Wire Line
+	8250 4300 8650 4300
+Connection ~ 8250 4300
+Wire Wire Line
+	8750 3550 8650 3550
+Wire Wire Line
+	7850 3650 7950 3650
+Wire Wire Line
+	7950 3650 7950 3550
+Connection ~ 7950 3550
+Wire Wire Line
+	7950 3550 7850 3550
+Wire Wire Line
+	8650 3550 8650 3800
+Connection ~ 8650 3550
+Wire Wire Line
+	8650 3550 7950 3550
+$Comp
+L cubesat_obc_lib:MMC5983MA U?
+U 1 1 5FFB7DFF
+P 7200 4900
+F 0 "U?" H 7200 5315 50  0000 C CNN
+F 1 "MMC5983MA" H 7200 5224 50  0000 C CNN
+F 2 "" H 7200 4900 50  0001 C CNN
+F 3 "" H 7200 4900 50  0001 C CNN
+	1    7200 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 4950 0    50   Input ~ 0
+MISO
+Text HLabel 6550 4850 0    50   Input ~ 0
+MOSI
+Text HLabel 6550 4750 0    50   Input ~ 0
+SCK
+Text HLabel 8750 4750 2    50   Input ~ 0
+3V3
+$Comp
+L Device:C C?
+U 1 1 5FFB7E09
+P 8250 5150
+F 0 "C?" H 8365 5196 50  0000 L CNN
+F 1 "20u" H 8365 5105 50  0000 L CNN
+F 2 "" H 8288 5000 50  0001 C CNN
+F 3 "~" H 8250 5150 50  0001 C CNN
+	1    8250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FFB7E0F
+P 8650 5150
+F 0 "C?" H 8765 5196 50  0000 L CNN
+F 1 "1u" H 8765 5105 50  0000 L CNN
+F 2 "" H 8688 5000 50  0001 C CNN
+F 3 "~" H 8650 5150 50  0001 C CNN
+	1    8650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4950 8250 4950
+Wire Wire Line
+	8250 4950 8250 5000
+Wire Wire Line
+	8250 5300 8250 5500
+Wire Wire Line
+	8250 5500 7150 5500
+Wire Wire Line
+	7150 5500 7150 5400
+Wire Wire Line
+	8650 5500 8650 5300
+Wire Wire Line
+	8250 5500 8650 5500
+Connection ~ 8250 5500
+Wire Wire Line
+	8750 4750 8650 4750
+Wire Wire Line
+	7850 4850 7950 4850
+Wire Wire Line
+	7950 4850 7950 4750
+Connection ~ 7950 4750
+Wire Wire Line
+	7950 4750 7850 4750
+Wire Wire Line
+	8650 4750 8650 5000
+Connection ~ 8650 4750
+Wire Wire Line
+	8650 4750 7950 4750
+Text HLabel 6550 2650 0    50   Input ~ 0
+MAG_1
+Text HLabel 6550 3850 0    50   Input ~ 0
+MAG_2
+Text HLabel 6550 5050 0    50   Input ~ 0
+MAG_3
 $EndSCHEMATC
