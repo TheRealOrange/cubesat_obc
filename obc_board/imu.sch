@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -14,13 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L cubesat_obc_lib:BMI090L U?
+L cubesat_obc_lib:BMI090L U7
 U 1 1 5F9F0780
 P 4600 2700
-F 0 "U?" H 4900 3300 50  0000 C CNN
+F 0 "U7" H 4900 3300 50  0000 C CNN
 F 1 "BMI090L" H 5000 3200 50  0000 C CNN
 F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 4600 2700 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 4600 2700 50  0001 C CNN
+F 4 "828-BMI090LCT-ND" H 4600 2700 50  0001 C CNN "Digikey Part Number"
 	1    4600 2700
 	1    0    0    -1  
 $EndComp
@@ -71,10 +72,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 2250 3600 2150
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5F9F07A0
 P 3600 2400
-F 0 "C?" H 3715 2446 50  0000 L CNN
+F 0 "C6" H 3715 2446 50  0000 L CNN
 F 1 "100n" H 3715 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 2250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3600 2400 50  0001 C CNN
@@ -85,10 +86,10 @@ $EndComp
 Wire Wire Line
 	2950 2150 3200 2150
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5F9F07A8
 P 3200 2400
-F 0 "C?" H 3315 2446 50  0000 L CNN
+F 0 "C4" H 3315 2446 50  0000 L CNN
 F 1 "100n" H 3315 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 2250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3200 2400 50  0001 C CNN
@@ -125,13 +126,14 @@ Wire Wire Line
 Wire Wire Line
 	3900 2650 3600 2650
 $Comp
-L cubesat_obc_lib:BMI090L U?
+L cubesat_obc_lib:BMI090L U8
 U 1 1 5F9F07BD
 P 4600 4700
-F 0 "U?" H 4900 5300 50  0000 C CNN
+F 0 "U8" H 4900 5300 50  0000 C CNN
 F 1 "BMI090L" H 5000 5200 50  0000 C CNN
 F 2 "cubesat_obc:PQFN50P450X300X100-16N" H 4600 4700 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bosch/BST-BMI090L-DS000-00.pdf" H 4600 4700 50  0001 C CNN
+F 4 "828-BMI090LCT-ND" H 4600 4700 50  0001 C CNN "Digikey Part Number"
 	1    4600 4700
 	1    0    0    -1  
 $EndComp
@@ -182,10 +184,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 4250 3600 4150
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5F9F07DD
 P 3600 4400
-F 0 "C?" H 3715 4446 50  0000 L CNN
+F 0 "C7" H 3715 4446 50  0000 L CNN
 F 1 "100n" H 3715 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 4250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3600 4400 50  0001 C CNN
@@ -196,10 +198,10 @@ $EndComp
 Wire Wire Line
 	2950 4150 3200 4150
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5F9F07E5
 P 3200 4400
-F 0 "C?" H 3315 4446 50  0000 L CNN
+F 0 "C5" H 3315 4446 50  0000 L CNN
 F 1 "100n" H 3315 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 4250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 3200 4400 50  0001 C CNN
@@ -236,13 +238,14 @@ Wire Wire Line
 Wire Wire Line
 	3900 4650 3600 4650
 $Comp
-L cubesat_obc_lib:MMC5983MA U?
+L cubesat_obc_lib:MMC5983MA U9
 U 1 1 5FF9B4D5
 P 7200 2500
-F 0 "U?" H 7200 2915 50  0000 C CNN
+F 0 "U9" H 7200 2915 50  0000 C CNN
 F 1 "MMC5983MA" H 7200 2824 50  0000 C CNN
-F 2 "" H 7200 2500 50  0001 C CNN
-F 3 "" H 7200 2500 50  0001 C CNN
+F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm" H 7200 2500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf" H 7200 2500 50  0001 C CNN
+F 4 "1267-MMC5983MACT-ND" H 7200 2500 50  0001 C CNN "Digikey Part Number"
 	1    7200 2500
 	1    0    0    -1  
 $EndComp
@@ -255,24 +258,26 @@ SCK
 Text HLabel 8750 2350 2    50   Input ~ 0
 3V3
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5FFA46B0
 P 8250 2750
-F 0 "C?" H 8365 2796 50  0000 L CNN
-F 1 "20u" H 8365 2705 50  0000 L CNN
-F 2 "" H 8288 2600 50  0001 C CNN
-F 3 "~" H 8250 2750 50  0001 C CNN
+F 0 "C8" H 8365 2796 50  0000 L CNN
+F 1 "22u" H 8365 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8288 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 8250 2750 50  0001 C CNN
+F 4 "311-1995-1-ND" H 8250 2750 50  0001 C CNN "Digikey Part Number"
 	1    8250 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 1 5FFA600C
 P 8650 2750
-F 0 "C?" H 8765 2796 50  0000 L CNN
+F 0 "C11" H 8765 2796 50  0000 L CNN
 F 1 "1u" H 8765 2705 50  0000 L CNN
-F 2 "" H 8688 2600 50  0001 C CNN
-F 3 "~" H 8650 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8650 2750 50  0001 C CNN
+F 4 "311-1446-2-ND" H 8650 2750 50  0001 C CNN "Digikey Part Number"
 	1    8650 2750
 	1    0    0    -1  
 $EndComp
@@ -306,13 +311,14 @@ Connection ~ 8650 2350
 Wire Wire Line
 	8650 2350 7950 2350
 $Comp
-L cubesat_obc_lib:MMC5983MA U?
+L cubesat_obc_lib:MMC5983MA U10
 U 1 1 5FFB52A6
 P 7200 3700
-F 0 "U?" H 7200 4115 50  0000 C CNN
+F 0 "U10" H 7200 4115 50  0000 C CNN
 F 1 "MMC5983MA" H 7200 4024 50  0000 C CNN
-F 2 "" H 7200 3700 50  0001 C CNN
-F 3 "" H 7200 3700 50  0001 C CNN
+F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm" H 7200 3700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf" H 7200 3700 50  0001 C CNN
+F 4 "1267-MMC5983MACT-ND" H 7200 3700 50  0001 C CNN "Digikey Part Number"
 	1    7200 3700
 	1    0    0    -1  
 $EndComp
@@ -325,24 +331,26 @@ SCK
 Text HLabel 8750 3550 2    50   Input ~ 0
 3V3
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5FFB52B0
 P 8250 3950
-F 0 "C?" H 8365 3996 50  0000 L CNN
-F 1 "20u" H 8365 3905 50  0000 L CNN
-F 2 "" H 8288 3800 50  0001 C CNN
-F 3 "~" H 8250 3950 50  0001 C CNN
+F 0 "C9" H 8365 3996 50  0000 L CNN
+F 1 "22u" H 8365 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8288 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 8250 3950 50  0001 C CNN
+F 4 "311-1995-1-ND" H 8250 3950 50  0001 C CNN "Digikey Part Number"
 	1    8250 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C12
 U 1 1 5FFB52B6
 P 8650 3950
-F 0 "C?" H 8765 3996 50  0000 L CNN
+F 0 "C12" H 8765 3996 50  0000 L CNN
 F 1 "1u" H 8765 3905 50  0000 L CNN
-F 2 "" H 8688 3800 50  0001 C CNN
-F 3 "~" H 8650 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8650 3950 50  0001 C CNN
+F 4 "311-1446-2-ND" H 8650 3950 50  0001 C CNN "Digikey Part Number"
 	1    8650 3950
 	1    0    0    -1  
 $EndComp
@@ -376,13 +384,14 @@ Connection ~ 8650 3550
 Wire Wire Line
 	8650 3550 7950 3550
 $Comp
-L cubesat_obc_lib:MMC5983MA U?
+L cubesat_obc_lib:MMC5983MA U20
 U 1 1 5FFB7DFF
 P 7200 4900
-F 0 "U?" H 7200 5315 50  0000 C CNN
+F 0 "U20" H 7200 5315 50  0000 C CNN
 F 1 "MMC5983MA" H 7200 5224 50  0000 C CNN
-F 2 "" H 7200 4900 50  0001 C CNN
-F 3 "" H 7200 4900 50  0001 C CNN
+F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm" H 7200 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf" H 7200 4900 50  0001 C CNN
+F 4 "1267-MMC5983MACT-ND" H 7200 4900 50  0001 C CNN "Digikey Part Number"
 	1    7200 4900
 	1    0    0    -1  
 $EndComp
@@ -395,24 +404,26 @@ SCK
 Text HLabel 8750 4750 2    50   Input ~ 0
 3V3
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5FFB7E09
 P 8250 5150
-F 0 "C?" H 8365 5196 50  0000 L CNN
-F 1 "20u" H 8365 5105 50  0000 L CNN
-F 2 "" H 8288 5000 50  0001 C CNN
-F 3 "~" H 8250 5150 50  0001 C CNN
+F 0 "C10" H 8365 5196 50  0000 L CNN
+F 1 "22u" H 8365 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8288 5000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 8250 5150 50  0001 C CNN
+F 4 "311-1995-1-ND" H 8250 5150 50  0001 C CNN "Digikey Part Number"
 	1    8250 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C13
 U 1 1 5FFB7E0F
 P 8650 5150
-F 0 "C?" H 8765 5196 50  0000 L CNN
+F 0 "C13" H 8765 5196 50  0000 L CNN
 F 1 "1u" H 8765 5105 50  0000 L CNN
-F 2 "" H 8688 5000 50  0001 C CNN
-F 3 "~" H 8650 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 5000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8650 5150 50  0001 C CNN
+F 4 "311-1446-2-ND" H 8650 5150 50  0001 C CNN "Digikey Part Number"
 	1    8650 5150
 	1    0    0    -1  
 $EndComp

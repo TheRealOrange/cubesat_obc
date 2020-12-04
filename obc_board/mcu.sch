@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -141,8 +141,8 @@ P 10400 3950
 F 0 "R119" H 10470 3996 50  0000 L CNN
 F 1 "100k" H 10470 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10330 3950 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10400 3950 50  0001 C CNN
-F 4 "311-100KLRCT-ND" H 10400 3950 50  0001 C CNN "Digikey Part Number"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdfhttps://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 10400 3950 50  0001 C CNN
+F 4 "YAG2307CT-ND" H 10400 3950 50  0001 C CNN "Digikey Part Number"
 	1    10400 3950
 	1    0    0    -1  
 $EndComp
@@ -163,8 +163,8 @@ P 10400 4700
 F 0 "R120" H 10470 4746 50  0000 L CNN
 F 1 "100k" H 10470 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10330 4700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10400 4700 50  0001 C CNN
-F 4 "311-100KLRCT-ND" H 10400 4700 50  0001 C CNN "Digikey Part Number"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdfhttps://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 10400 4700 50  0001 C CNN
+F 4 "YAG2307CT-ND" H 10400 4700 50  0001 C CNN "Digikey Part Number"
 	1    10400 4700
 	1    0    0    -1  
 $EndComp
@@ -1219,4 +1219,14 @@ F 4 "WM7626CT-ND" H 6750 1600 50  0001 C CNN "Digikey Part Number"
 	1    6750 1600
 	-1   0    0    1   
 $EndComp
+Text HLabel 3500 2650 1    50   Input ~ 0
+PB9
+Text HLabel 3400 2650 1    50   Input ~ 0
+PB8
+Text HLabel 3300 2650 1    50   Input ~ 0
+PB7
+Text HLabel 3200 2650 1    50   Input ~ 0
+PB6
+Text HLabel 3100 2700 1    50   Input ~ 0
+PB5
 $EndSCHEMATC
