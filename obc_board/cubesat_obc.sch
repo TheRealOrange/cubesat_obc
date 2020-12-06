@@ -141,9 +141,9 @@ F16 "UART2_TX" I R 5350 2100 50
 F17 "UART3_RX" I R 5350 2300 50 
 F18 "UART3_TX" I R 5350 2400 50 
 $EndSheet
-Text Label 8300 5800 2    50   ~ 0
+Text Label 8300 2900 2    50   ~ 0
 MEM1
-Text Label 8300 3200 2    50   ~ 0
+Text Label 8300 3100 2    50   ~ 0
 MEM2
 Text Label 2600 1250 0    50   ~ 0
 MEM1
@@ -175,9 +175,9 @@ Text Label 8300 5300 2    50   ~ 0
 FAULT2
 Text Label 8300 4650 2    50   ~ 0
 RST2
-Text Label 8300 2900 2    50   ~ 0
-WP1
 Text Label 8300 5900 2    50   ~ 0
+WP1
+Text Label 8300 3000 2    50   ~ 0
 RST1
 Text Label 2600 1350 0    50   ~ 0
 RST1
@@ -209,7 +209,7 @@ P 4400 7100
 F 0 "ADC0" H 4428 7076 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 4428 6985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 4400 7100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 4400 7100 50  0001 C CNN
+F 3 "~" H 4400 7100 50  0001 C CNN
 F 4 "WM7622CT-ND" H 4400 7100 50  0001 C CNN "Digikey Part Number"
 	1    4400 7100
 	1    0    0    -1  
@@ -252,7 +252,7 @@ P 6100 7100
 F 0 "ADC1" H 6128 7076 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6128 6985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 6100 7100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610471_sd.pdf" H 6100 7100 50  0001 C CNN
+F 3 "~" H 6100 7100 50  0001 C CNN
 F 4 "WM7622CT-ND" H 6100 7100 50  0001 C CNN "Digikey Part Number"
 	1    6100 7100
 	1    0    0    -1  
@@ -413,16 +413,16 @@ P 7250 3050
 F 0 "SPI0" H 7278 3076 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 7278 2985 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal" H 7250 3050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610571_sd.pdf" H 7250 3050 50  0001 C CNN
+F 3 "~" H 7250 3050 50  0001 C CNN
 F 4 "WM7623CT-ND" H 7250 3050 50  0001 C CNN "Digikey Part Number"
 	1    7250 3050
 	1    0    0    -1  
 $EndComp
-Text Label 7050 2950 2    50   ~ 0
+Text Label 7050 3150 2    50   ~ 0
 SCK_2
 Text Label 7050 3050 2    50   ~ 0
 MOSI_2
-Text Label 7050 3150 2    50   ~ 0
+Text Label 7050 2950 2    50   ~ 0
 MISO_2
 Text Label 10000 3800 0    50   ~ 0
 CS1
@@ -447,7 +447,7 @@ Text Label 10000 4000 0    50   ~ 0
 CS3
 Text Label 7050 3250 2    50   ~ 0
 CS3
-Text Label 8300 3100 2    50   ~ 0
+Text Label 8300 5800 2    50   ~ 0
 EXP
 Text Label 3700 4300 2    50   ~ 0
 VCC
@@ -596,7 +596,7 @@ AR Path="/5F5D669F" Ref="UART_FTDI0"  Part="1"
 F 0 "UART_FTDI0" H 3092 6275 50  0000 C CNN
 F 1 "Conn_01x08_Female" H 3092 6366 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 3200 6900 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610871_sd.pdf" H 3200 6900 50  0001 C CNN
+F 3 "~" H 3200 6900 50  0001 C CNN
 F 4 "WM7626CT-ND" H 3200 6900 50  0001 C CNN "Digikey Part Number"
 	1    3200 6900
 	1    0    0    -1  
@@ -661,7 +661,7 @@ P 7650 4450
 F 0 "R2" H 7720 4496 50  0000 L CNN
 F 1 "20k" H 7720 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 4450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/60026/ptn.pdf" H 7650 4450 50  0001 C CNN
+F 3 "~" H 7650 4450 50  0001 C CNN
 F 4 "764-1399-1-ND" H 7650 4450 50  0001 C CNN "Digikey Part Number"
 	1    7650 4450
 	1    0    0    -1  
@@ -673,7 +673,7 @@ P 7650 4050
 F 0 "R1" H 7720 4096 50  0000 L CNN
 F 1 "40k" H 7720 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 4050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/60024/pat.pdf" H 7650 4050 50  0001 C CNN
+F 3 "~" H 7650 4050 50  0001 C CNN
 F 4 "PAT40KACT-ND" H 7650 4050 50  0001 C CNN "Digikey Part Number"
 	1    7650 4050
 	1    0    0    -1  
@@ -741,17 +741,17 @@ Text Label 6750 4400 0    50   ~ 0
 MAG_2
 Text Label 6750 4500 0    50   ~ 0
 MAG_3
-Text Label 10000 4600 0    50   ~ 0
+Text Label 10000 4650 0    50   ~ 0
 ACCEL_1
-Text Label 10000 4800 0    50   ~ 0
+Text Label 10000 4850 0    50   ~ 0
 ACCEL_2
-Text Label 10000 4700 0    50   ~ 0
+Text Label 10000 4750 0    50   ~ 0
 GYRO_2
-Text Label 10000 4500 0    50   ~ 0
+Text Label 10000 4550 0    50   ~ 0
 GYRO_1
-Text Label 10000 5050 0    50   ~ 0
+Text Label 8300 4550 2    50   ~ 0
 MAG_1
-Text Label 10000 5150 0    50   ~ 0
+Text Label 10000 5850 0    50   ~ 0
 MAG_2
 Text Label 10000 5250 0    50   ~ 0
 MAG_3
@@ -795,9 +795,9 @@ Text Label 5600 5450 2    50   ~ 0
 VCC
 Text Label 6750 5900 0    50   ~ 0
 MAGT_EN
-Text Label 10000 5850 0    50   ~ 0
+Text Label 10000 5650 0    50   ~ 0
 MAGT_CS
-Text Label 10000 5950 0    50   ~ 0
+Text Label 10000 5750 0    50   ~ 0
 MAGT_EN
 Wire Wire Line
 	8300 4250 7650 4250
