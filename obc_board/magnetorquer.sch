@@ -400,42 +400,6 @@ Wire Wire Line
 	5500 3050 6050 3050
 Wire Wire Line
 	5500 3050 5500 3300
-$Comp
-L Device:C C17
-U 1 1 5FCBFCF0
-P 8600 3250
-F 0 "C17" H 8715 3296 50  0000 L CNN
-F 1 "22u" H 8715 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 8638 3100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 8600 3250 50  0001 C CNN
-F 4 "311-1995-1-ND" H 8600 3250 50  0001 C CNN "Digikey Part Number"
-	1    8600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5FCC1EF7
-P 9050 3250
-F 0 "C18" H 9165 3296 50  0000 L CNN
-F 1 "22u" H 9165 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 9088 3100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9050 3250 50  0001 C CNN
-F 4 "311-1995-1-ND" H 9050 3250 50  0001 C CNN "Digikey Part Number"
-	1    9050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C22
-U 1 1 5FCC2D83
-P 9500 3250
-F 0 "C22" H 9615 3296 50  0000 L CNN
-F 1 "22u" H 9615 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 9538 3100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9500 3250 50  0001 C CNN
-F 4 "311-1995-1-ND" H 9500 3250 50  0001 C CNN "Digikey Part Number"
-	1    9500 3250
-	1    0    0    -1  
-$EndComp
 Text HLabel 4950 5250 3    50   Input ~ 0
 GND
 Wire Wire Line
@@ -481,4 +445,40 @@ Wire Wire Line
 Connection ~ 9050 3500
 Text HLabel 3500 3700 0    50   Input ~ 0
 EN
+$Comp
+L Device:C C22
+U 1 1 5FCC2D83
+P 9500 3250
+F 0 "C22" H 9615 3296 50  0000 L CNN
+F 1 "22u" H 9615 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9538 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9500 3250 50  0001 C CNN
+F 4 "311-1995-1-ND" H 9500 3250 50  0001 C CNN "Digikey Part Number"
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5FCC1EF7
+P 9050 3250
+F 0 "C18" H 9165 3296 50  0000 L CNN
+F 1 "22u" H 9165 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9088 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9050 3250 50  0001 C CNN
+F 4 "311-1995-1-ND" H 9050 3250 50  0001 C CNN "Digikey Part Number"
+	1    9050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5FCBFCF0
+P 8600 3250
+F 0 "C17" H 8715 3296 50  0000 L CNN
+F 1 "22u" H 8715 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8638 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 8600 3250 50  0001 C CNN
+F 4 "311-1995-1-ND" H 8600 3250 50  0001 C CNN "Digikey Part Number"
+	1    8600 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

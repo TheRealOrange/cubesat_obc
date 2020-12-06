@@ -21,7 +21,7 @@ F 0 "U4" H 4500 7417 50  0000 C CNN
 F 1 "LTC4304CMSTRPBF" H 4500 7326 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3900 7150 50  0001 L BNN
 F 3 "http://www.linear.com/docs/16798" H 3900 7150 50  0001 L BNN
-F 4 "" H 3900 7150 50  0001 L BNN "Field4"
+F 4 "Linear Technology" H 3900 7150 50  0001 L BNN "Field4"
 F 5 "LTC4304CMS#PBF-ND" H 2950 7100 50  0001 C CNN "Digikey Part Number"
 	1    2950 7100
 	1    0    0    -1  
@@ -39,7 +39,7 @@ P 3800 6850
 F 0 "R26" H 3870 6896 50  0000 L CNN
 F 1 "10k" H 3870 6805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 6850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3800 6850 50  0001 C CNN
+F 3 "~" H 3800 6850 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3800 6850 50  0001 C CNN "Digikey Part Number"
 	1    3800 6850
 	1    0    0    -1  
@@ -67,7 +67,7 @@ P 3400 7000
 F 0 "R25" H 3470 7046 50  0000 L CNN
 F 1 "10k" H 3470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3400 7000 50  0001 C CNN
+F 3 "~" H 3400 7000 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 3400 7000 50  0001 C CNN "Digikey Part Number"
 	1    3400 7000
 	1    0    0    -1  
@@ -88,7 +88,7 @@ P 5400 7000
 F 0 "R27" H 5470 7046 50  0000 L CNN
 F 1 "10k" H 5470 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5330 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5400 7000 50  0001 C CNN
+F 3 "~" H 5400 7000 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 5400 7000 50  0001 C CNN "Digikey Part Number"
 	1    5400 7000
 	1    0    0    -1  
@@ -119,7 +119,7 @@ P 1850 7150
 F 0 "R9" H 1920 7196 50  0000 L CNN
 F 1 "10k" H 1920 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1780 7150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1850 7150 50  0001 C CNN
+F 3 "~" H 1850 7150 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 1850 7150 50  0001 C CNN "Digikey Part Number"
 	1    1850 7150
 	1    0    0    -1  
@@ -133,7 +133,7 @@ P 2150 7150
 F 0 "R12" H 2220 7196 50  0000 L CNN
 F 1 "10k" H 2220 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 7150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2150 7150 50  0001 C CNN
+F 3 "~" H 2150 7150 50  0001 C CNN
 F 4 "311-10.0KLRCT-ND" H 2150 7150 50  0001 C CNN "Digikey Part Number"
 	1    2150 7150
 	1    0    0    -1  
@@ -167,9 +167,9 @@ F 0 "U5" H 8150 3600 50  0000 C CNN
 F 1 "MCP9600-E_MX" H 8400 3500 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 7900 3100 50  0001 L BNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en576038" H 8100 3000 50  0001 L BNN
-F 4 "" H 7900 3100 50  0001 L BNN "Field4"
-F 5 "" H 7900 3100 50  0001 L BNN "Field5"
-F 6 "" H 7900 3100 50  0001 L BNN "Field6"
+F 4 "Microchip" H 7900 3100 50  0001 L BNN "Field4"
+F 5 "1.00mm" H 7900 3100 50  0001 L BNN "Field5"
+F 6 "IPC-7351B" H 7900 3100 50  0001 L BNN "Field6"
 F 7 "MCP9600-E/MX-ND" H 8100 3000 50  0001 C CNN "Digikey Part Number"
 	1    8100 3000
 	1    0    0    -1  
@@ -181,7 +181,7 @@ P 5700 2100
 F 0 "R10" V 5493 2100 50  0000 C CNN
 F 1 "2M" V 5584 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 2100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5700 2100 50  0001 C CNN
+F 3 "~" H 5700 2100 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5700 2100 50  0001 C CNN "Digikey Part Number"
 	1    5700 2100
 	0    1    1    0   
@@ -193,7 +193,7 @@ P 6000 2100
 F 0 "R15" V 5793 2100 50  0000 C CNN
 F 1 "1M" V 5884 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 2100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6000 2100 50  0001 C CNN
+F 3 "~" H 6000 2100 50  0001 C CNN
 F 4 "11-1.00MHRCT-ND" H 6000 2100 50  0001 C CNN "Digikey Part Number"
 	1    6000 2100
 	0    1    1    0   
@@ -205,7 +205,7 @@ P 5850 3700
 F 0 "R13" H 5920 3746 50  0000 L CNN
 F 1 "2M" H 5920 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 3700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 3700 50  0001 C CNN
+F 3 "~" H 5850 3700 50  0001 C CNN
 F 4 "311-2.00MHRCT-ND" H 5850 3700 50  0001 C CNN "Digikey Part Number"
 	1    5850 3700
 	1    0    0    -1  
@@ -228,7 +228,7 @@ P 6050 2650
 F 0 "R16" V 5843 2650 50  0000 C CNN
 F 1 "100" V 5934 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 2650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 2650 50  0001 C CNN
+F 3 "~" H 6050 2650 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 6050 2650 50  0001 C CNN "Digikey Part Number"
 	1    6050 2650
 	0    1    1    0   
@@ -240,7 +240,7 @@ P 6050 3050
 F 0 "R17" V 5843 3050 50  0000 C CNN
 F 1 "100" V 5934 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 3050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 3050 50  0001 C CNN
+F 3 "~" H 6050 3050 50  0001 C CNN
 F 4 "311-100LRCT-ND" H 6050 3050 50  0001 C CNN "Digikey Part Number"
 	1    6050 3050
 	0    1    1    0   
@@ -254,7 +254,7 @@ P 6300 2850
 F 0 "C21" H 6415 2896 50  0000 L CNN
 F 1 "100n" H 6415 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6338 2700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 6300 2850 50  0001 C CNN
+F 3 "~" H 6300 2850 50  0001 C CNN
 F 4 "490-16433-1-ND" H 6300 2850 50  0001 C CNN "Digikey Part Number"
 	1    6300 2850
 	1    0    0    -1  
@@ -274,7 +274,7 @@ P 5650 2650
 F 0 "L1" V 5840 2650 50  0000 C CNN
 F 1 "300n" V 5749 2650 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 2650 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5650 2650 50  0001 C CNN
+F 3 "~" H 5650 2650 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5650 2650 50  0001 C CNN "Digikey Part Number"
 	1    5650 2650
 	0    -1   -1   0   
@@ -286,7 +286,7 @@ P 5650 3050
 F 0 "L2" V 5840 3050 50  0000 C CNN
 F 1 "300n" V 5749 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 3050 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74479899130.pdf" H 5650 3050 50  0001 C CNN
+F 3 "~" H 5650 3050 50  0001 C CNN
 F 4 "732-7338-2-ND" H 5650 3050 50  0001 C CNN "Digikey Part Number"
 	1    5650 3050
 	0    -1   -1   0   
@@ -303,7 +303,7 @@ P 6250 3650
 F 0 "D6" V 6204 3730 50  0000 L CNN
 F 1 "BAT48RL" V 6295 3730 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 3475 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/db/96/0d/28/a7/4c/43/01/CD00000816.pdf/files/CD00000816.pdf/jcr:content/translations/en.CD00000816.pdf" H 6250 3650 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 6250 3650 50  0001 C CNN
 F 4 "497-3274-1-ND" H 6250 3650 50  0001 C CNN "Digikey Part Number"
 	1    6250 3650
 	0    1    1    0   
@@ -315,7 +315,7 @@ P 6250 3350
 F 0 "D5" V 6204 3430 50  0000 L CNN
 F 1 "BAT48RL" V 6295 3430 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 3175 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/db/96/0d/28/a7/4c/43/01/CD00000816.pdf/files/CD00000816.pdf/jcr:content/translations/en.CD00000816.pdf" H 6250 3350 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 6250 3350 50  0001 C CNN
 F 4 "497-3274-1-ND" H 6250 3350 50  0001 C CNN "Digikey Part Number"
 	1    6250 3350
 	0    1    1    0   
@@ -341,7 +341,7 @@ P 6000 1650
 F 0 "D3" H 6000 1433 50  0000 C CNN
 F 1 "BAT48RL" H 6000 1524 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6000 1475 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/db/96/0d/28/a7/4c/43/01/CD00000816.pdf/files/CD00000816.pdf/jcr:content/translations/en.CD00000816.pdf" H 6000 1650 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 6000 1650 50  0001 C CNN
 F 4 "497-3274-1-ND" H 6000 1650 50  0001 C CNN "Digikey Part Number"
 	1    6000 1650
 	-1   0    0    1   
@@ -353,7 +353,7 @@ P 5700 1650
 F 0 "D1" H 5700 1433 50  0000 C CNN
 F 1 "BAT48RL" H 5700 1524 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5700 1475 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/db/96/0d/28/a7/4c/43/01/CD00000816.pdf/files/CD00000816.pdf/jcr:content/translations/en.CD00000816.pdf" H 5700 1650 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 5700 1650 50  0001 C CNN
 F 4 "497-3274-1-ND" H 5700 1650 50  0001 C CNN "Digikey Part Number"
 	1    5700 1650
 	-1   0    0    1   
@@ -424,7 +424,7 @@ P 7400 2250
 F 0 "C23" H 7515 2296 50  0000 L CNN
 F 1 "100n" H 7515 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 2100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104JA55-01.pdf" H 7400 2250 50  0001 C CNN
+F 3 "~" H 7400 2250 50  0001 C CNN
 F 4 "490-16433-1-ND" H 7400 2250 50  0001 C CNN "Digikey Part Number"
 	1    7400 2250
 	1    0    0    -1  
@@ -453,7 +453,7 @@ P 7950 4750
 F 0 "C3" H 8065 4796 50  0000 L CNN
 F 1 "4.7u" H 8065 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7988 4600 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" H 7950 4750 50  0001 C CNN
+F 3 "~" H 7950 4750 50  0001 C CNN
 F 4 "490-9618-1-ND" H 7950 4750 50  0001 C CNN "Digikey Part Number"
 	1    7950 4750
 	-1   0    0    -1  
@@ -465,7 +465,7 @@ P 6400 4750
 F 0 "C2" H 6515 4796 50  0000 L CNN
 F 1 "22p" H 6515 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 6400 4750 50  0001 C CNN
+F 3 "~" H 6400 4750 50  0001 C CNN
 F 4 "311-1018-1-ND" H 6400 4750 50  0001 C CNN "Digikey Part Number"
 	1    6400 4750
 	-1   0    0    -1  
@@ -477,7 +477,7 @@ P 5650 4750
 F 0 "C1" H 5765 4796 50  0000 L CNN
 F 1 "10u" H 5765 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5688 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5650 4750 50  0001 C CNN
+F 3 "~" H 5650 4750 50  0001 C CNN
 F 4 "311-1952-1-ND" H 5650 4750 50  0001 C CNN "Digikey Part Number"
 	1    5650 4750
 	-1   0    0    -1  
@@ -489,7 +489,7 @@ P 7350 4400
 F 0 "L4" V 7540 4400 50  0000 C CNN
 F 1 "4.7u" V 7449 4400 50  0000 C CNN
 F 2 "cubesat_obc:L_Vishay_IHLP-2020" H 7350 4400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/34261/ihlp2020bz11.pdf" H 7350 4400 50  0001 C CNN
+F 3 "~" H 7350 4400 50  0001 C CNN
 F 4 "541-1222-1-ND" H 7350 4400 50  0001 C CNN "Digikey Part Number"
 	1    7350 4400
 	0    1    -1   0   
@@ -501,7 +501,7 @@ P 6300 4400
 F 0 "L3" V 6490 4400 50  0000 C CNN
 F 1 "4.7u" V 6399 4400 50  0000 C CNN
 F 2 "cubesat_obc:L_Vishay_IHLP-2020" H 6300 4400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/34261/ihlp2020bz11.pdf" H 6300 4400 50  0001 C CNN
+F 3 "~" H 6300 4400 50  0001 C CNN
 F 4 "541-1222-1-ND" H 6300 4400 50  0001 C CNN "Digikey Part Number"
 	1    6300 4400
 	0    1    -1   0   
@@ -545,7 +545,7 @@ P 6050 4750
 F 0 "R11" H 6120 4796 50  0000 L CNN
 F 1 "330k" H 6120 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 4750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6050 4750 50  0001 C CNN
+F 3 "~" H 6050 4750 50  0001 C CNN
 F 4 "311-330KLRCT-ND" H 6050 4750 50  0001 C CNN "Digikey Part Number"
 	1    6050 4750
 	-1   0    0    -1  
@@ -672,25 +672,25 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female TEMP5
 U 1 1 5FE368CF
-P 3000 3950
-F 0 "TEMP5" H 2892 3625 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2892 3716 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 3950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 3950 50  0001 C CNN
-F 4 "WM7620CT-ND" H 3000 3950 50  0001 C CNN "Digikey Part Number"
-	1    3000 3950
+P 3000 3500
+F 0 "TEMP5" H 2892 3175 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2892 3266 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 3500 50  0001 C CNN
+F 3 "~" H 3000 3500 50  0001 C CNN
+F 4 "WM7620CT-ND" H 3000 3500 50  0001 C CNN "Digikey Part Number"
+	1    3000 3500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female TEMP4
 U 1 1 5FE29E16
-P 3000 3500
-F 0 "TEMP4" H 2892 3175 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2892 3266 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 3500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 3500 50  0001 C CNN
-F 4 "WM7620CT-ND" H 3000 3500 50  0001 C CNN "Digikey Part Number"
-	1    3000 3500
+P 3000 3950
+F 0 "TEMP4" H 2892 3625 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2892 3716 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+F 4 "WM7620CT-ND" H 3000 3950 50  0001 C CNN "Digikey Part Number"
+	1    3000 3950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -706,13 +706,13 @@ F 4 "ADG1607BCPZ-REEL7CT-ND" H 4500 2300 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female TEMP0
+L Connector:Conn_01x02_Female TEMP1
 U 1 1 5F37DDB8
 P 3000 1700
-F 0 "TEMP0" H 2892 1375 50  0000 C CNN
+F 0 "TEMP1" H 2892 1375 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2892 1466 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 1700 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 1700 50  0001 C CNN
+F 3 "~" H 3000 1700 50  0001 C CNN
 F 4 "WM7620CT-ND" H 3000 1700 50  0001 C CNN "Digikey Part Number"
 	1    3000 1700
 	-1   0    0    1   
@@ -720,35 +720,35 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Female TEMP2
 U 1 1 5F4E80DE
-P 3000 2600
-F 0 "TEMP2" H 2892 2275 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2892 2366 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 2600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 2600 50  0001 C CNN
-F 4 "WM7620CT-ND" H 3000 2600 50  0001 C CNN "Digikey Part Number"
-	1    3000 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female TEMP3
-U 1 1 5F50AFF0
 P 3000 3050
-F 0 "TEMP3" H 2892 2725 50  0000 C CNN
+F 0 "TEMP2" H 2892 2725 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2892 2816 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 3050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 3050 50  0001 C CNN
+F 3 "~" H 3000 3050 50  0001 C CNN
 F 4 "WM7620CT-ND" H 3000 3050 50  0001 C CNN "Digikey Part Number"
 	1    3000 3050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female TEMP1
+L Connector:Conn_01x02_Female TEMP3
+U 1 1 5F50AFF0
+P 3000 2600
+F 0 "TEMP3" H 2892 2275 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2892 2366 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 2600 50  0001 C CNN
+F 3 "~" H 3000 2600 50  0001 C CNN
+F 4 "WM7620CT-ND" H 3000 2600 50  0001 C CNN "Digikey Part Number"
+	1    3000 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female TEMP0
 U 1 1 5F44DA20
 P 3000 2150
-F 0 "TEMP1" H 2892 1825 50  0000 C CNN
+F 0 "TEMP0" H 2892 1825 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2892 1916 50  0000 C CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3000 2150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf" H 3000 2150 50  0001 C CNN
+F 3 "~" H 3000 2150 50  0001 C CNN
 F 4 "WM7620CT-ND" H 3000 2150 50  0001 C CNN "Digikey Part Number"
 	1    3000 2150
 	-1   0    0    1   

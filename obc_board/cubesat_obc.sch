@@ -113,10 +113,10 @@ F0 "temp_sensors" 50
 F1 "temp_sensors.sch" 50
 F2 "3V3" I L 1350 2500 50 
 F3 "GND" I L 1350 2600 50 
-F8 "SCL1" I R 2750 2500 50 
-F9 "SDA1" I R 2750 2600 50 
-F10 "ACC1" I R 2750 2900 50 
-F11 "FAULT1" I R 2750 3000 50 
+F4 "SCL1" I R 2750 2500 50 
+F5 "SDA1" I R 2750 2600 50 
+F6 "ACC1" I R 2750 2900 50 
+F7 "FAULT1" I R 2750 3000 50 
 $EndSheet
 $Sheet
 S 3750 1150 1600 2100
@@ -151,11 +151,11 @@ Text Label 2600 1500 0    50   ~ 0
 MEM2
 Text Label 2750 2900 0    50   ~ 0
 TEMP_ACC
-Text Label 8300 1400 2    50   ~ 0
+Text Label 8300 4800 2    50   ~ 0
 TEMP_ACC
 Text Label 2750 3000 0    50   ~ 0
 TEMP_FAULT
-Text Label 8300 1500 2    50   ~ 0
+Text Label 8300 4900 2    50   ~ 0
 TEMP_FAULT
 Text Label 3750 2600 2    50   ~ 0
 ACC1
