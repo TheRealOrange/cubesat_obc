@@ -741,13 +741,13 @@ Text Label 6750 4400 0    50   ~ 0
 MAG_2
 Text Label 6750 4500 0    50   ~ 0
 MAG_3
-Text Label 10000 4650 0    50   ~ 0
+Text Label 8300 1400 2    50   ~ 0
 ACCEL_1
-Text Label 10000 4850 0    50   ~ 0
+Text Label 8300 5000 2    50   ~ 0
 ACCEL_2
-Text Label 10000 4750 0    50   ~ 0
+Text Label 8300 1300 2    50   ~ 0
 GYRO_2
-Text Label 10000 4550 0    50   ~ 0
+Text Label 8300 1500 2    50   ~ 0
 GYRO_1
 Text Label 8300 4550 2    50   ~ 0
 MAG_1
