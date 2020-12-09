@@ -338,9 +338,9 @@ F 4 "490-16433-1-ND" H 8550 1850 50  0001 C CNN "Digikey Part Number"
 $EndComp
 Text Label 8350 1650 2    50   ~ 0
 3V3
-Text Label 2900 3950 0    50   ~ 0
-D+
 Text Label 2900 3850 0    50   ~ 0
+D+
+Text Label 2900 3950 0    50   ~ 0
 D-
 Text HLabel 5600 5200 0    50   Input ~ 0
 RX1
