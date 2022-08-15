@@ -3473,10 +3473,10 @@
       (reference "D16") (unit 1) (value "CUS10S30") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005fa4787c"
-      (reference "FL1") (unit 1) (value "PLT5BPH1015R6SNL") (footprint "FIL_PLT5BPH1015R6SNL")
+      (reference "FL1") (unit 1) (value "PLT5BPH1015R6SNL") (footprint "cubesat_obc:FIL_PLT5BPH1015R6SNL")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005faaed86"
-      (reference "FL2") (unit 1) (value "PLT5BPH1015R6SNL") (footprint "FIL_PLT5BPH1015R6SNL")
+      (reference "FL2") (unit 1) (value "PLT5BPH1015R6SNL") (footprint "cubesat_obc:FIL_PLT5BPH1015R6SNL")
     )
     (path "/00000000-0000-0000-0000-00005f3ae45a"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
@@ -3515,10 +3515,10 @@
       (reference "H12") (unit 1) (value "MountingHole") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H3mm_9774030360")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005fa42be1"
-      (reference "J1") (unit 1) (value "FSI-110-03-X-D-AD-SD-K-TR") (footprint "SAMTEC_FSI-110-03-X-D-AD-SD-K-TR")
+      (reference "J1") (unit 1) (value "FSI-110-03-X-D-AD-SD-K-TR") (footprint "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005faaed71"
-      (reference "J2") (unit 1) (value "FSI-110-03-X-D-AD-SD-K-TR") (footprint "SAMTEC_FSI-110-03-X-D-AD-SD-K-TR")
+      (reference "J2") (unit 1) (value "FSI-110-03-X-D-AD-SD-K-TR") (footprint "cubesat_obc:SAMTEC_FSI-110-10-X-D-AD-TR")
     )
     (path "/00000000-0000-0000-0000-00005f9eb759/56f8ffe0-e274-4b01-b916-c9140125a051"
       (reference "J3") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
@@ -3878,7 +3878,7 @@
       (reference "TP1") (unit 1) (value "MCO") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005f752a48"
-      (reference "U1") (unit 1) (value "LTC4304IMS#PBF") (footprint "MSOP-10_MS")
+      (reference "U1") (unit 1) (value "LTC4304IMS#PBF") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005fd12456"
       (reference "U2") (unit 1) (value "ADG1607") (footprint "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
@@ -3887,16 +3887,16 @@
       (reference "U3") (unit 1) (value "LT3483ES6") (footprint "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm")
     )
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005f37c06b"
-      (reference "U4") (unit 1) (value "MCP9600-E_MX") (footprint "QFN65P500X500X100-21N_MCP9600-E/MX")
+      (reference "U4") (unit 1) (value "MCP9600-E_MX") (footprint "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/00000000-0000-0000-0000-00005f460bd4"
-      (reference "U5") (unit 1) (value "LTC4304IMS#PBF") (footprint "MSOP-10_MS")
+      (reference "U5") (unit 1) (value "LTC4304IMS#PBF") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/00000000-0000-0000-0000-00005f466b38"
       (reference "U6") (unit 1) (value "PC104") (footprint "cubesat_obc:PC104-Standard")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/00000000-0000-0000-0000-00005f4da531"
-      (reference "U7") (unit 1) (value "LTC4304IMS#PBF") (footprint "MSOP-10_MS")
+      (reference "U7") (unit 1) (value "LTC4304IMS#PBF") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f3b62a5/619947ac-f087-40f3-a795-4fc32d348dc3"
       (reference "U8") (unit 1) (value "IS25LE01G") (footprint "cubesat_obc:TFBGA24_5X5_6X8")
@@ -3908,13 +3908,13 @@
       (reference "U10") (unit 1) (value "AP2127N-3.3") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005f3f9d17/00000000-0000-0000-0000-00005f3fc591"
-      (reference "U11") (unit 1) (value "FT4232H-56Q-REEL") (footprint "QFN50P800X800X100-57N")
+      (reference "U11") (unit 1) (value "FT4232H-56Q-REEL") (footprint "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005fa51727"
-      (reference "U12") (unit 1) (value "LTC4304IMS#PBF") (footprint "MSOP-10_MS")
+      (reference "U12") (unit 1) (value "LTC4304IMS#PBF") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005faaed92"
-      (reference "U13") (unit 1) (value "LTC4304IMS#PBF") (footprint "MSOP-10_MS")
+      (reference "U13") (unit 1) (value "LTC4304IMS#PBF") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f9eb759/2ec294e1-e58e-4f6f-b391-0a43fd20724f"
       (reference "U14") (unit 1) (value "AP22652A") (footprint "Package_TO_SOT_SMD:SOT-23-6")
@@ -3953,7 +3953,7 @@
       (reference "U25") (unit 1) (value "STM32L552ZET6Q") (footprint "Package_QFP:LQFP-144_20x20mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005e7ec636/4c635d96-0928-4161-ba8e-c9b3aaeb7337"
-      (reference "U26") (unit 1) (value "IS66WVH16M8DBLL-100B1LI") (footprint "TFBGA24_6X8_ISI")
+      (reference "U26") (unit 1) (value "IS66WVH16M8DBLL-100B1LI") (footprint "cubesat_obc:TFBGA24_5X5_6X8")
     )
     (path "/d2778cd6-5558-49cc-838e-f7032d37ad4c"
       (reference "UART_1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal")

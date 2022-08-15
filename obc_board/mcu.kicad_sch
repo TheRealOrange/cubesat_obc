@@ -4364,7 +4364,7 @@
     (property "Value" "IS66WVH16M8DBLL-100B1LI" (id 1) (at 252.3351 24.2293 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "TFBGA24_6X8_ISI" (id 2) (at 265.43 24.13 0)
+    (property "Footprint" "cubesat_obc:TFBGA24_5X5_6X8" (id 2) (at 265.43 24.13 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 232.41 29.21 0)

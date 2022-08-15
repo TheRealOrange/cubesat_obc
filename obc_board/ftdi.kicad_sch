@@ -1184,7 +1184,7 @@
     (uuid 00000000-0000-0000-0000-00005f3fc591)
     (property "Reference" "U11" (id 0) (at 165.1 61.849 0))
     (property "Value" "FT4232H-56Q-REEL" (id 1) (at 165.1 64.1604 0))
-    (property "Footprint" "QFN50P800X800X100-57N" (id 2) (at 165.1 116.84 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm" (id 2) (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 165.1 116.84 0)
