@@ -4476,9 +4476,9 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 13.97 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 807784ee-2c9b-44bb-b95d-1f44a303a888)
-    (property "Reference" "TP?" (id 0) (at 15.367 66.9833 0)
+    (property "Reference" "TP2" (id 0) (at 15.367 66.9833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LSCO" (id 1) (at 15.367 69.5202 0)
@@ -4602,7 +4602,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 21.59 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e070003a-921a-4e77-a2d0-1d70cfc9e9b2)
     (property "Reference" "TP1" (id 0) (at 22.987 66.9833 0)
       (effects (font (size 1.27 1.27)) (justify left))
