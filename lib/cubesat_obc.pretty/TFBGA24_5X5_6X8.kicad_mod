@@ -49,4 +49,9 @@
   (pad "E3" smd circle (at 0 2) (size 0.4572 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4bef718d-8404-483f-82ee-46cb3d208159))
   (pad "E4" smd circle (at 1 2) (size 0.4572 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 490f557b-f6e5-45a2-9906-3bed026fa670))
   (pad "E5" smd circle (at 2 2) (size 0.4572 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eb9dc987-6e09-49c9-a5c1-5d1322df4fbd))
+  (model "${KIPRJMOD}/../lib/3d_models/S25FL256SAGBHIA00.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
