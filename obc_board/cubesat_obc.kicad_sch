@@ -1235,7 +1235,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7df92e08-bcdb-43e7-8bb4-5fe8eb19d95f)
   )
-  (label "MOSI_1" (at 36.83 41.91 180)
+  (label "MOSI_1" (at 36.83 39.37 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f82fe81-17c9-4a7d-a210-09a29e646373)
   )
@@ -1511,7 +1511,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid caccd53e-1f4e-41e0-a5fd-0346d6ea351c)
   )
-  (label "MISO_1" (at 36.83 39.37 180)
+  (label "MISO_1" (at 36.83 41.91 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cb29811a-6de2-4e7e-b52b-cad2fdd4451e)
   )
@@ -3241,6 +3241,9 @@
     (path "/00000000-0000-0000-0000-00005fc7207b/cba517c0-fb08-447d-99f5-478cc1a63b30"
       (reference "#PWR057") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005f3b62a5/7f358ec6-0177-4587-9400-0817dff2d3da"
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fc7207b/8458883a-5734-4709-8094-694631f54199"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
     )
@@ -4084,8 +4087,8 @@
     (path "/00000000-0000-0000-0000-00005f3b62a5/619947ac-f087-40f3-a795-4fc32d348dc3"
       (reference "U8") (unit 1) (value "IS25LE01G") (footprint "cubesat_obc:TFBGA24_5X5_6X8")
     )
-    (path "/00000000-0000-0000-0000-00005f3b62a5/3282b9b3-d336-4c2a-a96f-408357593b1b"
-      (reference "U9") (unit 1) (value "MB85RS2MLY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/00000000-0000-0000-0000-00005f3b62a5/eb7659a8-7af1-4071-ab73-2c7d1a0c3e71"
+      (reference "U9") (unit 1) (value "MR25H40DF") (footprint "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP2x2mm")
     )
     (path "/00000000-0000-0000-0000-00005f3f9d17/00000000-0000-0000-0000-00005f4056a6"
       (reference "U10") (unit 1) (value "AP2127N-3.3") (footprint "Package_TO_SOT_SMD:SOT-23")
