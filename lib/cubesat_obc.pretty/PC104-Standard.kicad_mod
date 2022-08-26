@@ -119,14 +119,14 @@
   (pad "102" thru_hole circle (at 1.25 -29.21) (size 1.6 1.6) (drill 1.016) (layers *.Cu *.Mask) (tstamp 53327295-aafa-4639-992a-3ad2172efaa1))
   (pad "103" thru_hole circle (at 3.79 -31.75) (size 1.6 1.6) (drill 1.016) (layers *.Cu *.Mask) (tstamp a30e1dae-c13a-4b48-8504-6d5472bfbc5e))
   (pad "104" thru_hole circle (at 1.25 -31.75) (size 1.6 1.6) (drill 1.016) (layers *.Cu *.Mask) (tstamp 95db203b-da12-4165-9eeb-6ce299de7830))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x26_P2.54mm_Vertical.step"
-    (offset (xyz 6.36 -31.65 0))
+  (model "${KIPRJMOD}/../lib/3d_models/MTLW-126-07-G-D-000.stp"
+    (offset (xyz 2.5 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
+    (rotate (xyz -90 0 90))
   )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x26_P2.54mm_Vertical.step"
-    (offset (xyz 1.23 -31.65 0))
+  (model "${KIPRJMOD}/../lib/3d_models/MTLW-126-07-G-D-000.stp"
+    (offset (xyz 7.6 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz -90 0 90))
   )
 )

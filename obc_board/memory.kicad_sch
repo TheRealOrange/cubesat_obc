@@ -353,6 +353,8 @@
     (uuid e9f57374-5c08-453c-a7a5-5a7f3a7109ac)
   )
 
+  (no_connect (at 118.11 76.2) (uuid bb9c434c-6581-4331-a900-24ee2f25b5b0))
+
   (wire (pts (xy 105.41 116.84) (xy 121.92 116.84))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 01740a88-aba7-412e-b0f4-2e4664a1b7ef)
