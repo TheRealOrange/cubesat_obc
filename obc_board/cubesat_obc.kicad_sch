@@ -1938,7 +1938,7 @@
     (property "Value" "SolderJumper_2_Open" (id 1) (at 152.4 183.3681 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 152.4 185.42 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 152.4 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 152.4 185.42 0)
@@ -2092,7 +2092,7 @@
     (property "Value" "SolderJumper_2_Open" (id 1) (at 152.4 189.0831 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 152.4 191.135 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 152.4 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 152.4 191.135 0)
@@ -3420,10 +3420,10 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/c7c9511d-07c2-4db8-ace0-4a4ab0b3b646"
-      (reference "AUX_SCL?") (unit 1) (value "TestPoint") (footprint "")
+      (reference "AUX_SCL?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/7a807ad0-3b76-4085-a9b6-ce793420eccf"
-      (reference "AUX_SDA?") (unit 1) (value "TestPoint") (footprint "")
+      (reference "AUX_SDA?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005fd17a47"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -3663,28 +3663,28 @@
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/484f1802-3af3-4cb2-a57d-0306520a3d37"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/518297ee-c838-49ea-9874-b3ca5cdfc781"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/6156f686-7aa3-4ddc-9e4b-95a7f3fe8410"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/71332730-3359-47f5-9fda-342b6a6fc15c"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/7e5489e3-2d0b-4c72-9a7f-8519806ac799"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/8fdebc1b-fcf7-4b3d-afe4-d17eb875d0ec"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/903234e4-15e0-42cf-96b8-0f33e35346c3"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/99eb53d3-e117-481f-8cc2-c8c186d14568"
-      (reference "C?") (unit 1) (value "16p") (footprint "")
+      (reference "C?") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/c1a0e3e7-9081-4f82-8d37-651d8b4faab9"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3747,22 +3747,22 @@
       (reference "D16") (unit 1) (value "CUS10S30") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/30f54296-ff7e-4a4a-b599-1633509827c2"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/4fe04a76-7428-4a38-9989-16ab34828e78"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/6b6e7acf-36fb-404e-bc3f-131d23274e99"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/8546a1dd-4565-4e30-a9d1-49a256d9c585"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/e80ca646-0cd3-4ea9-bbac-25f23f6c2bf8"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/e82d4658-7b55-463c-927d-276d5318979a"
-      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "")
+      (reference "D_IN?") (unit 1) (value "Conn_01x02_MountingPin") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fa4220c/00000000-0000-0000-0000-00005fa4787c"
       (reference "FL1") (unit 1) (value "PLT5BPH1015R6SNL") (footprint "cubesat_obc:FIL_PLT5BPH1015R6SNL")
@@ -3831,10 +3831,10 @@
       (reference "JP4") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/882a30af-99fb-4095-8122-143f8baf254d"
-      (reference "JP?") (unit 1) (value "SolderJumper_2_Open") (footprint "")
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/fd9c0856-2d08-4285-b401-6b3d85ec948e"
-      (reference "JP?") (unit 1) (value "SolderJumper_2_Open") (footprint "")
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005f3a4de3"
       (reference "L1") (unit 1) (value "300n") (footprint "Inductor_SMD:L_Taiyo-Yuden_MD-3030")
@@ -3882,16 +3882,16 @@
       (reference "MAG_3") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/6bf80814-8033-433d-9d2b-5a8b6b95a2ee"
-      (reference "MSCL") (unit 1) (value "TestPoint") (footprint "")
+      (reference "MSCL") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/9a205ea7-7d09-42ba-9abb-d7878cee3116"
-      (reference "MSDA") (unit 1) (value "TestPoint") (footprint "")
+      (reference "MSDA") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/6cbeb3d6-0ab8-4b82-8737-a2dacc1ae5b3"
-      (reference "M_AUX_SCL") (unit 1) (value "TestPoint") (footprint "")
+      (reference "M_AUX_SCL") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/1981ce18-5192-4b40-822c-a4370987a5f3"
-      (reference "M_AUX_SDA") (unit 1) (value "TestPoint") (footprint "")
+      (reference "M_AUX_SDA") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f6f647b"
       (reference "R1") (unit 1) (value "39k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4179,22 +4179,22 @@
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/4bd8e14c-ea7e-42c8-9157-083c0e05b408"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/57140778-1e3c-4515-b9cc-9be27d6cf9e8"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/63435b38-a1f3-43f6-9a4f-886a4679ee3f"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/64634685-1ce7-4e1b-9d9d-da890fa556ae"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/81ce418e-c69c-42fb-b66c-5f70a6286352"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/b2f75f3e-98c8-49ac-a661-0d4c9fe89ffc"
-      (reference "R?") (unit 1) (value "2k") (footprint "")
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/dd3e46d3-8b44-4a3b-b3ae-d1eb758b0f2c"
       (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4203,10 +4203,10 @@
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/871734f6-5163-4856-93ab-44e416db2a8c"
-      (reference "SCL") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SCL") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/7edad793-ac7a-4a56-b276-bb366e4a30fb"
-      (reference "SDA") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SDA") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f3493ad"
       (reference "SPI1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal")
@@ -4314,34 +4314,34 @@
       (reference "U26") (unit 1) (value "IS66WVH16M8DBLL-100B1LI") (footprint "cubesat_obc:TFBGA24_5X5_6X8")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/046b8c84-3d69-4877-ade7-cc4857b7a3af"
-      (reference "U?") (unit 1) (value "AD8616") (footprint "")
+      (reference "U?") (unit 1) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/7ae032de-2c66-49fc-887d-b18d9e08188a"
-      (reference "U?") (unit 1) (value "AD8616") (footprint "")
+      (reference "U?") (unit 1) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/9363eed6-b4d5-4ea9-a135-0a627dc2b64f"
-      (reference "U?") (unit 1) (value "AD8616") (footprint "")
+      (reference "U?") (unit 1) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005f45b718/d4ab5d69-9b0b-4e98-8c9e-b8d52449e94f"
       (reference "U?") (unit 1) (value "AP22652A") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/0e6e1cb1-a3b1-4c0f-b63c-53888d2eef1b"
-      (reference "U?") (unit 2) (value "AD8616") (footprint "")
+      (reference "U?") (unit 2) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/52058639-9209-42f1-9b27-09234ba870eb"
-      (reference "U?") (unit 2) (value "AD8616") (footprint "")
+      (reference "U?") (unit 2) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/5641292c-2542-4d04-8e0d-75fbb43fa862"
-      (reference "U?") (unit 2) (value "AD8616") (footprint "")
+      (reference "U?") (unit 2) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/0c4be6a3-e020-43ed-94ec-64c9baa564f2"
-      (reference "U?") (unit 3) (value "AD8616") (footprint "")
+      (reference "U?") (unit 3) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/639890fb-ab18-4183-8b4d-2ba897a4412c"
-      (reference "U?") (unit 3) (value "AD8616") (footprint "")
+      (reference "U?") (unit 3) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/052752f6-b16a-4592-897f-397a62f73fb9/c6c995fb-4576-4bca-8eca-b9eaf2ad44f0"
-      (reference "U?") (unit 3) (value "AD8616") (footprint "")
+      (reference "U?") (unit 3) (value "AD8616") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/d2778cd6-5558-49cc-838e-f7032d37ad4c"
       (reference "UART_1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal")
