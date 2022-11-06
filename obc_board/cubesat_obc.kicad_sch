@@ -4227,6 +4227,12 @@
     (path "/00000000-0000-0000-0000-00005f315fb6/00000000-0000-0000-0000-00005fe29e16"
       (reference "TEMP6") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-00005f315fb6/4d44ff1b-473a-4d49-b646-5f362a5c344a"
+      (reference "TMP_SCL1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005f315fb6/dc109e18-7c79-4f35-b39d-60e11c84d16c"
+      (reference "TMP_SDA1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-00005e7ec636/e070003a-921a-4e77-a2d0-1d70cfc9e9b2"
       (reference "TP1") (unit 1) (value "MCO") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
